@@ -1,0 +1,60 @@
+<html>
+    <style>
+    table {
+        margin:0 auto;
+        width:100%;
+        min-width:1300px;
+        max-width:1600px;
+    }
+    td {border-top: 1px solid grey;}
+    td:first-child {width:120px;}
+    td:nth-child(2) {word-break: break-all;}
+    pre {white-space: pre-wrap;}
+    td:nth-child(3){width:100px;}
+    tr.success{color:black;background-color:#8BC34A;}
+    tr.warning{color:black;background-color:#f0e8b1;}
+    tr.error{color:black;background-color:#F44336;}
+    tr.info{color:white;background-color:#FFCA28}
+    tr.step{color:black;background:#f7f7f7}
+    tr.errormsg{color:black;background:#32c5d2}
+    tr.endmsg{color:black;background:#3598dc}
+
+
+    </style>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script>
+            $(function() {
+                $('.info').hide();
+                $('.stacktrace').hide();
+                $("table").click(function(event) {
+                    event.stopPropagation();
+                    var $target = $(event.target);
+                    if ($target.closest("tr").attr("class") == "error stacktrace" ) {
+                        $target.closest("tr").slideUp();
+                    } else if ($target.closest("tr").next("tr").attr("class") == "error stacktrace") {
+                        $target.closest("tr").next("tr").slideToggle();
+                    }
+                });
+            });
+        </script>
+        <table class=".bootstrap-table">
+        <tr><td></td><td></td></tr>
+        <tr><td>Date:</td><td> $date </td></tr>
+        <tr><td>Polish Time: </td><td> $polishDate</td></tr>
+        <tr><td>Browser:</td><td>  $browser</td></tr>
+       <tr><td>OS:</td><td> $os</td></tr>
+        <tr><td>Testing environment:</td><td>  $testingEnvironmentUrl</td></tr>
+        <tr><td>Testing environment: </td><td> $testingEnvironment</td></tr>
+        <tr><td>Tested version: Build :</td><td>  $testedVersion</td></tr>
+        <tr><td>Log Path:</td><td>  $logPath</td></tr>
+        
+          
+        </table>
+
+
+
+        <div id='toc'></div>

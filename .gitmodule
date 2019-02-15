@@ -1,0 +1,3 @@
+[submodule "AutomationConfig"]
+	path = CICD/resources
+	url = https://github.com/cloudties/AutomationConfig.git

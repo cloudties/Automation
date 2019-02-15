@@ -1,2 +1,2 @@
 # Automation
-Selenium Automation Framework
+Automation
