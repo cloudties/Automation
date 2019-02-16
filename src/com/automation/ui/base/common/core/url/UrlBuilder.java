@@ -307,16 +307,16 @@ public class UrlBuilder extends BaseUrlBuilder {
         // logger.info("getSiteGlobalName siteName : " + siteName + " this.env :" + this.env);
         if (siteName.endsWith(".connected")) {
 
-            //   logger.info("getSiteGlobalName OLD SITE : " + siteName + " this.env :" + this.env);
+               logger.info("getSiteGlobalName OLD SITE : " + siteName + " this.env :" + this.env);
             if (getEnvType(this.env) == EnvType.DEV) {
                 return "global";
             } else {
-                //     logger.info("getSiteGlobalName step 2 : " + siteName + " this.env :" + this.env);
+                     logger.info("getSiteGlobalName step 2 : " + siteName + " this.env :" + this.env);
 
                 return siteName.replace(".connected", "");
             }
         } else {
-            // logger.info("getSiteGlobalName SITE : " + siteName + " this.env :" + this.env);
+             logger.info("getSiteGlobalName SITE : " + siteName + " this.env :" + this.env);
 
             return siteName;
         }

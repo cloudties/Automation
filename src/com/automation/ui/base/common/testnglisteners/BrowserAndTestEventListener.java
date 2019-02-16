@@ -73,7 +73,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 cookieName = Configuration.getEnvType().getSiteDomain();
             }
 
-            // logger.info(" cookieDomain afterNavigateTo " + cookieDomain + " Configuration.getEnvType().getSiteDomain() :" + Configuration.getEnvType().getSiteDomain()+":");
+               logger.info(" cookieDomain afterNavigateTo " + cookieDomain + " Configuration.getEnvType().getSiteDomain() :" + Configuration.getEnvType().getSiteDomain()+":");
 
             Date cookieDate = new Date(new DateTime().plusYears(10).getMillis());
 
@@ -102,7 +102,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
 
 
                 /**
-                 * All of tests should be executed as an user who opted in (agreed) on using ads tracking.
+                 * All of tests should be executed as an user who opted in (agreed) on using  tracking.
                  * Manually user would need to click 'agree' in the tracking opt in modal.
                  */
 
@@ -129,6 +129,11 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                             .trackingOptOut()) {
                         userOptedOut = true;
                     }
+
+                    System.out.println(" userOptedIn "+userOptedIn + "userOptedOut" +userOptedOut);
+                    //we have set this as false as default
+                    //NEED TO CHECK
+                    userOptedIn = false;
 
 
                     if (userOptedIn) {

@@ -4,15 +4,17 @@
 
 browser: CHROME # acceptable values: FF, CHROME, GHOST, ANDROID, CHROMEMOBILEMERCURY, HTMLUNIT ,IE
 dpr: 1 # Your device's pixel ratio, do not commit your changes
-siteName: www.github.com   # default testing site address with out sub domain
-env: test # acceptable values: test, prod, preview, sandbox-number dev-name (for connected.com)
+# default testing site address with out sub domain, port is taken as 9000 for dev ,chenage to prod for not port
+#in prod sitename dont provide .com just give github, for dev site provide with subdomsin name
+siteName: github
+env: prod # acceptable values: test, prod, preview, sandbox-number dev-name (for connected.com)
 seleniumConfigPath: resources/selenium-config
 qs: null
 disableFlash: true
 jsErrorsEnabled: false
 logEnabled: true
 takeScreenshots: true
-forceHttps: false
+forceHttps: true
 forceLanguageInPath: false
 useMITM: false
 useZapProxy: false

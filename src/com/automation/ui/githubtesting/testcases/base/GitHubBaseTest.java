@@ -39,9 +39,11 @@ public class GitHubBaseTest extends NewTestTemplate {
 
 
     protected void loadFirstPage() {
-        logger.info("driver" + driver + "urlBuilder" + urlBuilder);
+        System.out.println("driver" + driver + "urlBuilder" + urlBuilder + "URLsContent.SITE_DIR :"+URLsContent.SITE_DIR +" getUrlForPage :"+urlBuilder.getUrlForPage(URLsContent.SITE_DIR));
+        logger.info("driver" + driver + "urlBuilder" + urlBuilder +URLsContent.SITE_DIR);
         driver.get(urlBuilder.getUrlForPage(URLsContent.SITE_DIR));
     }
+
 
 
 }

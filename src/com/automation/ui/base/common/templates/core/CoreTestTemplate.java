@@ -132,7 +132,7 @@ public abstract class CoreTestTemplate {
         driver = DriverProvider.getActiveDriver();
         networkTrafficInterceptor = driver.getProxy();
         setWindowSize();
-        loadFirstPage();
+         loadFirstPage();
     }
 
     private void setTestProperty(String key, String value) {
