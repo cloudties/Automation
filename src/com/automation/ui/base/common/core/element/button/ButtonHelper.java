@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 
-public class ButtonHelper implements IHTMLComponent {
+    public class ButtonHelper implements IHTMLComponent {
 
     private static Logger logger = Logger.getLogger(ButtonHelper.class);
     private WebDriver driver;
