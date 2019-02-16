@@ -23,8 +23,6 @@ public class GitHubBaseTest extends NewTestTemplate {
 
 
     }
-
-
     protected void getDataReaders() {
 
         try {
