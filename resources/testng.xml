@@ -45,8 +45,10 @@
                 <class name="com.automation.ui.githubtesting.testcases.home.HomePageTest">
                 <methods>
                     <include name="launchLogin"/>
-                   <include name="launchHomePage"/>
+                  <include name="launchHomePage"/>
+                    <!--
                     <include name="addRepo"/>
+                    -->
 
                 </methods>
                     </class>
