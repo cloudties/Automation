@@ -19,6 +19,7 @@ import org.testng.Reporter;
 public class LoginPage extends SiteBasePageObject {
 
 
+
     private static Logger logger = Logger.getLogger(LoginPage.class);
 
     @FindBy(xpath = LoginCONSTANTS.USERID)
