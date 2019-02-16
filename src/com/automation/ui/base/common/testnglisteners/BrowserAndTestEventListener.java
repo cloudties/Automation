@@ -130,7 +130,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                         userOptedOut = true;
                     }
 
-                    System.out.println(" userOptedIn "+userOptedIn + "userOptedOut" +userOptedOut);
+                  //  System.out.println(" userOptedIn "+userOptedIn + "userOptedOut" +userOptedOut);
                     //we have set this as false as default
                     //NEED TO CHECK
                     userOptedIn = false;

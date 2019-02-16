@@ -23,7 +23,7 @@ public class HomePage extends SiteBasePageObject {
 
 
 
-    //for GITHUB testing
+    //for GITHUB create a new repo click
     @FindBy(css = HomeConstants.NEWREPOCREATION)
     private WebElement addRepo;
 
@@ -67,15 +67,6 @@ public class HomePage extends SiteBasePageObject {
     }
 
 
-    public void addConnection_accessdenied() {
 
-        logger.info("Entering  addConnection_accessdenied: ");
-        Reporter.log("Entering  addConnection_accessdenied:");
-
-        logger.info("Exiting  addConnection_accessdenied");
-        Reporter.log("Exiting  addConnection_accessdenied");
-
-
-    }
 
 }

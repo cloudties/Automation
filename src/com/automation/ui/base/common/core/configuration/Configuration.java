@@ -250,7 +250,8 @@ public class Configuration {
     public static EnvType getEnvType(String env) {
         String[] sandboxEnvs =
                 new String[]{"verify", "preview", "sandbox", "stable", "adeng"};
-            System.out.println("getEnvType :" + env);
+
+        // System.out.println("getEnvType :" + env);
 
         if (env.contains("prod")) {
             return EnvType.PROD;
