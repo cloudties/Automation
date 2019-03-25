@@ -28,7 +28,7 @@ public class GitHubBaseTest extends GitHubTestTemplate {
         try {
             eu = new ExcelUtil();
 
-            eu.setExcelFile("C:\\Software\\selenium\\githubdataselenium.xls",
+            eu.setExcelFile(".\\resources\\data\\githubdataselenium.xls",
                     ExcelCONSTANTS.LOGINGITHUB);
         } catch (Exception e) {
             e.printStackTrace();
