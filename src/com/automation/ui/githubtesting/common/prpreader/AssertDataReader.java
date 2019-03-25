@@ -1,7 +1,7 @@
 package com.automation.ui.githubtesting.common.prpreader;
 
 import com.automation.ui.base.common.utils.i18n.LocaleUtil;
-import com.automation.ui.githubtesting.common.constants.SITECONSTANTS;
+import com.automation.ui.githubtesting.common.constants.GitHubCONSTANTS;
 
 import java.util.ResourceBundle;
 
@@ -13,7 +13,7 @@ public class AssertDataReader {
     private ResourceBundle rBundle = null;
 
     private AssertDataReader(String langauge) {
-        rBundle = ResourceBundle.getBundle(SITECONSTANTS.ASSERTPATH, LocaleUtil.getLocaleFromLanguage(langauge));
+        rBundle = ResourceBundle.getBundle(GitHubCONSTANTS.ASSERTPATH, LocaleUtil.getLocaleFromLanguage(langauge));
     }
 
     public static AssertDataReader readProperty(String langauge) {

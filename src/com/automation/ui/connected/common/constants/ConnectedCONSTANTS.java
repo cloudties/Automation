@@ -1,6 +1,6 @@
-package com.automation.ui.githubtesting.common.constants;
+package com.automation.ui.connected.common.constants;
 
-public interface SITECONSTANTS {
+public interface ConnectedCONSTANTS {
 
     public static String FIREFOX = "FIREFOX";
     public static String CHROME = "CHROME";

@@ -1,6 +1,6 @@
 package com.automation.ui.githubtesting.common.prpreader;
 
-import com.automation.ui.githubtesting.common.constants.SITECONSTANTS;
+import com.automation.ui.githubtesting.common.constants.GitHubCONSTANTS;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +25,7 @@ public class PropertyReader extends Properties {
                     prpreader = new PropertyReader();
                     try {
                         InputStream inStream = new FileInputStream(new File(
-                                SITECONSTANTS.EXCEPTIONPATH));
+                                GitHubCONSTANTS.EXCEPTIONPATH));
                         prpreader.load(inStream);
                     } catch (FileNotFoundException e) {
                         e.printStackTrace();
