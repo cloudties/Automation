@@ -38,6 +38,7 @@ public class ConnectedBasePageObject extends BasePageObject {
     }
 
 
+
     public String getUrl() {
         return driver.getCurrentUrl();
     }
