@@ -4,7 +4,7 @@ https://github.com/christian-bromann/awesome-selenium
 http://howtodoinjava.com/testng/how-to-execute-testng-tests-with-maven-build/
 http://websystique.com/java/testing/testng-mockito-example-stubbing-void-methods/
 http://www.vogella.com/tutorials/Mockito/article.html
-xpaht details
+xpath details
 https://www.softwaretestingmaterial.com/dynamic-xpath-in-selenium/
 https://www.guru99.com/xpath-selenium.html
 
