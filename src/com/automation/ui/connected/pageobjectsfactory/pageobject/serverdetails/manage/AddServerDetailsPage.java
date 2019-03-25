@@ -1,7 +1,7 @@
 package com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.manage;
 
 import com.automation.ui.base.common.core.assertion.Assertion;
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import com.automation.ui.connected.testcases.base.ServerType;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.NoSuchElementException;
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.*;
 import org.testng.Reporter;
 import java.util.*;
 
-public class AddServerDetailsPage extends SiteBasePageObject {
+public class AddServerDetailsPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(AddServerDetailsPage.class);

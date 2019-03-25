@@ -1,12 +1,12 @@
 package com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.filter;
 
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 
-public class FilterDetailsPage extends SiteBasePageObject {
+public class FilterDetailsPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(FilterDetailsPage.class);

@@ -4,7 +4,7 @@ package com.automation.ui.connected.testcases.serverdetails.filter;
  * @author Manjusha Saju
  */
 
-import com.automation.ui.connected.common.dataprovider.SiteDataProvider;
+import com.automation.ui.connected.common.dataprovider.ConnectedDataProvider;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.home.HomePage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.manage.AddServerDetailsPage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.filter.*;
@@ -30,7 +30,7 @@ public class FilterDetailsPageTest extends ConnectedBaseTest {
     }
 
 
-    @Test(enabled = true, priority = 0, groups = {"validcase"}, dataProviderClass = SiteDataProvider.class
+    @Test(enabled = true, priority = 0, groups = {"validcase"}, dataProviderClass = ConnectedDataProvider.class
              , description = "FilterDetailsPage")
     public void filterAseetTreeTag() throws Throwable {
         home_page.addConnection( );
@@ -43,7 +43,7 @@ public class FilterDetailsPageTest extends ConnectedBaseTest {
 
 
 
-    @Test(enabled = true, priority = 1, groups = {"validcase"}, dataProviderClass = SiteDataProvider.class
+    @Test(enabled = true, priority = 1, groups = {"validcase"}, dataProviderClass = ConnectedDataProvider.class
             , description = "FilterDetailsPage")
     public void filterChangeFilters() throws Throwable {
         home_page.addConnection( );
@@ -58,7 +58,7 @@ public class FilterDetailsPageTest extends ConnectedBaseTest {
     }
 
 
-    @Test(enabled = true, priority = 2, groups = {"validcase"}, dataProviderClass = SiteDataProvider.class
+    @Test(enabled = true, priority = 2, groups = {"validcase"}, dataProviderClass = ConnectedDataProvider.class
             , description = "FilterDetailsPage")
     public void filterListFilter() throws Throwable {
         home_page.addConnection( );
@@ -72,7 +72,7 @@ public class FilterDetailsPageTest extends ConnectedBaseTest {
     }
 
 
-    @Test(enabled = true, priority = 3, groups = {"validcase"}, dataProviderClass = SiteDataProvider.class
+    @Test(enabled = true, priority = 3, groups = {"validcase"}, dataProviderClass = ConnectedDataProvider.class
             , description = "FilterDetailsPage")
     public void filterAllTag() throws Throwable {
         home_page.addConnection( );

@@ -1,4 +1,4 @@
-package com.automation.ui.connected.pageobjectsfactory.pageobject.base;
+package com.automation.ui.githubtesting.pageobjectfactory.pageobject.base;
 
 import com.automation.ui.base.common.auth.User;
 import com.automation.ui.base.common.core.Helios;
@@ -6,27 +6,22 @@ import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.logging.Log;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.TimeoutException;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 
-public class SiteBasePageObject extends BasePageObject {
+public class GitHubBasePageObject extends BasePageObject {
 
 
-    private static final String LOGGED_IN_USER_SELECTOR =
-            ".wds-global-navigation__user-menu.wds-global-navigation__user-logged-in img, "
-                    + ".wds-global-navigation__user-menu.wds-global-navigation__user-logged-in svg";
 
-     private static Logger logger = Logger.getLogger(SiteBasePageObject.class);
-    @FindBy(css = "#globalNavigation,.site-head.no-shadow,.wds-global-navigation")
-    protected WebElement navigationBar;
-    @FindBy(css = "#globalNavigation")
-    protected WebElement newGlobalNavigation;
+    private static Logger logger = Logger.getLogger(GitHubBasePageObject.class);
+    protected By parentBy = By.xpath("./..");
 
-
-    public SiteBasePageObject() {
+    public GitHubBasePageObject() {
         super();
     }
 
@@ -55,19 +50,17 @@ public class SiteBasePageObject extends BasePageObject {
      */
     public void logOut() {
         try {
-            //  getGlobalNavigation().clickSignOut();
+            //getGlobalNavigation().clickSignOut();
         } catch (TimeoutException e) {
             Log.log("logOut", "page loads for more than 30 seconds", true);
         }
     }
 
 
+    public String loginAs(User user) {
 
-
-    public int getNavigationBarOffsetFromTop() {
-        return Integer.parseInt(navigationBar.getAttribute("offsetTop")) + navigationBar.getSize().height;
+        return loginAs(user.getUserName(), user.getPassword(), urlBuilder.getUrl());
     }
-
 
     public String loginAs(String userName, String password, String siteURL) {
         String token = Helios.getAccessToken(userName);
@@ -102,13 +95,6 @@ public class SiteBasePageObject extends BasePageObject {
                 driver.switchTo().frame("PreviewFrame");
             }
 
-                WebElement logo = wait.forElementPresent(By.cssSelector(LOGGED_IN_USER_SELECTOR));
-                String loggedInUserName = logo.getAttribute("alt");
-                if (!loggedInUserName.equals(userName) && !loggedInUserName.equals(userName + " logo")) {
-                    throw new IllegalArgumentException(
-                            "Invalid user, expected " + userName + ", but found: " + loggedInUserName);
-                }
-
         } finally {
             restoreDefaultImplicitWait();
             driver.switchTo().defaultContent();
@@ -120,17 +106,37 @@ public class SiteBasePageObject extends BasePageObject {
         this.verifyUserLoggedIn(user.getUserName());
     }
 
+    //"script[src*='/scripts/beacon.js']";
+    // wait for comscore to load
+    @Override
+    public void waitForPageLoad() {
 
+        wait.forElementPresent(By.cssSelector(".octicon.octicon-mark-github"));
 
-
-
-    protected Boolean isNewGlobalNavPresent() {
-
-        return isElementOnPage(newGlobalNavigation);
     }
 
+    @Override
+    public BasePageObject waitForPageReload() {
+        waitSafely(
+                () -> wait.forElementVisible(By.cssSelector(".octicon.octicon-mark-github"), Duration.ofSeconds(3)));
 
+        waitSafely(() -> wait.forElementNotVisible(By.cssSelector(".octicon.octicon-mark-github")),
+                "Loading overlay still visible, page not loaded in expected time");
 
+        logger.info("Loading overlay still visible, page not loaded in expected time");
+        return this;
+    }
+
+    public static class AssertionMessages {
+
+        public static final String INVALID_NUMBER_OF_CONFIRMING_NOTIFICATIONS =
+                "Number of action confirming notifications is invalid";
+        public static final String BANNER_NOTIFICATION_NOT_VISIBLE = "Banner notification message is not visible";
+
+        private AssertionMessages() {
+            throw new IllegalAccessError("Utility class");
+        }
+    }
 
 
 }

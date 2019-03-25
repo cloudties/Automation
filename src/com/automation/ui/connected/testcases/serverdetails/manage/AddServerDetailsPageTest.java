@@ -6,7 +6,7 @@ package com.automation.ui.connected.testcases.serverdetails.manage;
 
 import com.automation.ui.base.common.core.assertion.Assertion;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
-import com.automation.ui.connected.common.dataprovider.SiteDataProvider;
+import com.automation.ui.connected.common.dataprovider.ConnectedDataProvider;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.home.HomePage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.manage.AddServerDetailsPage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.filter.FilterDetailsPage;
@@ -29,7 +29,7 @@ public class AddServerDetailsPageTest extends ConnectedBaseTest {
         home_page = new HomePage();
     }
     /** */
-    @Test(enabled = true, priority = 0, groups = {"validcase"}, dataProviderClass = SiteDataProvider.class
+    @Test(enabled = true, priority = 0, groups = {"validcase"}, dataProviderClass = ConnectedDataProvider.class
             ,dataProvider = "getServerDetailsforOPCUA", description = "FilterDetailsPage")
     public void provideAllServerDetails(Map<String, Object> connInfo) throws Throwable {
         home_page.addConnection( );

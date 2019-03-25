@@ -11,7 +11,7 @@ import com.automation.ui.base.common.contentpatterns.URLsContent;
 import com.automation.ui.base.common.core.assertion.Assertion;
 import com.automation.ui.base.common.utils.ExcelUtil;
 import com.automation.ui.connected.common.constants.ExcelCONSTANTS;
-import com.automation.ui.connected.common.templates.NewTestTemplate;
+import com.automation.ui.connected.common.templates.ConnectedTestTemplate;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.globalnav.GlobalNavigationPage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.home.HomePage;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.login.LoginPage;
@@ -21,7 +21,7 @@ import org.apache.log4j.Logger;
 
 import java.util.List;
 
-public class ConnectedBaseTest extends NewTestTemplate {
+public class ConnectedBaseTest extends ConnectedTestTemplate {
 
     private static Logger logger = Logger.getLogger(ConnectedBaseTest.class);
     protected ExcelUtil eu = null;

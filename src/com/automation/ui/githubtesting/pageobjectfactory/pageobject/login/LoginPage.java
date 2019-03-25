@@ -7,7 +7,7 @@ package com.automation.ui.githubtesting.pageobjectfactory.pageobject.login;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.githubtesting.common.prpreader.AssertDataReader;
-import com.automation.ui.githubtesting.pageobjectfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.githubtesting.pageobjectfactory.pageobject.base.GitHubBasePageObject;
 import com.automation.ui.githubtesting.pageobjectfactory.pageobject.home.HomePage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -16,7 +16,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-public class LoginPage extends SiteBasePageObject {
+public class LoginPage extends GitHubBasePageObject {
 
 
 

@@ -1,11 +1,11 @@
 package com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.tags;
 
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TagDetailsPage extends SiteBasePageObject {
+public class TagDetailsPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(TagDetailsPage.class);

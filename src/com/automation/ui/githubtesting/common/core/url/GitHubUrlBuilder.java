@@ -5,11 +5,11 @@ import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.core.url.BaseUrlBuilder;
 
-public class SiteUrlBuilder extends BaseUrlBuilder {
+public class GitHubUrlBuilder extends BaseUrlBuilder {
 
     private static final String SITE_HOSTNAME = "sandbox-dev.com";
 
-    public SiteUrlBuilder() {
+    public GitHubUrlBuilder() {
         super(Configuration.getEnv());
     }
 

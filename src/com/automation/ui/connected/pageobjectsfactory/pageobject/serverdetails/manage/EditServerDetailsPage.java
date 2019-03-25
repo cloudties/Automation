@@ -1,9 +1,9 @@
 package com.automation.ui.connected.pageobjectsfactory.pageobject.serverdetails.manage;
 
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import org.apache.log4j.Logger;
 
-public class EditServerDetailsPage extends SiteBasePageObject {
+public class EditServerDetailsPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(EditServerDetailsPage.class);

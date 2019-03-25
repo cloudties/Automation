@@ -3,14 +3,14 @@ package com.automation.ui.connected.pageobjectsfactory.pageobject.globalnav;
 
 import com.automation.ui.base.common.core.element.ElementStateHelper;
 import com.automation.ui.base.common.logging.Log;
-import com.automation.ui.githubtesting.pageobjectfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.githubtesting.pageobjectfactory.pageobject.base.GitHubBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
-public class GlobalNavigationPage extends SiteBasePageObject {
+public class GlobalNavigationPage extends GitHubBasePageObject {
 
     private static Logger logger = Logger.getLogger(GlobalNavigationPage.class);
 

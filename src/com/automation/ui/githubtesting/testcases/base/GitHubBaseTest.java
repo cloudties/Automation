@@ -10,10 +10,10 @@ package com.automation.ui.githubtesting.testcases.base;
 import com.automation.ui.base.common.contentpatterns.URLsContent;
 import com.automation.ui.base.common.utils.ExcelUtil;
 import com.automation.ui.githubtesting.common.constants.ExcelCONSTANTS;
-import com.automation.ui.githubtesting.common.templates.NewTestTemplate;
+import com.automation.ui.githubtesting.common.templates.GitHubTestTemplate;
 import org.apache.log4j.Logger;
 
-public class GitHubBaseTest extends NewTestTemplate {
+public class GitHubBaseTest extends GitHubTestTemplate {
 
     private static Logger logger = Logger.getLogger(GitHubBaseTest.class);
     protected ExcelUtil eu = null;

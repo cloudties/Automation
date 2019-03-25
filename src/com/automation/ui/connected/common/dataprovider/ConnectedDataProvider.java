@@ -3,9 +3,9 @@ package com.automation.ui.connected.common.dataprovider;
 import org.testng.annotations.DataProvider;
 import com.google.common.collect.ImmutableMap;
 
-public class SiteDataProvider {
+public class ConnectedDataProvider {
 
-    public SiteDataProvider() {
+    public ConnectedDataProvider() {
 
     }
 

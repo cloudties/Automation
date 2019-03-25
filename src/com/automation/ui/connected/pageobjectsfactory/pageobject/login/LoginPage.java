@@ -7,7 +7,7 @@ package com.automation.ui.connected.pageobjectsfactory.pageobject.login;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import com.automation.ui.connected.pageobjectsfactory.pageobject.home.HomePage;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
@@ -16,7 +16,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-public class LoginPage extends SiteBasePageObject {
+public class LoginPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(LoginPage.class);

@@ -1,12 +1,11 @@
 package com.automation.ui.connected.pageobjectsfactory.pageobject.dashboardview;
 
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.SiteBasePageObject;
+import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 
-public class UAConnectionDetailsPage extends SiteBasePageObject {
+public class UAConnectionDetailsPage extends ConnectedBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(UAConnectionDetailsPage.class);
