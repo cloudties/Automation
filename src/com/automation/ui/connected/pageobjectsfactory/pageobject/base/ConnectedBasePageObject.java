@@ -24,6 +24,7 @@ public class ConnectedBasePageObject extends BasePageObject {
     protected WebElement navigationBar;
     @FindBy(css = "#globalNavigation")
     protected WebElement newGlobalNavigation;
+    
 
 
     public ConnectedBasePageObject() {
