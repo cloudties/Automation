@@ -21,7 +21,9 @@ https://github.com/lithiumtech
 best selenium tips
 https://github.com/tourdedave/elemental-selenium-tips
 https://github.com/sdl/Testy
+https://github.com/tarun3kumar/seleniumtests
 
+https://github.com/Infosys/Selenium-Testing-Automation-Framework
 To run Test suite
 cd c:\automation
 set classpath=%classpath%;.;c:\automation\testng-6.8.7.jar;c:\automation\selenium-server-standalone-2.53.1.jar;C:\Users\ADMIN\Automation\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar

@@ -60,7 +60,7 @@ public class HomePage extends SiteBasePageObject {
 
 
 
-    public void addRepo() {
+      public void addRepo() {
 
         wait.forElementClickable(addRepo);
         addRepo.click();

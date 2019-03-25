@@ -46,9 +46,9 @@
                 <methods>
                     <include name="launchLogin"/>
                   <include name="launchHomePage"/>
-                    <!--
+
                     <include name="addRepo"/>
-                    -->
+
 
                 </methods>
                     </class>
