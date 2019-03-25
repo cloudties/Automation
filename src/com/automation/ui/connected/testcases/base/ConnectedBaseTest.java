@@ -48,7 +48,7 @@ public class ConnectedBaseTest extends ConnectedTestTemplate {
             eu = new ExcelUtil();
 
 //  eu.setExcelFile(ExcelCONSTANTS.LOGINXLSDATAPATH,                   ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN);
-            eu.setExcelFile("C:\\Software\\selenium\\dataselenium.xls",
+            eu.setExcelFile(".\\resources\\data\\dataselenium.xls",
                     ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN);
         } catch (Exception e) {
             e.printStackTrace();
