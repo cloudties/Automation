@@ -253,6 +253,8 @@ public class Log {
         return LOGS_RESULTS;
     }
 
+//https://stackoverflow.com/questions/27684899/how-to-integrate-jira-with-selenium-webdriver
+
     public static void startTest(Method testMethod) {
         String testName = testMethod.getName();
         String className = testMethod.getDeclaringClass().getCanonicalName();

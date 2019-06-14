@@ -798,6 +798,15 @@
             <artifactId>httpcore</artifactId>
             <version>4.4.3</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>net.rcarz</groupId>
+            <artifactId>jira-client</artifactId>
+            <version>0.5</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
     <repositories>

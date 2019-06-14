@@ -1,7 +1,5 @@
 #!/usr/bin/env pwsh
-echo 1
-Write-Warning "Use the command: "
-echo 3
+
 
 # Verify user's Git config has appropriate email address
 if ($env:GIT_AUTHOR_EMAIL -notmatch '@(non\.)?cloudties\.in$') {
