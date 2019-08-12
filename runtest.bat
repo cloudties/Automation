@@ -21,7 +21,7 @@ git pull
 @rem ant execute target will create directories while build
 @rem report will create the test results
 
-mvn -T 2   -DdependencyLocationsEnabled=false -Dmailpass=manjusha  antrun:run@ant-execute clean compile test surefire-report:report
+mvn -T 2  -DsuiteXmlFile=testng.xml -DdependencyLocationsEnabled=false -Dmailpass=saju  antrun:run@ant-execute clean compile test surefire-report:report
 
 
-@rem mvn -Dmailpass=hari123$  antrun:run@ant-execute clean compile test surefire-report:report postman:send-mail
+@rem mvn -Dmailpass=saju$  antrun:run@ant-execute clean compile test surefire-report:report postman:send-mail

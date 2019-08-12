@@ -1,4 +1,4 @@
-[1565600781.845][INFO]: COMMAND InitSession {
+[1565601292.142][INFO]: COMMAND InitSession {
    "capabilities": {
       "desiredCapabilities": {
          "browserName": "chrome",
@@ -33,7 +33,7 @@
       }
    }
 }
-[1565600781.849][INFO]: Populating Preferences file: {
+[1565601292.152][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -86,7 +86,7 @@
       "enabled": false
    }
 }
-[1565600781.859][INFO]: Populating Local State file: {
+[1565601292.172][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -96,82 +96,82 @@
       }
    }
 }
-[1565600781.947][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-running-insecure-content --disable-background-networking --disable-bundled-ppapi-flash --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --dns-prefetch-disable --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --lang=en --load-extension="C:\Users\admin\AppData\Local\Temp\scoped_dir9340_8631\internal" --log-level=0 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --process-per-site --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir9340_19145" data:,
-[1565600782.172][DEBUG]: DevTools request: http://localhost:50035/json/version
-[1565600782.722][DEBUG]: DevTools response: {
+[1565601292.253][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-running-insecure-content --disable-background-networking --disable-bundled-ppapi-flash --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --dns-prefetch-disable --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --lang=en --load-extension="C:\Users\admin\AppData\Local\Temp\scoped_dir4564_29631\internal" --log-level=0 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --process-per-site --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\admin\AppData\Local\Temp\scoped_dir4564_32376" data:,
+[1565601292.672][DEBUG]: DevTools request: http://localhost:50081/json/version
+[1565601293.058][DEBUG]: DevTools response: {
    "Browser": "Chrome/76.0.3809.100",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
    "V8-Version": "7.6.303.29",
    "WebKit-Version": "537.36 (@ed9d447d30203dc5069e540f05079e493fc1c132)",
-   "webSocketDebuggerUrl": "ws://localhost:50035/devtools/browser/fffa9634-5b74-459f-8cc9-018f9ae0d107"
+   "webSocketDebuggerUrl": "ws://localhost:50081/devtools/browser/b66b8954-0aa3-4202-9ea9-8d5fa54b05f3"
 }
 
-[1565600782.723][DEBUG]: DevTools request: http://localhost:50035/json
-[1565600782.725][DEBUG]: DevTools response: [ {
+[1565601293.059][DEBUG]: DevTools request: http://localhost:50081/json
+[1565601293.061][DEBUG]: DevTools response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50035/devtools/page/1F93F4E0439563762107692D550AD4F5",
-   "id": "1F93F4E0439563762107692D550AD4F5",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50081/devtools/page/5D248B743BBFED3D81F9EE45372E47CE",
+   "id": "5D248B743BBFED3D81F9EE45372E47CE",
    "title": "Chrome Automation Extension",
    "type": "background_page",
    "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
-   "webSocketDebuggerUrl": "ws://localhost:50035/devtools/page/1F93F4E0439563762107692D550AD4F5"
+   "webSocketDebuggerUrl": "ws://localhost:50081/devtools/page/5D248B743BBFED3D81F9EE45372E47CE"
 }, {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50035/devtools/page/77E2983FDE01CEDED9717F17E9352A0D",
-   "id": "77E2983FDE01CEDED9717F17E9352A0D",
-   "title": "data:,",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50081/devtools/page/C9D37C3A96EAFE2528412E5BB903133D",
+   "id": "C9D37C3A96EAFE2528412E5BB903133D",
+   "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:50035/devtools/page/77E2983FDE01CEDED9717F17E9352A0D"
+   "webSocketDebuggerUrl": "ws://localhost:50081/devtools/page/C9D37C3A96EAFE2528412E5BB903133D"
 } ]
 
-[1565600782.725][DEBUG]: DevTools request: http://localhost:50035/json
-[1565600782.732][DEBUG]: DevTools response: [ {
+[1565601293.061][DEBUG]: DevTools request: http://localhost:50081/json
+[1565601293.062][DEBUG]: DevTools response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50035/devtools/page/1F93F4E0439563762107692D550AD4F5",
-   "id": "1F93F4E0439563762107692D550AD4F5",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50081/devtools/page/5D248B743BBFED3D81F9EE45372E47CE",
+   "id": "5D248B743BBFED3D81F9EE45372E47CE",
    "title": "Chrome Automation Extension",
    "type": "background_page",
    "url": "chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html",
-   "webSocketDebuggerUrl": "ws://localhost:50035/devtools/page/1F93F4E0439563762107692D550AD4F5"
+   "webSocketDebuggerUrl": "ws://localhost:50081/devtools/page/5D248B743BBFED3D81F9EE45372E47CE"
 }, {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50035/devtools/page/77E2983FDE01CEDED9717F17E9352A0D",
-   "id": "77E2983FDE01CEDED9717F17E9352A0D",
-   "title": "data:,",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:50081/devtools/page/C9D37C3A96EAFE2528412E5BB903133D",
+   "id": "C9D37C3A96EAFE2528412E5BB903133D",
+   "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:50035/devtools/page/77E2983FDE01CEDED9717F17E9352A0D"
+   "webSocketDebuggerUrl": "ws://localhost:50081/devtools/page/C9D37C3A96EAFE2528412E5BB903133D"
 } ]
 
-[1565600782.742][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1565600783.747][DEBUG]: DEVTOOLS COMMAND Network.enable (id=1) {
+[1565601293.069][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1565601294.070][DEBUG]: DEVTOOLS COMMAND Network.enable (id=1) {
 
 }
-[1565600783.748][DEBUG]: DEVTOOLS COMMAND Log.enable (id=2) {
+[1565601294.071][DEBUG]: DEVTOOLS COMMAND Log.enable (id=2) {
 
 }
-[1565600783.749][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=3) {
+[1565601294.071][DEBUG]: DEVTOOLS COMMAND DOM.getDocument (id=3) {
 
 }
-[1565600783.749][DEBUG]: DEVTOOLS COMMAND Target.setAutoAttach (id=4) {
+[1565601294.072][DEBUG]: DEVTOOLS COMMAND Target.setAutoAttach (id=4) {
    "autoAttach": true,
    "waitForDebuggerOnStart": false
 }
-[1565600783.750][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
+[1565601294.072][DEBUG]: DEVTOOLS COMMAND Page.enable (id=5) {
 
 }
-[1565600783.750][DEBUG]: DEVTOOLS COMMAND Page.enable (id=6) {
+[1565601294.073][DEBUG]: DEVTOOLS COMMAND Page.enable (id=6) {
 
 }
-[1565600783.751][DEBUG]: DEVTOOLS RESPONSE Network.enable (id=1) {
+[1565601294.074][DEBUG]: DEVTOOLS RESPONSE Network.enable (id=1) {
 
 }
-[1565600783.751][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=2) {
+[1565601294.075][DEBUG]: DEVTOOLS RESPONSE Log.enable (id=2) {
 
 }
-[1565600783.752][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=3) {
+[1565601294.075][DEBUG]: DEVTOOLS RESPONSE DOM.getDocument (id=3) {
    "root": {
       "backendNodeId": 2,
       "baseURL": "data:,",
@@ -201,7 +201,7 @@
             "nodeValue": "",
             "parentId": 2
          } ],
-         "frameId": "77E2983FDE01CEDED9717F17E9352A0D",
+         "frameId": "C9D37C3A96EAFE2528412E5BB903133D",
          "localName": "html",
          "nodeId": 2,
          "nodeName": "HTML",
@@ -218,22 +218,22 @@
       "xmlVersion": ""
    }
 }
-[1565600783.752][DEBUG]: DEVTOOLS RESPONSE Target.setAutoAttach (id=4) {
+[1565601294.075][DEBUG]: DEVTOOLS RESPONSE Target.setAutoAttach (id=4) {
 
 }
-[1565600783.752][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
+[1565601294.075][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=5) {
 
 }
-[1565600783.752][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=6) {
+[1565601294.075][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=6) {
 
 }
-[1565600783.752][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=7) {
+[1565601294.075][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=7) {
 
 }
-[1565600783.757][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
+[1565601294.088][DEBUG]: DEVTOOLS EVENT Runtime.executionContextCreated {
    "context": {
       "auxData": {
-         "frameId": "77E2983FDE01CEDED9717F17E9352A0D",
+         "frameId": "C9D37C3A96EAFE2528412E5BB903133D",
          "isDefault": true,
          "type": "default"
       },
@@ -242,32 +242,32 @@
       "origin": "://"
    }
 }
-[1565600783.757][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=7) {
+[1565601294.089][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=7) {
 
 }
-[1565600783.757][DEBUG]: DEVTOOLS COMMAND Page.enable (id=8) {
+[1565601294.089][DEBUG]: DEVTOOLS COMMAND Page.enable (id=8) {
 
 }
-[1565600783.758][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=8) {
+[1565601294.090][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=8) {
 
 }
-[1565600783.758][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=9) {
+[1565601294.090][DEBUG]: DEVTOOLS COMMAND Runtime.enable (id=9) {
 
 }
-[1565600783.758][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=9) {
+[1565601294.091][DEBUG]: DEVTOOLS RESPONSE Runtime.enable (id=9) {
 
 }
-[1565600783.758][DEBUG]: DEVTOOLS COMMAND Page.enable (id=10) {
+[1565601294.091][DEBUG]: DEVTOOLS COMMAND Page.enable (id=10) {
 
 }
-[1565600783.772][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=10) {
+[1565601294.092][DEBUG]: DEVTOOLS RESPONSE Page.enable (id=10) {
 
 }
-[1565600783.772][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
+[1565601294.093][DEBUG]: DEVTOOLS COMMAND Runtime.evaluate (id=11) {
    "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
    "returnByValue": true
 }
-[1565600783.777][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
+[1565601294.099][DEBUG]: DEVTOOLS RESPONSE Runtime.evaluate (id=11) {
    "result": {
       "type": "object",
       "value": {
@@ -276,7 +276,7 @@
       }
    }
 }
-[1565600783.777][INFO]: RESPONSE InitSession {
+[1565601294.100][INFO]: RESPONSE InitSession {
    "acceptInsecureCerts": false,
    "acceptSslCerts": false,
    "applicationCacheEnabled": false,
@@ -284,7 +284,7 @@
    "browserName": "chrome",
    "chrome": {
       "chromedriverVersion": "2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)",
-      "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir9340_19145"
+      "userDataDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir4564_32376"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
@@ -301,8 +301,8 @@
    "setWindowRect": true,
    "~~~": "..."
 }
-[1565600783.953][INFO]: COMMAND SetTimeout {
+[1565601294.260][INFO]: COMMAND SetTimeout {
    "ms": 15000,
    "type": "implicit"
 }
-[1565600783.953][INFO]: RESPONSE SetTimeout
+[1565601294.260][INFO]: RESPONSE SetTimeout
