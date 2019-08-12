@@ -5,7 +5,7 @@ import lombok.Getter;
 //NEEDTOCHECK CHANGE URL DOMAIN
 public enum EnvType {
     //main domain,envtype,port
-    PROD("com", "prod", "","ui"),
+    PROD("com", "prod", "",""),
     STAGING("co.in", "staging", "","ui"),
     // DEV("co.in", "dev", "9000"),
     DEV("", "dev", "4200",""),

@@ -14,7 +14,7 @@ disableFlash: true
 jsErrorsEnabled: false
 logEnabled: true
 takeScreenshots: true
-forceHttps: true
+forceHttps: false
 forceLanguageInPath: false
 useMITM: false
 useZapProxy: false
