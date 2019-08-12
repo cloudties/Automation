@@ -10,7 +10,7 @@ public enum EnvType {
     // DEV("co.in", "dev", "9000"),
     DEV("", "dev", "4200",""),
     TEST("",  "test", "8090","ui"),
-    SANDBOX("honeywell.com", "sandbox", "9000","ui");
+    SANDBOX("cuspera.com", "sandbox", "9000","ui");
 
     @Getter
     private final String siteDomain;

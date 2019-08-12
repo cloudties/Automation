@@ -1,7 +1,7 @@
 package com.automation.ui.githubtesting.pageobjectfactory.pageobject.login;
 
 /**
- * @author Manjusha Saju
+ * @author
  */
 
 import com.automation.ui.base.common.core.configuration.Configuration;

@@ -20,7 +20,7 @@ import com.automation.ui.base.common.report.filehandler.FileNameConstants;
 import com.automation.ui.base.common.utils.CommonUtils;
 import com.automation.ui.base.common.utils.CookieUtils;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
-import com.automation.ui.ipe.pageobjectsfactory.pageobject.base.IPEBasePageObject;
+import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.IPEBasePageObject;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.*;

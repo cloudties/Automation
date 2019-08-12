@@ -3,9 +3,9 @@ package com.automation.ui.githubtesting.common.core.url;
 import com.automation.ui.base.common.constants.BASEConstants;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
-import com.automation.ui.base.common.core.url.BaseUrlBuilder;
+import com.automation.ui.base.common.core.url.*;
 
-public class GitHubUrlBuilder extends BaseUrlBuilder {
+public class GitHubUrlBuilder extends CoreUrlBuilder {
 
     private static final String SITE_HOSTNAME = "sandbox-dev.com";
 

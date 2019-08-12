@@ -1,37 +1,29 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Automation</groupId>
-    <artifactId>Automation</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <groupId>Cuspera.UIAutomation</groupId>
+    <artifactId>Cuspera.UIAutomation</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Automation</name>
-    <description>Test Automation Project</description>
-
+    <name>Cuspera.UIAutomation</name>
+    <description>Cuspera.UIAutomation Project</description>
     <scm>
-        <url>scm:git:git@github.com:cloudties/Automation.git</url>
-        <connection>scm:git:git@github.com:cloudties/Automation.git</connection>
-        <developerConnection>scm:git:git@github.com:cloudties/Automation.git</developerConnection>
+        <url>scm:git:git@github.com:hpsped/projectdigitization.git</url>
+        <connection>scm:git:git@github.com:hpsped/projectdigitization.git</connection>
+        <developerConnection>scm:git:git@github.com:hpsped/projectdigitization.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
     <properties>
-
         <robotframework.version>2.9.2</robotframework.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>2.48.2</selenium.version>
         <keywords.class>Selenium2Library</keywords.class>
         <skipTests>false</skipTests>
-        <mailpass>manjupass</mailpass>
-
-
-       
+        <mailpass>sajupass</mailpass>
         <maven.build.timestamp.format>yyyy-MM-dd-HH-mm</maven.build.timestamp.format>
          <timestamp>${maven.build.timestamp}</timestamp>
         <echo message="${myversion}"/>
-
     </properties>
-
     <profiles>
          <profile>
             <id>serverConfig</id>
@@ -39,13 +31,12 @@
                 <activeByDefault>true</activeByDefault>
              </activation>
             <properties>
-                <sonar.host.url>http://localhost:9000</sonar.host.url>
+                <sonar.host.url>https://sonarqube.cloudties.com/</sonar.host.url>
                 <user>${env.username}</user>
                 <password>${env.password}</password>
             </properties>
          </profile>
     </profiles>
-
     <build>
         <sourceDirectory>src</sourceDirectory>
         <resources>
@@ -89,19 +80,14 @@
                                 <files>
                                     <file>resources/properties/${env}.properties</file>
                                 </files>
-
-
                             </configuration>
                         </execution>
                     </executions>
                 </plugin>
-
-
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-antrun-plugin</artifactId>
                     <version>1.7</version>
-
                     <executions>
                         <execution>
 
@@ -112,26 +98,17 @@
 
 
                                     <mkdir dir="logs/chromelogs"/>
-                                </target>
-
-                                <target>
-
                                     <echo message="Creating log directory"/>
-                                    <echo>Displaying value </echo>
-                             
                                 </target>
+
+
                             </configuration>
                             <goals>
                                 <goal>run</goal>
                             </goals>
-
-
-                        </execution>
+                            </execution>
                     </executions>
                 </plugin>
-
-
-                    
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -139,19 +116,13 @@
                     <configuration>
                         <!-- Suite testng xml file to consider for test execution -->
                         <suiteXmlFiles>
-                            <suiteXmlFile>resources/testng.xml</suiteXmlFile>
-
+                            <suiteXmlFile>resources\${suiteXmlFile}</suiteXmlFile>
                         </suiteXmlFiles>
-                        <!-- Build with '-D
-                        =true' to bypass test execution @ build time Default: false -->
                         <skipTests>${skipTests}</skipTests>
                         <testFailureIgnore>true</testFailureIgnore>
-                        <reportsDirectory>./logs/test-output/${timestamp}</reportsDirectory>
-
+                        <reportsDirectory>logs/test-output/${timestamp}</reportsDirectory>
                     </configuration>
                 </plugin>
-
-
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-scm-plugin</artifactId>
@@ -265,92 +236,66 @@
 
 
                 <plugin>
-                    <!-- mvn -Dmailpass=manjupass clean compile surefire-report:report postman:send-mail -->
-                    <!-- mvn -Dmailpass=mailpassword antrun:run@ant-execute  clean compile test surefire-report:report postman:send-mail  -->
+                    <!-- mvn -Dmailpass=sajupass -DsuiteXmlFile=ipe_test.xml initialize clean compile surefire-report:report postman:send-mail -->
+                    <!-- mvn -Dmailpass=mailpassword antrun:run@ant-execute initialize clean compile test surefire-report:report postman:send-mail  -->
                     <groupId>ch.fortysix</groupId>
                     <artifactId>maven-postman-plugin</artifactId>
-
-                    <configuration>
-                        <from>info@cloudties.com</from>
-                        <failonerror>true</failonerror>
-                        <mailssl>true</mailssl>
-                        <mailAltConfig>true</mailAltConfig>
-                        <mailuser>info@cloudties.com</mailuser>
-                        <mailpassword>${mailpass}</mailpassword>
-                        <mailhost>smtp.gmail.com</mailhost>
-                        <mailport>25</mailport>
-                         <receivers>
-                            <receiver>info@cloudties.com</receiver>
-   
-                        </receivers>
-                        <fileSets>
-                            <fileSet>
-                                <!-- Report directory Path -->
-                                <directory>./logs/${timestamp}</directory>
-                                <includes>
-                                    <!-- Report file name -->
-                                    <include>emailable-report.html</include>
-                                </includes>
-                            </fileSet>
-                        </fileSets>
-                    </configuration>
                     <executions>
                         <execution>
                             <id>send a mail</id>
-                            <phase>clean</phase>
+                            <phase>test</phase>
                             <goals>
                                 <goal>send-mail</goal>
                             </goals>
-
+                            <inherited>true</inherited>
                             <configuration>
-
-                                <subject>Test Automation Report</subject>
-                                <failonerror>false</failonerror>
-
+                                <from>kksclt@gmail.com</from>
+                                <!--
+                                 <subject>Cuspera.UIAutomation</subject>
+                                 <failonerror>false</failonerror>
+                                -->
                                 <htmlMessage>
-                                    <![CDATA[
+                                <![CDATA[
                                 <p>New test build triggered!</p>
                                 <p>Attached html file contains the test result status</p>
                                 ]]>
                                 </htmlMessage>
 
-                                <tagClasses>
-                                    <tagClass>
-                                        <displayName>Automation</displayName>
-                                        <receivers>
-                                            <receiver>info@cloudties.com</receiver>
-                                        </receivers>
-                                        <fileSets>
-                                            <fileSet>
-                                                <!-- Report directory Path -->
-                                                <directory>./logs/${timestamp}/</directory>
-                                                <includes>
-                                                    <!-- Report file name -->
-                                                    <include>emailable-report.html</include>
-                                                </includes>
-                                            </fileSet>
-                                        </fileSets>
-                                    </tagClass>
-                                </tagClasses>
+                                <mailssl>true</mailssl>
+                                <mailAltConfig>true</mailAltConfig>
+                                <mailuser>kksclt@gmail.com</mailuser>
+                                <mailpassword>hari123$</mailpassword>
+                                <mailhost>smtp.gmail.com</mailhost>
+                                <mailport>465</mailport>
+                                <receivers>
+                                    <receiver>sajukk@cuspera.com</receiver>
+                                </receivers>
+                                <fileSets>
+                                    <fileSet>
+                                        <!-- Report directory Path -->
+                                        <directory>./logs/test-output/${timestamp}</directory>
+                                        <includes>
+                                            <!-- Report file name -->
+                                            <include>emailable-report.html</include>
+                                        </includes>
+                                    </fileSet>
+                                </fileSets>
                             </configuration>
-
-
                         </execution>
                     </executions>
                 </plugin>
-
-
             </plugins>
         </pluginManagement>
     </build>
-
-
     <reporting>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>2.15</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                </configuration>
             </plugin>
         </plugins>
     </reporting>
@@ -620,6 +565,12 @@
             <artifactId>gherkin</artifactId>
             <version>2.12.2</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.sun.xml.security/xml-security-impl -->
+	<dependency>
+	    <groupId>com.sun.xml.security</groupId>
+	    <artifactId>xml-security-impl</artifactId>
+	    <version>1.0</version>
+	</dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
@@ -798,8 +749,6 @@
             <artifactId>httpcore</artifactId>
             <version>4.4.3</version>
         </dependency>
-
-
         <dependency>
             <groupId>net.rcarz</groupId>
             <artifactId>jira-client</artifactId>
@@ -807,6 +756,11 @@
             <scope>compile</scope>
         </dependency>
 
+        <dependency>
+            <groupId>ch.fortysix</groupId>
+            <artifactId>maven-postman-plugin</artifactId>
+            <version>0.1.6</version>
+        </dependency>
     </dependencies>
 
     <repositories>

@@ -1,7 +1,7 @@
 package com.automation.ui.base.common.constants;
 
 /**
- * @author Manjusha Saju
+ * @author
  */
 
 public interface RESTAPICONSTANTS {

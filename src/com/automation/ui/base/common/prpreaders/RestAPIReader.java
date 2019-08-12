@@ -1,6 +1,6 @@
 package com.automation.ui.base.common.prpreaders;
 /**
- * @author Manjusha Saju
+ * @author
  */
 import com.automation.ui.base.common.constants.RESTAPICONSTANTS;
 

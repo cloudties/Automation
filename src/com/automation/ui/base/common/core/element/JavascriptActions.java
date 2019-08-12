@@ -4,7 +4,7 @@ import com.automation.ui.base.common.constants.BASEConstants;
 import com.automation.ui.base.common.contentpatterns.XSSContent;
 import com.automation.ui.base.common.driverprovider.DriverProvider;
 import com.automation.ui.base.common.logging.Log;
-import com.automation.ui.ipe.pageobjectsfactory.pageobject.base.IPEBasePageObject;
+import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.IPEBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;

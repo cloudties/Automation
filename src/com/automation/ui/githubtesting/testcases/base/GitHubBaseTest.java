@@ -4,7 +4,7 @@
 package com.automation.ui.githubtesting.testcases.base;
 
 /**
- * @author Manjusha Saju
+ * @author
  */
 
 import com.automation.ui.base.common.contentpatterns.URLsContent;
