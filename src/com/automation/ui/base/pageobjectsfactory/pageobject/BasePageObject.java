@@ -960,7 +960,7 @@ public abstract class BasePageObject {
                 robot.keyPress(KeyEvent.VK_ADD);
             }
         } catch (Exception e) {
-            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Assertion.fail(AssertDataReader.assertreader.getValue("CUSPERAASSERTMSG_ASSERT_ERROR"));
             Reporter.log("zoomOut ");
             e.printStackTrace();
         }
@@ -974,7 +974,7 @@ public abstract class BasePageObject {
                 robot.keyPress(KeyEvent.VK_MINUS);
             }
         } catch (Exception e) {
-            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Assertion.fail(AssertDataReader.assertreader.getValue("CUSPERAASSERTMSG_ASSERT_ERROR"));
             Reporter.log("zoomIn ");
             e.printStackTrace();
         }
@@ -999,7 +999,7 @@ public abstract class BasePageObject {
             robot.keyPress(KeyEvent.VK_ENTER);
             logger.debug("Uploaded file from filepath");
         } catch (Exception e) {
-            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Assertion.fail(AssertDataReader.assertreader.getValue("CUSPERAASSERTMSG_ASSERT_ERROR"));
             Reporter.log("fileLocationBrowse() is done");
             e.printStackTrace();
         }
