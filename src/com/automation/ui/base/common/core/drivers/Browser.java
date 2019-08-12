@@ -12,7 +12,7 @@ public enum Browser {
     HTMLUNIT(HtmlUnitBrowser.class, "HTMLUNIT"),
     GHOST(GhostBrowser.class, "GHOST"),
     CHROME_ANDROID(AndroidBrowser.class, "ANDROID"),
-    IE(IEBrowser.class, "IE"),
+    IE(IEBrowser.class, "internet explorer"),
     DEFAULT(DefaultBrowser.class, "");
 
     private static Logger logger = Logger.getLogger(Browser.class);

@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * This annotation serves as a placeholder to mark creation ticket ID issues.
+ * This annotation serves as B placeholder to mark creation ticket ID issues.
  */
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = {ElementType.METHOD})

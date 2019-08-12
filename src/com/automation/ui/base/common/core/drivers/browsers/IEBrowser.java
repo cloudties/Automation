@@ -24,10 +24,10 @@ public class IEBrowser extends BrowserAbstract {
 
 
      */
-    private static final String IEDRIVER_PATH_WINDOWS = "IEDriver/IEDriverServer.exe";
+    private static final String IEDRIVER_PATH_WINDOWS = "IEDriver/IEDriverServer_32.exe";
     private static Logger logger = Logger
             .getLogger(IEBrowser.class);
-    private InternetExplorerOptions ieOption = new InternetExplorerOptions();
+    private InternetExplorerOptions options = new InternetExplorerOptions();
 
     @Override
     public void setOptions() {
@@ -37,8 +37,12 @@ public class IEBrowser extends BrowserAbstract {
 
         File iedriver = new File(ClassLoader.getSystemResource(ieBinaryPath).getPath());
 
-        ieOption.setCapability("", "");
-        ieOption.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+
+        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+
+        logger.debug("IE BROWSER: 1" );
+
+
 
         // set application user permissions to 455
         // iedriver.setExecutable(true);
@@ -51,6 +55,9 @@ public class IEBrowser extends BrowserAbstract {
         System.setProperty("webdriver.ie.driver.logfile", System.getProperty("user.dir") + File.separator + "logs" + File.separator + "ielog" + File.separator + "ielog" +
                 DateUtil.getCurrentDate()
                 + ".log");
+
+
+        logger.debug("IE BROWSER: 1" +iedriver.getPath());
 
         Log.info("Using ie driver: ", iedriver.getPath());
 
@@ -71,22 +78,34 @@ public class IEBrowser extends BrowserAbstract {
      */
     @Override
     public UIWebDriver create() {
-        //  caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-        caps.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
-        caps.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
-        caps.setCapability(InternetExplorerDriver.NATIVE_EVENTS, true);
-        caps.setCapability(CapabilityType.BROWSER_NAME, "internet explorer");
-        caps.setCapability(CapabilityType.SUPPORTS_JAVASCRIPT, true);
         caps.setJavascriptEnabled(true);
-        caps.setCapability("ie.ensureCleanSession", true);
-        caps.setCapability(InternetExplorerDriver.ELEMENT_SCROLL_BEHAVIOR,
+        //  caps.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+        options.setCapability(InternetExplorerDriver.IE_ENSURE_CLEAN_SESSION, true);
+        options.setCapability(InternetExplorerDriver.ENABLE_ELEMENT_CACHE_CLEANUP, true);
+        //options.setCapability(InternetExplorerDriver.NATIVE_EVENTS, true);
+        caps.setCapability(CapabilityType.BROWSER_NAME, "internet explorer");
+        //options.setCapability(CapabilityType.BROWSER_NAME, "IE");
+
+
+
+        options.setCapability(InternetExplorerDriver.
+                INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS,true);
+        options.setCapability("requireWindowFocus",true);
+
+
+        options.setCapability("ie.ensureCleanSession", true);
+        options.setCapability(InternetExplorerDriver.ELEMENT_SCROLL_BEHAVIOR,
                 ElementScrollBehavior.BOTTOM);
 
+        options.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
 
-        caps.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+        options.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
+
 
         //return new UIWebDriver(new RemoteWebDriver(new URL(hubUrl), caps));
-        return new UIWebDriver(new InternetExplorerDriver(caps), server, false);
+       // return new UIWebDriver(new InternetExplorerDriver(caps), server, false);
+        return new UIWebDriver(new InternetExplorerDriver(options), server, false);
+
     }
 
     @Override

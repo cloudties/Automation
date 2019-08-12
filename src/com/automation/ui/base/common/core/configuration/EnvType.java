@@ -4,12 +4,13 @@ import lombok.Getter;
 
 //NEEDTOCHECK CHANGE URL DOMAIN
 public enum EnvType {
-  //main domain,envtype,port
-    PROD("com", "prod", ""),
-    STAGING("co.in", "staging", ""),
-    DEV("co.in", "dev", "9000"),
-    TEST("",  "test", "9000"),
-    SANDBOX("honeywell.com", "sandbox", "9000");
+    //main domain,envtype,port
+    PROD("com", "prod", "","ui"),
+    STAGING("co.in", "staging", "","ui"),
+    // DEV("co.in", "dev", "9000"),
+    DEV("", "dev", "4200",""),
+    TEST("",  "test", "8090","ui"),
+    SANDBOX("honeywell.com", "sandbox", "9000","ui");
 
     @Getter
     private final String siteDomain;
@@ -21,27 +22,23 @@ public enum EnvType {
     @Getter
     private final String port;
 
-    EnvType(String siteDomain, String key, String port) {
+    private final String webContext;
+
+    EnvType(String siteDomain, String key, String port,String webContext) {
         this.siteDomain = siteDomain;
         this.key = key;
         this.port = port;
+        this.webContext=webContext;
     }
 
-    public String getSiteDomain() {
 
 
-        return this.siteDomain;
+
+    public String getWebContext() {
+
+
+        return this.webContext;
     }
 
-    public String getPort() {
 
-
-        return this.port;
-    }
-
-    public String getKey() {
-
-
-        return this.key;
-    }
 }

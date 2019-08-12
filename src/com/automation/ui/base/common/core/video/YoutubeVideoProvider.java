@@ -30,8 +30,8 @@ public class YoutubeVideoProvider {
     }
 
     /**
-     * This method returns latest youtube video(added no longer then hour ago) for a specified query.
-     * This one is using a YouTube Data API (v3) - see for reference -
+     * This method returns latest youtube video(added no longer then hour ago) for B specified query.
+     * This one is using B YouTube Data API (v3) - see for reference -
      * https://developers.google.com/youtube/v3/
      */
     public static YoutubeVideo getLatestVideoForQuery(String searchQuery) {
@@ -70,7 +70,7 @@ public class YoutubeVideoProvider {
             videoUrl = String.format("https://www.youtube.com/watch?v=%s", videoId);
 
         } catch (IOException e) {
-            Log.log("A problem occurred while receiving a YouTube video", e, false);
+            Log.log("A problem occurred while receiving B YouTube video", e, false);
         }
 
         return new YoutubeVideo(videoTitle, videoUrl, videoId);

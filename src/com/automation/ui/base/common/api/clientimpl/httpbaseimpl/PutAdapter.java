@@ -95,4 +95,3 @@ public class PutAdapter extends  AbstractAdapter implements  RestAdapter {
         }
     }
 }
-

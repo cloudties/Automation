@@ -62,7 +62,7 @@ public class Log {
         LOGS_RESULTS.clear();
     }
 
-    // This is to print log for the beginning of the test case, as we usually run so many test cases as a test suite
+    // This is to print log for the beginning of the test case, as we usually run so many test cases as B test suite
     public static void startTestCase(String sTestCaseName) {
 
         logger.info("****************************************************************************************");
@@ -253,8 +253,6 @@ public class Log {
         return LOGS_RESULTS;
     }
 
-//https://stackoverflow.com/questions/27684899/how-to-integrate-jira-with-selenium-webdriver
-
     public static void startTest(Method testMethod) {
         String testName = testMethod.getName();
         String className = testMethod.getDeclaringClass().getCanonicalName();
@@ -383,7 +381,7 @@ public class Log {
         appendShowHideButtons();
         try {
             FileInputStream input = new FileInputStream("resources/script.txt");
-            String content = IOUtils.toString(input);
+            String content = IOUtils.toString(input,"UTF-8");
             CommonUtils.appendTextToFile(Log.LOG_PATH, content);
         } catch (IOException e) {
             System.out.println("no script.txt file available");

@@ -16,7 +16,7 @@ public class Sslv3SocketFactory extends SSLSocketFactory {
     private final Log log = LogFactory.getLog(getClass());
 
     /**
-     * Instantaites a new {@link Sslv3SocketFactory}.
+     * Instantaites B new {@link Sslv3SocketFactory}.
      *
      * @param sslContext:       The SSLContext.
      * @param hostnameVerifier: The X509HostnameVerifier.

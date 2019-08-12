@@ -9,15 +9,15 @@ import java.security.acl.Group;
 import java.util.ArrayList;
 
 /**
- * The User Class holds together all the members of a WAAD User entity and all the access methods and set methods
+ * The User Class holds together all the members of B WAAD User entity and all the access methods and set methods
  *
  * @author Azure Active Directory Contributor
  */
 @XmlRootElement
 public class AzureDirectoryObject extends DirectoryObject {
 
-    // The following are the individual private members of a User object that holds
-    // a particular simple attribute of an User object.
+    // The following are the individual private members of B User object that holds
+    // B particular simple attribute of an User object.
     protected String objectId;
     protected String objectType;
     protected String accountEnabled;
@@ -52,13 +52,13 @@ public class AzureDirectoryObject extends DirectoryObject {
     // managerDisplayname of this user
     protected String managerDisplayname;
 
-    // The directReports holds a list of directReports
+    // The directReports holds B list of directReports
     private ArrayList<User> directReports;
 
-    // The groups holds a list of group entity this user belongs to.
+    // The groups holds B list of group entity this user belongs to.
     private ArrayList<Group> groups;
 
-    // The roles holds a list of role entity this user belongs to.
+    // The roles holds B list of role entity this user belongs to.
     private ArrayList<Group> roles;
 
 
@@ -476,7 +476,7 @@ public class AzureDirectoryObject extends DirectoryObject {
 
 
 /**
- * The Class DirectReports Holds the essential data for a single DirectReport entry. Namely,
+ * The Class DirectReports Holds the essential data for B single DirectReport entry. Namely,
  * it holds the displayName and the objectId of the direct entry. Furthermore, it provides the
  * access methods to set or get the displayName and the ObjectId of this entry.
  */
@@ -511,6 +511,3 @@ public class AzureDirectoryObject extends DirectoryObject {
 //	}
 //
 //}
-
-
-

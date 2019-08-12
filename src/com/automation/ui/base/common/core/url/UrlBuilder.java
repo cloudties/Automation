@@ -10,16 +10,19 @@ import org.openqa.selenium.WebDriverException;
 
 import static com.automation.ui.base.common.core.configuration.Configuration.*;
 
-public class UrlBuilder extends BaseUrlBuilder {
+public class UrlBuilder extends CoreUrlBuilder {
 
     private static Logger logger = Logger.getLogger(UrlBuilder.class);
 
-
-    private final String siteName;
+    private String  siteName;
     private Boolean forceHttps;
     private Boolean forceLanguageInPath;
-    private String language;
+    private String  language;
 
+    public UrlBuilder(String env)
+    {
+            super(env);
+    }
 
     private UrlBuilder(String site, String env, Boolean forceHttps, Boolean forceLanguageInPath, String language) {
         super(env);
@@ -106,8 +109,14 @@ public class UrlBuilder extends BaseUrlBuilder {
 
         String www = addWWW ? "www." : "";
 
+        //add the port number to the url
+        if (!envType.getWebContext().equals(""))
+                   urlBuilder.addPathSegment(envType.getWebContext().trim());
+
 
         String host = getFormattedSiteHost(www, siteaName, envType, language);
+
+        logger.info("getUrl host details:" + host);
 
         if (!DEFAULT_LANGUAGE.equals(language) && forceLanguageInPath) {
             urlBuilder.addEncodedPathSegments(language);
@@ -174,7 +183,7 @@ public class UrlBuilder extends BaseUrlBuilder {
         switch (envType) {
             case DEV: {
                 String devBoxOwner = this.env.split("-")[1];
-                //  logger.info("getFormattedSiteHost  www: " + www + " siteName " + siteName + "envType " + domain + " devBoxOwner  " + devBoxOwner);
+                  logger.info("getFormattedSiteHost  www: " + www + " siteName " + siteName + "envType " + domain + " devBoxOwner  " + devBoxOwner);
 
                 return String.join(".", www + siteName, devBoxOwner, envType.getSiteDomain());
             }
@@ -293,7 +302,7 @@ public class UrlBuilder extends BaseUrlBuilder {
         if (!envType.getPort().equals(""))
             urlBuilder.port(Integer.parseInt(envType.getPort()));
 
-
+        urlBuilder.addPathSegment("Test");
         return urlBuilder
                 .scheme(getUrlProtocol())
                 .host(getFormattedHostForGlobalUrl(env))

@@ -1,7 +1,7 @@
 package com.automation.ui.base.common.mocks;
 
 import com.automation.ui.base.common.mocks.mock.Login;
-import junit.framework.Assert;
+import org.testng.Assert;
 
 import static org.mockito.Mockito.*;
 

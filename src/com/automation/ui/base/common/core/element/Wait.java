@@ -25,14 +25,14 @@ public class Wait {
     private static Logger logger = Logger
             .getLogger(Wait.class);
 
-    private WebDriverWait wait;
+    private WebDriverWait waitDriverWait;
     private WebDriverWait sleepingWait;
     private WebDriver driver;
 
     public Wait(WebDriver webDriver) {
         this.driver = webDriver;
 
-        this.wait = new WebDriverWait(webDriver, Configuration.getDefaultTimeOut());
+        this.waitDriverWait = new WebDriverWait(webDriver, Configuration.getDefaultTimeOut());
         this.sleepingWait = new WebDriverWait(webDriver, Configuration.getDefaultTimeOut(), BASEConstants.DEFAULT_SLEEP);
     }
 
@@ -51,7 +51,7 @@ public class Wait {
     public WebElement forElementPresent(By by, boolean failOnTimeout) {
         changeImplicitWait(BASEConstants.WAITTIME500MILLISEC, TimeUnit.MILLISECONDS);
         try {
-            return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+            return waitDriverWait.until(ExpectedConditions.presenceOfElementLocated(by));
         } catch (TimeoutException e) {
             if (failOnTimeout) {
                 Log.log(BASEConstants.ELEMENT_PRESENT_MESSAGE,
@@ -97,7 +97,7 @@ public class Wait {
         try {
             if (SelectorStack.isContextSet()) {
                 SelectorStack.contextRead();
-                return wait.until(ExpectedConditions.elementToBeClickable(element));
+                return waitDriverWait.until(ExpectedConditions.elementToBeClickable(element));
             } else {
                 return forElementClickable(SelectorStack.read());
             }
@@ -147,7 +147,7 @@ public class Wait {
     public WebElement forElementClickable(By by) {
         changeImplicitWait(BASEConstants.WAITTIME250MILLISEC, TimeUnit.MILLISECONDS);
         try {
-            return wait.until(ExpectedConditions.elementToBeClickable(by));
+            return waitDriverWait.until(ExpectedConditions.elementToBeClickable(by));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -175,7 +175,7 @@ public class Wait {
     public WebElement forElementVisible(By by) {
         changeImplicitWait(BASEConstants.WAITTIME250MILLISEC, TimeUnit.MILLISECONDS);
         try {
-            return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            return waitDriverWait.until(ExpectedConditions.visibilityOfElementLocated(by));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -199,7 +199,7 @@ public class Wait {
         }
         if (SelectorStack.isContextSet()) {
             SelectorStack.contextRead();
-            return wait.until(ExpectedConditions.visibilityOf(element));
+            return waitDriverWait.until(ExpectedConditions.visibilityOf(element));
         } else {
             return forElementVisible(SelectorStack.read());
         }
@@ -308,7 +308,7 @@ public class Wait {
     public boolean forElementInViewPort(WebElement element) {
         changeImplicitWait(BASEConstants.WAITTIME250MILLISEC, TimeUnit.MILLISECONDS);
         try {
-            return wait.until(CommonExpectedConditions.elementInViewPort(element));
+            return waitDriverWait.until(CommonExpectedConditions.elementInViewPort(element));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -318,7 +318,7 @@ public class Wait {
             WebElement element, String attribute, String value) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.valueToBeNotPresentInElementsAttribute(
+            return waitDriverWait.until(CommonExpectedConditions.valueToBeNotPresentInElementsAttribute(
                     element, attribute, value));
         } finally {
             restoreDeaultImplicitWait();
@@ -332,7 +332,7 @@ public class Wait {
     public boolean forElementNotPresent(By selector) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.elementNotPresent(selector));
+            return waitDriverWait.until(CommonExpectedConditions.elementNotPresent(selector));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -348,7 +348,7 @@ public class Wait {
         try {
             if (SelectorStack.isContextSet()) {
                 SelectorStack.contextRead();
-                return wait.until(CommonExpectedConditions.textToBeNotPresentInElement(element, text));
+                return waitDriverWait.until(CommonExpectedConditions.textToBeNotPresentInElement(element, text));
             } else {
                 return forTextNotInElement(SelectorStack.read(), text);
             }
@@ -361,7 +361,7 @@ public class Wait {
             WebElement element, String attribute, String value) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.valueToBePresentInElementsAttribute(
+            return waitDriverWait.until(CommonExpectedConditions.valueToBePresentInElementsAttribute(
                     element, attribute, value));
         } finally {
             restoreDeaultImplicitWait();
@@ -371,7 +371,7 @@ public class Wait {
     public boolean forTextNotInElement(By by, String text) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.textToBeNotPresentInElement(by, text));
+            return waitDriverWait.until(CommonExpectedConditions.textToBeNotPresentInElement(by, text));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -380,7 +380,7 @@ public class Wait {
     public boolean forTextInElement(By by, String text) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.textToBePresentInElement(by, text));
+            return waitDriverWait.until(CommonExpectedConditions.textToBePresentInElement(by, text));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -389,7 +389,7 @@ public class Wait {
     public boolean forTextInElement(By by, int index, String text) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.textToBePresentInElement(by, index, text));
+            return waitDriverWait.until(CommonExpectedConditions.textToBePresentInElement(by, index, text));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -405,7 +405,7 @@ public class Wait {
         try {
             if (SelectorStack.isContextSet()) {
                 SelectorStack.contextRead();
-                return wait.until(CommonExpectedConditions.textToBePresentInElement(element, text));
+                return waitDriverWait.until(CommonExpectedConditions.textToBePresentInElement(element, text));
             } else {
                 return forTextInElement(SelectorStack.read(), text);
             }
@@ -424,7 +424,7 @@ public class Wait {
         try {
             if (SelectorStack.isContextSet()) {
                 SelectorStack.contextRead();
-                return wait.until(CommonExpectedConditions.textToBePresentInElement(elements, index, text));
+                return waitDriverWait.until(CommonExpectedConditions.textToBePresentInElement(elements, index, text));
             } else {
                 return forTextInElement(SelectorStack.read(), index, text);
             }
@@ -436,7 +436,7 @@ public class Wait {
     public boolean forTextInElementAfterRefresh(WebElement element, String text) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions.textToBePresentInElementAfterRefresh(element, text));
+            return waitDriverWait.until(CommonExpectedConditions.textToBePresentInElementAfterRefresh(element, text));
         } finally {
             restoreDeaultImplicitWait();
         }
@@ -454,7 +454,7 @@ public class Wait {
     public boolean forAttributeToContain(WebElement element, String attribute, String expectedValue) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions
+            return waitDriverWait.until(CommonExpectedConditions
                     .valueToBePresentInElementsAttribute(element, attribute,
                             expectedValue));
         } finally {
@@ -465,7 +465,7 @@ public class Wait {
     public boolean forAttributeToBePresent(WebElement element, String attribute) {
         changeImplicitWait(0, TimeUnit.SECONDS);
         try {
-            return wait.until(CommonExpectedConditions
+            return waitDriverWait.until(CommonExpectedConditions
                     .attributeToBePresentInElement(element, attribute));
         } finally {
             restoreDeaultImplicitWait();
@@ -484,7 +484,7 @@ public class Wait {
 
         try {
 
-            wait.until(
+            waitDriverWait.until(
                     new ExpectedCondition<Boolean>() {
                         private HarEntry entry;
 
@@ -563,7 +563,7 @@ public class Wait {
     }
 
     public void forUrlContains(String text) {
-        wait.until(ExpectedConditions.urlContains(text));
+        waitDriverWait.until(ExpectedConditions.urlContains(text));
     }
 
     private void restoreDeaultImplicitWait() {
@@ -595,4 +595,3 @@ public class Wait {
     }
 
 }
-

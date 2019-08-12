@@ -1,8 +1,8 @@
 package com.automation.ui.base.common.core.drivers.browsers;
-
+//https://chromedriver.storage.googleapis.com/index.html
 import com.automation.ui.base.common.core.UIWebDriver;
-import com.automation.ui.base.common.core.configuration.Configuration;
-import com.automation.ui.base.common.core.drivers.BrowserAbstract;
+import com.automation.ui.base.common.core.configuration.*;
+import com.automation.ui.base.common.core.drivers.*;
 import com.automation.ui.base.common.core.exceptions.TestEnvInitFailedException;
 import com.automation.ui.base.common.core.helpers.Emulator;
 import com.automation.ui.base.common.driverprovider.UserAgentsRegistry;
@@ -10,14 +10,24 @@ import com.automation.ui.base.common.utils.BrowserExtentionHelper;
 import com.automation.ui.base.common.utils.DateUtil;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.chrome.*;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.LoggingPreferences;
+import java.util.Iterator;
+import java.util.logging.Level;
+import org.json.JSONException;
+import org.openqa.selenium.remote.CapabilityType;
+import org.json.JSONObject;
 public class ChromeBrowser extends BrowserAbstract {
 
     private static final String CHROMEDRIVER_PATH_FORMAT = "ChromeDriver/chromedriver_%s";
@@ -28,11 +38,15 @@ public class ChromeBrowser extends BrowserAbstract {
     private static final String CHROMEDRIVER_PATH_WINDOWS =
             String.format(CHROMEDRIVER_PATH_FORMAT, "win32/chromedriver.exe");
     private static Logger logger = Logger.getLogger(ChromeBrowser.class);
-    private ChromeOptions chromeOptions = new ChromeOptions();
+    private ChromeOptions options = new ChromeOptions();
+
     private boolean useMobile = "CHROMEMOBILEMERCURY".equals(Configuration.getBrowser());
 
     @Override
+
+    //https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
     public void setOptions() {
+
         String chromeBinaryPath = "";
         String osName = System.getProperty("os.name").toUpperCase();
         Emulator emulator = Configuration.getEmulator();
@@ -45,14 +59,14 @@ public class ChromeBrowser extends BrowserAbstract {
             chromeBinaryPath = CHROMEDRIVER_PATH_LINUX;
         }
 
-
+		logger.debug("Using chromedriver logs at " +chromeBinaryPath);
         //  Log.info("Using chromedriver: ", chromeBinaryPath);
         File chromedriver = null;
         try {
             chromedriver = new File(ClassLoader.getSystemResource(chromeBinaryPath).getPath());
         } catch (Exception e) {
             logger.info(e.getMessage());
-            throw new TestEnvInitFailedException("Browser binary path " + chromeBinaryPath + " not available");
+            throw new TestEnvInitFailedException("Check the /logs/chromelogs or /logs/idelogs or /logs/firefoxlog is there Browser binary path " + chromeBinaryPath + " not available");
 
         }
 
@@ -68,23 +82,24 @@ public class ChromeBrowser extends BrowserAbstract {
                 + ".log");
 
         System.setProperty("webdriver.chrome.verboseLogging", "true");
-        //Log.info("Using chromedriver: ", chromedriver.getPath());
 
-        chromeOptions.addArguments("start-maximized");
-        chromeOptions.addArguments("disable-notifications");
-        chromeOptions.addArguments("process-per-site");
-        chromeOptions.addArguments("dns-prefetch-disable");
-        chromeOptions.addArguments("allow-running-insecure-content");
-        chromeOptions.addArguments("--no-sandbox");
-        // chromeOptions.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
+        //options.addArguments("windows-size=800,900");
+        options.addArguments("start-maximized");
+        options.addArguments("disable-notifications");
+        options.addArguments("process-per-site");
+        options.addArguments("dns-prefetch-disable");
+        options.addArguments("allow-running-insecure-content");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--lang=en");
+        // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
 
 
         if ("true".equals(Configuration.getDisableFlash())) {
-            chromeOptions.addArguments("disable-bundled-ppapi-flash");
+            options.addArguments("disable-bundled-ppapi-flash");
         }
 
         if (useMobile) {
-            chromeOptions.addArguments("--user-agent=" + UserAgentsRegistry.IPHONE.getUserAgent());
+            options.addArguments("--user-agent=" + UserAgentsRegistry.IPHONE.getUserAgent());
         }
 
         if (!emulator.equals(Emulator.DEFAULT)) {
@@ -98,19 +113,23 @@ public class ChromeBrowser extends BrowserAbstract {
                 mobileEmulation.put("deviceMetrics", emulator.getDeviceMetrics());
             }
 
-            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+            options.setExperimentalOption("mobileEmulation", mobileEmulation);
         }
     }
 
 
     @Override
     public UIWebDriver create() {
-        caps.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
+        caps.setCapability(ChromeOptions.CAPABILITY, options);
         caps.setJavascriptEnabled(true);
+        LoggingPreferences logPrefs = new LoggingPreferences();
+        logPrefs.enable(LogType.PERFORMANCE, Level.ALL);
+        logPrefs.enable(LogType.BROWSER, Level.ALL);
+        caps.setCapability(CapabilityType.LOGGING_PREFS, logPrefs);
         if (Configuration.isUnsafePageLoad()) {
             caps.setCapability("pageLoadStrategy", "normal");
         }
-        caps.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
+       // caps.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 
         //return new UIWebDriver(new RemoteWebDriver(new URL(hubUrl), caps));
 
@@ -121,6 +140,6 @@ public class ChromeBrowser extends BrowserAbstract {
 
     @Override
     public void addExtension(String extensionName) {
-        chromeOptions.addExtensions(BrowserExtentionHelper.findExtension(extensionName, "crx"));
+        options.addExtensions(BrowserExtentionHelper.findExtension(extensionName, "crx"));
     }
 }

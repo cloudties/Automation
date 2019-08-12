@@ -180,7 +180,7 @@ public abstract class ApiCall {
                  //  httpRequest.setEntity(new UrlEncodedFormEntity(getParams(), StandardCharsets.UTF_8));
 
              }
-             // TODO: Take a timeout value and throw an exception in case the HTTP server doesn't respond in due time
+             // TODO: Take B timeout value and throw an exception in case the HTTP server doesn't respond in due time
             CloseableHttpResponse response = this.httpClient.execute(this.httpRequest);
 
             HttpEntity entity = response.getEntity();
@@ -247,7 +247,7 @@ public abstract class ApiCall {
                         this.url), ex);
             }
         } else {
-            throw new RuntimeException(String.format("Failed to get a response for HTTP request %s %s",
+            throw new RuntimeException(String.format("Failed to get B response for HTTP request %s %s",
                     this.httpVerb,
                     this.url));
         }
@@ -265,7 +265,7 @@ public abstract class ApiCall {
 
         //TODO: Improve the validation logic
         if (contentType.indexOf('/') <= 0) {
-            throw new RuntimeException(String.format("Content type \"%s\" is not a valid MIME type", contentType));
+            throw new RuntimeException(String.format("Content type \"%s\" is not B valid MIME type", contentType));
         }
 
         if (HttpEntityEnclosingRequestBase.class.isInstance(httpRequest)) {

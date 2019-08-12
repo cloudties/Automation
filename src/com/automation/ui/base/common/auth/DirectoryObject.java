@@ -26,7 +26,7 @@ public abstract class DirectoryObject {
     public abstract String getObjectType();
 
     /**
-     * @param objectType 
+     * @param objectType
      */
     public abstract void setObjectType(String objectType);
 

@@ -57,4 +57,3 @@ public class StatusApiClient {
         return status;
     }
 }
-

@@ -20,7 +20,7 @@ import com.automation.ui.base.common.report.filehandler.FileNameConstants;
 import com.automation.ui.base.common.utils.CommonUtils;
 import com.automation.ui.base.common.utils.CookieUtils;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
+import com.automation.ui.ipe.pageobjectsfactory.pageobject.base.IPEBasePageObject;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.*;
@@ -33,7 +33,7 @@ import org.testng.SkipException;
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Date;
-
+import  com.automation.ui.base.common.jiraissue.*;
 public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
         implements ITestListener {
 
@@ -45,10 +45,10 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
     public void beforeNavigateTo(String url, WebDriver driver) {
         // driver.manage().timeouts().setScriptTimeout(20, TimeUnit.SECONDS);
 
-        //for ie
-        new JavascriptActions(driver).execute("window.stop");
-        //for chrome
-        //new JavascriptActions(driver).execute("window.stop()");
+        //for IE
+        //new JavascriptActions(driver).execute("window.stop");
+        //for CHROME
+        new JavascriptActions(driver).execute("window.stop()");
 
         // new JavascriptActions(driver).execute("window.setTimeout(arguments[arguments.length - 1], 5000);");
 
@@ -82,7 +82,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 if (url.equals(driver.getCurrentUrl())) {
                     Log.ok(command, VelocityWrapper.fillLink(driver.getCurrentUrl(), driver.getCurrentUrl()));
                 } else {
-                    // A fast lane to stop executing any test on "not a valid community" page
+                    // A fast lane to stop executing any test on "not B valid community" page
                     if (driver.getCurrentUrl().contains(URLsContent.NOT_A_VALID_COMMUNITY)) {
                         throw new SkipException(String.format("Wrong redirect to: %s", driver.getCurrentUrl()));
                     }
@@ -116,7 +116,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                         Object mobileSiteVersion = js.executeScript(
                                 "return requirejs.entries['mobile-site/config/environment'].module.exports.default.APP.version");
                         Configuration.setTestValue("mobileSiteVersion", mobileSiteVersion.toString());
-                    } catch (WebDriverException e) {
+                     } catch (WebDriverException e) {
                         Configuration.setTestValue("mobileSiteVersion", null);
                     }
 
@@ -176,7 +176,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 if (user != null && user != User.ANONYMOUS) {
                     // log in, make sure user is logged in and flow is on the requested url
                     //NEED TO CHECK
-                    BasePageObject basePObject = new ConnectedBasePageObject();
+                    BasePageObject basePObject = new IPEBasePageObject();
                     basePObject.loginAs(user);
                 }
 
@@ -246,8 +246,17 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
     public void onTestFailure(ITestResult result) {
         // logger.info("onTestFailure");
 
+        String testStatus="Test Failed";
         driver = DriverProvider.getActiveDriver();
-
+        Method method=TestContext.getCurrentTestMethod();
+        if(method!=null)
+        {
+            logger.info("onTestFailure create issue");
+          //  new CreateIssue().createIssue("HPS Project Engineering Digitization",
+            //        testStatus+ ":" +method.getName(),result.getThrowable().getMessage(),
+              //      "h265456","h265456");
+            logger.info("onTestFailure added  issue");
+        }
 
         if ("true".equals(Configuration.getLogEnabled())) {
             Log.logError("Test Failed", result.getThrowable());

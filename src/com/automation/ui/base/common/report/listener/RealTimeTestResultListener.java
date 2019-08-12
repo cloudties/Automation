@@ -26,7 +26,7 @@ public class RealTimeTestResultListener extends TestListenerAdapter implements I
         /*
 		 * Checks whether current xml-suite has any child suites, depending on
 		 * which the related Result folders will be created. i.e - If there are
-		 * 2 testng.xml files and they are being called by another parent xml
+		 * 2 ipe_uiautomation.xml files and they are being called by another parent xml
 		 * file, only 2 subsequent result folders will be generated under
 		 * "RealtimeReport" folder.
 		 */

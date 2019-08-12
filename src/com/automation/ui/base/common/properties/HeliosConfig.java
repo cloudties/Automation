@@ -1,6 +1,6 @@
 package com.automation.ui.base.common.properties;
 
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import org.apache.commons.lang3.StringUtils;
 

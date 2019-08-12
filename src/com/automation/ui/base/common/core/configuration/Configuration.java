@@ -301,7 +301,7 @@ public class Configuration {
                 );
             }
         } else {
-            throw new WebDriverException("browser size: " + size + " is not a proper value");
+            throw new WebDriverException("browser size: " + size + " is not B proper value");
         }
     }
 

@@ -4,7 +4,7 @@ import com.automation.ui.base.common.constants.BASEConstants;
 import com.automation.ui.base.common.contentpatterns.XSSContent;
 import com.automation.ui.base.common.driverprovider.DriverProvider;
 import com.automation.ui.base.common.logging.Log;
-import com.automation.ui.connected.pageobjectsfactory.pageobject.base.ConnectedBasePageObject;
+import com.automation.ui.ipe.pageobjectsfactory.pageobject.base.IPEBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Set of commonly used actions invoked by executing JavaScript on a web page
+ * Set of commonly used actions invoked by executing JavaScript on B web page
  */
 public class JavascriptActions {
 
@@ -94,10 +94,10 @@ public class JavascriptActions {
      * @return offset
      */
     private int getOffset() {
-        ConnectedBasePageObject sitePage = new ConnectedBasePageObject();
-        int offset = sitePage.getNavigationBarOffsetFromTop();
+        IPEBasePageObject sitePage = new IPEBasePageObject();
+     //   int offset = sitePage.getNavigationBarOffsetFromTop();
 
-
+        int offset =250;
         return offset;
     }
 
@@ -131,7 +131,7 @@ public class JavascriptActions {
                 scrollToElement(element);
             }
         } catch (WebDriverException e) {
-            Log.info("There might be a problem with scrolling to element", e);
+            Log.info("There might be B problem with scrolling to element", e);
         }
     }
 

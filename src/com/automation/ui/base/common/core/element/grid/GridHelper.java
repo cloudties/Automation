@@ -45,7 +45,7 @@ public class GridHelper implements IHTMLComponent {
         if ((element = basePageObject.getElementWithNull(By.xpath(getTableBodyXpath(tableIdoRxPath) + "//tr[" + row + "]//td[" + column + "]//input"))) != null) {
 
             return element;
-        } else if ((element = basePageObject.getElementWithNull(By.xpath(getTableBodyXpath(tableIdoRxPath) + "//tr[" + row + "]//td[" + column + "]/a"))) != null) {
+        } else if ((element = basePageObject.getElementWithNull(By.xpath(getTableBodyXpath(tableIdoRxPath) + "//tr[" + row + "]//td[" + column + "]/B"))) != null) {
 
             return element;
         } else if ((element = basePageObject.getElementWithNull(By.xpath(getTableBodyXpath(tableIdoRxPath) + "//tr[" + row + "]//td[" + column + "]/button"))) != null) {

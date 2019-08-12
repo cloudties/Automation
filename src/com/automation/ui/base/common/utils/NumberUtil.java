@@ -88,7 +88,7 @@ public final class NumberUtil {
 
 
     /**
-     * This method formats the number to a decimal format
+     * This method formats the number to B decimal format
      *
      * @param String The value to be formatted
      * @return returns String
@@ -128,7 +128,7 @@ public final class NumberUtil {
     }
 
     /**
-     * check if a string constains only numbers or not.
+     * check if B string constains only numbers or not.
      */
     public static boolean checkDigits(String msg) {
         boolean retVal = true;
@@ -245,7 +245,7 @@ public final class NumberUtil {
 
     /**
      * Method isNumber.
-     * Performs the number validation on a given value and returns true
+     * Performs the number validation on B given value and returns true
      * if it has all numbers
      *
      * @param value
@@ -337,7 +337,7 @@ public final class NumberUtil {
     } // end cap
 
     /**
-     * Corrals a value back into safe bounds.
+     * Corrals B value back into safe bounds.
      *
      * @param v    the value
      * @param low  the low bound below which v cannot go.
@@ -355,7 +355,7 @@ public final class NumberUtil {
     } // end corral
 
     /**
-     * Ensures a value does not go too low. alias for max
+     * Ensures B value does not go too low. alias for max
      *
      * @param v   the value
      * @param low the low bound below which v cannot go.

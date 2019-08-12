@@ -5,6 +5,7 @@ import com.automation.ui.base.common.core.element.IHTMLComponent;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -20,7 +21,7 @@ public class DropDownHelper implements IHTMLComponent {
 
     private BasePageObject basePageObject;
 
-    public DropDownHelper(WebDriver driver, BasePageObject basePageObject) {
+    public DropDownHelper(WebDriver driver, BasePageObject  basePageObject) {
         this.driver = driver;
         this.basePageObject = basePageObject;
     }
@@ -29,6 +30,22 @@ public class DropDownHelper implements IHTMLComponent {
         SelectUsingVisibleValue(basePageObject.getElement(locator), visibleValue);
     }
 
+
+    public void selectDropDown(WebElement web, String itemname) {
+        try {
+            basePageObject.wait.forElementClickable(web);
+            basePageObject.scrollTo(web);
+            web.click();
+            Select select = new Select(web);
+            select.selectByVisibleText(itemname);
+            basePageObject.builder.moveToElement(web).click(web);
+            basePageObject.builder.perform();
+        } catch (NoSuchElementException e) {
+            logger.debug("DropDown selection failed");
+        } catch (Exception e) {
+            logger.debug("Selection of Drop down failed");
+        }
+    }
     public void SelectUsingVisibleValue(WebElement element, String visibleValue) {
         Select select = new Select(element);
         select.selectByVisibleText(visibleValue);

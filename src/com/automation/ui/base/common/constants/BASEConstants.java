@@ -4,12 +4,19 @@ import java.io.File;
 
 public interface BASEConstants {
 
-    public static String FIREFOX = "FIREFOX";
+    public static String FIREFOX = "FF";
     public static String CHROME = "CHROME";
-    public static String IE = "internet-explorer";
+    public static String IE = "internet explorer";
+    public static String CHROMEMOBILEMERCURY = "CHROMEMOBILEMERCURY";
+    public static String HTMLUNIT = "HTMLUNIT";
+    public static String GHOST = "GHOST";
+    public static String ANDROID = "ANDROID";
+
+
 
     public static String EXCEPTIONPATH = "resources/properties/exception.properties";
     public static String ASSERTPATH = "i18n.assertdata";
+    public static String XPATHPATH = "i18n.xpathdata";
 
     public static String LOGINJSONDATAPATH = "resources/logindataselenium.json";
 
@@ -26,13 +33,14 @@ public interface BASEConstants {
     public static final String HTTP_PREFIX = "http://";
     public static final String HTTPS_PREFIX = "https://";
 
-    public static final int DEFAULT_TIMEOUT = 15;
-    public static final int DEFAULT_SLEEP = 5000;
+
     public static final String INIT_MESSAGE = "INIT ELEMENT";
     public static final String INIT_ERROR_MESSAGE = "PROBLEM WITH ELEMENT INIT";
     public static final String ELEMENT_PRESENT_MESSAGE = "ELEMENT PRESENT";
     public static final String ELEMENT_PRESENT_ERROR_FORMAT = "PROBLEM WITH FINDING ELEMENT %s";
 
+    public static final int DEFAULT_TIMEOUT = 15;
+    public static final int DEFAULT_SLEEP = 5000;
     public static int WAITTIME300SEC = 300;
     public static int WAITTIME500SEC = 300;
     public static int WAITTIME160SEC = 160;
@@ -49,6 +57,7 @@ public interface BASEConstants {
     public static int WAITTIME250MILLISEC = 250;
     public static int WAITTIME500MILLISEC = 500;
     public static int WAITTIME1000MILLISEC = 1000;
+    public static int WAITTIME2000MILLISEC = 2000;
     public static int WAITTIME5000MILLISEC = 5000;
     public static int WAITTIME10000MILLISEC = 10000;//10 sec
     public static int WAITTIME20000MILLISEC = 20000;//20 sec

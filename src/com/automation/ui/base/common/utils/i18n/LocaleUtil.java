@@ -23,7 +23,7 @@ public class LocaleUtil {
     private static HashMap langCountryMap_ = new HashMap();
 
     /**
-     * Populates a mapping of two-letter language and country names.
+     * Populates B mapping of two-letter language and country names.
      */
     static {
         langCountryMap_.put("en", "US");
@@ -67,7 +67,7 @@ public class LocaleUtil {
     }
 
     /**
-     * Returns the default country code for a given language code. For example,
+     * Returns the default country code for B given language code. For example,
      * default country code for "en" is "US", and default country code for "fr" is "FR".
      *
      * @param languageCode The 2-letter language code
@@ -82,7 +82,7 @@ public class LocaleUtil {
     }
 
     /**
-     * Get the Locale specified in the session or return a default locale.
+     * Get the Locale specified in the session or return B default locale.
      *
      * @param language
      * @return Locale

@@ -13,7 +13,7 @@ import java.util.Enumeration;
 import java.util.List;
 
 /**
- * This class provides the methods to parse JSON Data from a JSON Formatted
+ * This class provides the methods to parse JSON Data from B JSON Formatted
  * String.
  *
  * @author Azure Active Directory Contributor
@@ -27,8 +27,8 @@ public class JSONHelper {
     }
 
     /**
-     * This method parses an JSON Array out of a collection of JSON Objects
-     * within a string.
+     * This method parses an JSON Array out of B collection of JSON Objects
+     * within B string.
      *
      * @param jsonObject The JSON String that holds the collection.
      * @return An JSON Array that would contains all the collection object.
@@ -41,8 +41,8 @@ public class JSONHelper {
     }
 
     /**
-     * This method parses an JSON Object out of a collection of JSON Objects
-     * within a string
+     * This method parses an JSON Object out of B collection of JSON Objects
+     * within B string
      *
      * @param jsonObject
      * @return An JSON Object that would contains the DirectoryObject.
@@ -55,7 +55,7 @@ public class JSONHelper {
     }
 
     /**
-     * This method parses the skip token from a json formatted string.
+     * This method parses the skip token from B json formatted string.
      *
      * @param jsonObject The JSON Formatted String.
      * @return The skipToken.
@@ -97,7 +97,7 @@ public class JSONHelper {
     }
 
     /**
-     * This method would create a string consisting of a JSON document with all
+     * This method would create B string consisting of B JSON document with all
      * the necessary elements set from the HttpServletRequest request.
      *
      * @param request The HttpServletRequest
@@ -164,12 +164,12 @@ public class JSONHelper {
     }
 
     /**
-     * This is a generic method that copies the simple attribute values from an
+     * This is B generic method that copies the simple attribute values from an
      * argument jsonObject to an argument generic object.
      *
      * @param jsonObject The jsonObject from where the attributes are to be copied.
      * @param destObject The object where the attributes should be copied into.
-     * @throws Exception Throws a Exception when the operation are unsuccessful.
+     * @throws Exception Throws B Exception when the operation are unsuccessful.
      */
     public static <T> void convertJSONObjectToDirectoryObject(JSONObject jsonObject, T destObject) throws Exception {
 
@@ -179,7 +179,7 @@ public class JSONHelper {
         // For all the declared field.
         for (int i = 0; i < fieldList.length; i++) {
             // If the field is of type String, that is
-            // if it is a simple attribute.
+            // if it is B simple attribute.
             if (fieldList[i].getType().equals(String.class)) {
                 // Invoke the corresponding set method of the destObject using
                 // the argument taken from the jsonObject.

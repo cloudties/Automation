@@ -2,7 +2,7 @@ package com.automation.ui.base.common.templates.core;
 
 import com.automation.ui.base.common.core.TestContext;
 import com.automation.ui.base.common.core.UIWebDriver;
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.core.annotations.Execute;
 import com.automation.ui.base.common.core.annotations.InBrowser;
 import com.automation.ui.base.common.core.annotations.NetworkTrafficDump;
@@ -15,7 +15,7 @@ import com.automation.ui.base.common.driverprovider.UseUnstablePageLoadStrategy;
 import com.automation.ui.base.common.logging.Log;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
 import com.automation.ui.base.common.prpreaders.PropertyReader;
-import com.automation.ui.base.common.testnglisteners.BrowserAndTestEventListener;
+import com.automation.ui.base.common.testnglisteners.*;
 import com.automation.ui.base.common.utils.CommonUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -26,8 +26,7 @@ import org.testng.annotations.*;
 import java.io.File;
 import java.lang.reflect.Method;
 
-@Listeners({BrowserAndTestEventListener.class,
-        com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter.class})
+@Listeners({BrowserAndTestEventListener.class,InvokeMethodAdapter.class})
 public abstract class CoreTestTemplate {
 
     private static Logger logger = Logger.getLogger(CoreTestTemplate.class);
@@ -52,7 +51,7 @@ public abstract class CoreTestTemplate {
 
     @BeforeSuite(alwaysRun = true, groups = {"base"})
     public void beforeSuite() {
-        // initialize a browser driver, connect to servers
+        // initialize B browser driver, connect to servers
         // logger.debug("beforeSuite ::CoreTestTemplate");
         Reporter.log("beforeSuite::CoreTestTemplate");
         initLogs();
@@ -189,27 +188,26 @@ public abstract class CoreTestTemplate {
         CommonUtils.deleteDirectory(File.separator + "logs");
 
         CommonUtils.createDirectory("." + File.separator + "logs");
-
-
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "ielog");
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "chromeprofile");
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "realreport");
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "chromelogs");
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "phantomjslogs");
-
-
+        CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "FirefoxProfiles");
     }
 
     protected void setWindowSize() {
         Dimension browserSize = Configuration.getBrowserSize();
 
         if (!driver.isAndroid()) {
-            if (browserSize != null) {
-                driver.manage().window().setSize(browserSize);
-            } else {
+                if (browserSize != null) {
+                    driver.manage().window().setSize(browserSize);
+                } else {
                 driver.manage().window().maximize();
             }
         }
+
+
     }
 
 

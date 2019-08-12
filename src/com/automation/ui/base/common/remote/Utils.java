@@ -1,6 +1,6 @@
 package com.automation.ui.base.common.remote;
 
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.core.configuration.Configuration;
 
 import java.io.File;
@@ -12,8 +12,6 @@ public final class Utils {
     private Utils() {
         throw new AssertionError();
     }
-
-
     public static String buildServicesUrl() {
         File configurationFile = new File(Configuration.getCredentialsFilePath());
         final String environment = Configuration.getEnvType().getKey();

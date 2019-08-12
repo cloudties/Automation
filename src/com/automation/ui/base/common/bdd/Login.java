@@ -45,9 +45,9 @@ public class Login {
     public void user_LogOut_from_the_Application() throws Throwable {
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         Thread.sleep(20000);
-        driver.findElement(By.xpath("//a[contains(@class,'dropdown-toggle with-lsep ng-binding')]")).click();
+        driver.findElement(By.xpath("//B[contains(@class,'dropdown-toggle with-lsep ng-binding')]")).click();
         Actions builder = new Actions(driver);
-        builder.moveToElement(driver.findElement(By.xpath("//a[@ng-click='logout()']"))).
+        builder.moveToElement(driver.findElement(By.xpath("//B[@ng-click='logout()']"))).
                 click();
 
         builder.perform();

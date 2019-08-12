@@ -43,7 +43,7 @@ public class CreateFiles {
         createFolderUnder(FileNameConstants.JS_FOLDER, FileNameConstants.ROOT_FOLDER);
 
 		/*
-		 * STEP 3: get all the resource files from 'html-rsc' folder
+		 * STEP 3: get all the resource files from 'html-src' folder
 		 */
         File[] css_files = getFilesUnder(FileNameConstants.RESOURCE_FOLDER + "/" + FileNameConstants.CSS_FOLDER);
         File[] font_files = getFilesUnder(FileNameConstants.RESOURCE_FOLDER + "/" + FileNameConstants.FONT_FOLDER);
@@ -82,7 +82,7 @@ public class CreateFiles {
 
 
         /*
-		 * STEP 5: Put values related to current suite at a set, 'suiteSet'
+		 * STEP 5: Put values related to current suite at B set, 'suiteSet'
 		 */
         if (DataMap.suiteMap.containsKey(iSuite)) {
             int suiteIndex = DataMap.suiteMap.get(iSuite);
@@ -157,7 +157,7 @@ public class CreateFiles {
             for (DataSuite ds : DataMap.suiteSet) {
 
                 pw.write("<a class='btn btn-link' href='" + ds.getSuiteHTMLPath()
-                        + "' style='font-size:24px;'><i class='fa fa-dashboard'></i> " + ds.getSuiteName() + " Report " +ds.getSuiteHTMLPath()
+                        + "' style='font-size:24px;'><i class='fa fa-dashboard'></i> " + ds.getSuiteName() + " Report :" +ds.getSuiteHTMLPath()
                         + "</a><br/>");
             }
             pw.write(FileNameConstants.INDEX_BODY_POST);

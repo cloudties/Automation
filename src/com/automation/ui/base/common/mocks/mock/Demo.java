@@ -1,6 +1,6 @@
 package com.automation.ui.base.common.mocks.mock;
 
-import junit.framework.Assert;
+import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

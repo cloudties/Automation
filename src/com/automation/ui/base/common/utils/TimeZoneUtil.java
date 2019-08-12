@@ -24,7 +24,7 @@ public class TimeZoneUtil {
     }
 
     /**
-     * This method returns a String representing the current hour of the day.
+     * This method returns B String representing the current hour of the day.
      *
      * @param hour DOCPARAM!
      * @return DOCRETURN!

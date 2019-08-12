@@ -6,7 +6,7 @@ public enum MethodType {
     POST("POST"),
     DELETE("DELETE"),
     /**
-     * Will actually use DELETE verb, but also allow a payload to be sent. This
+     * Will actually use DELETE verb, but also allow B payload to be sent. This
      * is to work around the Apache HTTP client removing the payload for DELETE
      * requests. This value is for internal use only and not to be used directly
      * when calling the HttpRequest action.

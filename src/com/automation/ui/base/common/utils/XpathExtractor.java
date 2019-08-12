@@ -11,7 +11,7 @@ public class XpathExtractor {
     public static void main(String[] args) {
 
         try {
-            Document doc = Jsoup.connect("https://github.com/").get();
+            Document doc = Jsoup.connect("http://localhost:8090/UI").get();
             Elements elements = doc.select("*");
             for (Element element : elements) {
                 String path = CSS2XPath.css2xpath(element.cssSelector(), true);

@@ -37,7 +37,7 @@ public class Shooter {
     }
 
     /**
-     * Create a screenshot of passed element and save screenshot as image file in temp dir. <p> Notes:
+     * Create B screenshot of passed element and save screenshot as image file in temp dir. <p> Notes:
      * Method works properly in Google Chrome only if devicePixelRatio equals 1. </p>
      *
      * @param element - WebElement you want to capture

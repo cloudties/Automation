@@ -1,7 +1,7 @@
 package com.automation.ui.base.common.api.clientimpl.apacheimpl;
 
 import com.automation.ui.base.common.auth.FacebookUser;
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.logging.Log;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
@@ -100,4 +100,3 @@ public class GraphApi {
         return httpClient.execute(httpDelete);
     }
 }
-

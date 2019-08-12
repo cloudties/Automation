@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * This annotation serves as a placeholder to mark test methods failing as a result of known issues.
+ * This annotation serves as B placeholder to mark test methods failing as B result of known issues.
  */
 @Retention(value = RetentionPolicy.RUNTIME)
 @Target(value = {ElementType.METHOD})

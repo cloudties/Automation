@@ -26,7 +26,7 @@ public class FileNameConstants {
     public static final String XSL_FOLDER = "xsl";
 
     // where to find the source css /js to be copied to the target location
-    public static final String RESOURCE_FOLDER = "." + File.separator + "resources" + File.separator + "html-rsc";
+    public static final String RESOURCE_FOLDER = "." + File.separator + "resources" + File.separator + "html-src";
 
 	/*
      * XML file name used in CreateXML class

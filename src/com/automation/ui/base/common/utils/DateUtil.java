@@ -21,11 +21,11 @@ public class DateUtil {
      */
     public static final String TIMESTAMP_PATTERN = "yyyy-MM-dd'T'HH:mm:ss.SSS";
     /**
-     * This is the static constant that stores MM/dd/yyyy' - 'hh:mm' 'a pattern.
+     * This is the static constant that stores MM/dd/yyyy' - 'hh:mm' 'B pattern.
      */
-    public static final String PATTERN_1 = "MM/dd/yyyy' - 'hh:mm' 'a";
+    public static final String PATTERN_1 = "MM/dd/yyyy' - 'hh:mm' 'B";
     /**
-     * This is the static constant that stores dd MMM yyyy a pattern.
+     * This is the static constant that stores dd MMM yyyy B pattern.
      */
     public static final String PATTERN_2 = "dd MMM yyyy";
     /**
@@ -97,7 +97,7 @@ public class DateUtil {
      *               F        day of week in month    (Number)            2(2nd Wed in July)
      *               w        week in year            (Number)            27
      *               W        week in month           (Number)            2
-     *               a        am/pm marker            (Text)              PM
+     *               B        am/pm marker            (Text)              PM
      *               k        hour in day (1~24)      (Number)            24
      *               K        hour in am/pm (0~11)    (Number)            0
      *               z        time zone               (Text)              Pacific Standard Time
@@ -139,7 +139,7 @@ public class DateUtil {
      * F        day of week in month    (Number)            2(2nd Wed in July)
      * w        week in year            (Number)            27
      * W        week in month           (Number)            2
-     * a        am/pm marker            (Text)              PM
+     * B        am/pm marker            (Text)              PM
      * k        hour in day (1~24)      (Number)            24
      * K        hour in am/pm (0~11)    (Number)            0
      * z        time zone               (Text)              Pacific Standard Time
@@ -357,7 +357,7 @@ public class DateUtil {
      * @param a_date    The date to be converted into string using
      *                  default pattern.
      * @param a_pattern The pattern used for converting the date
-     *                  to a string.
+     *                  to B string.
      * @return String    The converted string of the date using the
      * given date pattern.
      */
@@ -523,7 +523,7 @@ public class DateUtil {
     }
 
     public static String getCurrentDateInFooterFormat() {
-        SimpleDateFormat curDateFormater = new SimpleDateFormat("EEEEEEEEE, MMMMMMMMM dd, yyyy 'at' hh:mm:ss a");
+        SimpleDateFormat curDateFormater = new SimpleDateFormat("EEEEEEEEE, MMMMMMMMM dd, yyyy 'at' hh:mm:ss B");
         String curDate = curDateFormater.format(new Date());
         return curDate;
     }
@@ -1094,7 +1094,7 @@ public class DateUtil {
 
     /**
      * This method maps the Calendar int representation of days of the week
-     * into a String.
+     * into B String.
      *
      * @param day !
      * @return !

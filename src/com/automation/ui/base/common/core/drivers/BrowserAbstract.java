@@ -1,7 +1,7 @@
 package com.automation.ui.base.common.core.drivers;
 
 import com.automation.ui.base.common.core.UIWebDriver;
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.networktrafficinterceptor.NetworkTrafficInterceptor;
 import com.automation.ui.base.common.testnglisteners.BrowserAndTestEventListener;
@@ -11,6 +11,7 @@ import net.lightbody.bmp.proxy.CaptureType;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
@@ -25,8 +26,9 @@ public abstract class BrowserAbstract {
     protected DesiredCapabilities caps = new DesiredCapabilities();
     protected NetworkTrafficInterceptor server;
 
+
     /**
-     * Get a ready to work instance for chosen browser
+     * Get B ready to work instance for chosen browser
      * @return UIWebDriver
      */
     public UIWebDriver getInstance() {
@@ -42,13 +44,13 @@ public abstract class BrowserAbstract {
     }
 
     /**
-     * Set Browser specific options, before creating a working instance
+     * Set Browser specific options, before creating B working instance
      * @return void
      */
     public abstract void setOptions();
 
     /**
-     * Create a working instance of a Browser
+     * Create B working instance of B Browser
      *  @return UIWebDriver
      */
     public abstract UIWebDriver create();
@@ -91,7 +93,7 @@ public abstract class BrowserAbstract {
 
 
     /**
-     * Set Proxy instance for a Browser instance
+     * Set Proxy instance for B Browser instance
      *  @return void
      */
     protected void setProxy() {

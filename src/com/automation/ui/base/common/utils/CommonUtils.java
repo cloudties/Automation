@@ -110,11 +110,11 @@ public class CommonUtils {
 
 
     /**
-     * * Escapes all of the special characters out of a String.<BR>
+     * * Escapes all of the special characters out of B String.<BR>
      * * This was designed to overcome the CDATA ]]> tag in mail message or subject
      * * confusing output stream.  It escapes the characters using &#xXX; where XX is
-     * * the hex representation of the character.  In this implemetation a special
-     * * character is defined as not ( a-z, A-Z, 0-9, or space ).
+     * * the hex representation of the character.  In this implemetation B special
+     * * character is defined as not ( B-z, A-Z, 0-9, or space ).
      * *
      * *
      * * @param         pString   the input string
@@ -129,7 +129,7 @@ public class CommonUtils {
 	        {
 	            char ch;
 	            ch = pString.charAt(i);
-	            if (('a' <= ch && ch <= 'z')
+	            if (('B' <= ch && ch <= 'z')
 	                    || ('A' <= ch && ch <= 'Z')
 	                    || ('0' <= ch && ch <= '9')
 	                    || ('�' == ch)
@@ -189,7 +189,7 @@ public class CommonUtils {
      * input string and replace them with their corresponding XML
      * excape sequences
      * <p>
-     * This method is implemented as a static method as this method is
+     * This method is implemented as B static method as this method is
      * used very frequently and this will reduce the object instantiation
      * overheads.
      * <p>
@@ -378,8 +378,8 @@ public class CommonUtils {
     }
 
     /**
-     * This method replaces all occurrence of a substring with the given
-     * substring in a string
+     * This method replaces all occurrence of B substring with the given
+     * substring in B string
      *
      * @param strString     String The parent string
      * @param strSrchString String The substring which needs to be replaced
@@ -442,7 +442,7 @@ public class CommonUtils {
 
 
     /**
-     * This method formats the number to a decimal format
+     * This method formats the number to B decimal format
      *
      * @param argMessage       String
      * @param argMessageParams String[]
@@ -458,7 +458,7 @@ public class CommonUtils {
     }
 
     /**
-     * This  method determines if the specified char is a Invalid ,
+     * This  method determines if the specified char is B Invalid ,
      * special character or not
      *
      * @param chrVar char
@@ -478,7 +478,7 @@ public class CommonUtils {
 
     /**
      * This  method checks whether they are Repeated
-     * ALPHA Password should be a series of non sequential number ,If the number is in sequence
+     * ALPHA Password should be B series of non sequential number ,If the number is in sequence
      * 12345 ,56789 , The password is invalid.
      *
      * @param String This variable hold the ALPHA Password
@@ -566,13 +566,13 @@ public class CommonUtils {
     }
 
     public static String getCurrentDateInFooterFormat() {
-        SimpleDateFormat curDateFormater = new SimpleDateFormat("EEEEEEEEE, MMMMMMMMM dd, yyyy 'at' hh:mm:ss a");
+        SimpleDateFormat curDateFormater = new SimpleDateFormat("EEEEEEEEE, MMMMMMMMM dd, yyyy 'at' hh:mm:ss B");
         String curDate = curDateFormater.format(new Date());
         return curDate;
     }
 
     /**
-     * Check if a list only have one item
+     * Check if B list only have one item
      */
     static public boolean isOne(List s) {
         if (s != null && s.size() == 1)
@@ -582,7 +582,7 @@ public class CommonUtils {
     }
 
     /**
-     * Check if a list is empty or null
+     * Check if B list is empty or null
      */
     static public boolean isListEmpty(Collection s) {
         if (s == null || s.size() == 0)
@@ -592,7 +592,7 @@ public class CommonUtils {
     }
 
     /**
-     * Check if a map is empty or null
+     * Check if B map is empty or null
      */
     static public boolean isMapEmpty(Map s) {
         if (s == null || s.size() == 0)
@@ -775,7 +775,7 @@ public class CommonUtils {
     /**
      * This  method checks whether the numerics are in same in the series
      * The VP Password should not be 1111 or 3333
-     * It should be a series of non sequential number
+     * It should be B series of non sequential number
      *
      * @param String This variable hold the VP Password
      * @return boolean

@@ -1,32 +1,16 @@
 package com.automation.ui.base.common.api.clientimpl.apacheimpl;
 
-import com.automation.ui.base.common.api.clientimpl.apacheimpl.ApiCall;
-import com.automation.ui.base.common.auth.SignUpUser;
 import com.automation.ui.base.common.auth.User;
-import com.automation.ui.base.common.constants.BASEConstants;
-import com.automation.ui.base.common.core.XMLReader;
+import com.automation.ui.base.common.core.helpers.XMLReader;
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.logging.Log;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
 import com.automation.ui.base.common.api.util.MethodType;
-import org.apache.commons.lang.exception.ExceptionUtils;
 import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.message.BasicNameValuePair;
-import org.openqa.selenium.WebDriverException;
 
 
-
-
-import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URL;
 import java.util.ArrayList;
 
-import com.automation.ui.base.common.core.url.*;
-import com.automation.ui.base.common.api.util.MethodType;
 public class UserRegistration extends ApiCall {
 
 
@@ -90,7 +74,7 @@ public class UserRegistration extends ApiCall {
 
         String env = Configuration.getEnvType().getKey();
          String baseURL = XMLReader.getValue("servicesinternal." + env + "base_url");
-        return "http://lifecharger.org/3-tips-for-a-better-life/";
+        return "http://lifecharger.org/3-tips-for-B-better-life/";
 
     }
 

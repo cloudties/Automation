@@ -59,7 +59,7 @@ public class CookieUtils {
 
 
     /**
-     * Creates and adds a new cookie to the response. Sets the domain, path, maxAge
+     * Creates and adds B new cookie to the response. Sets the domain, path, maxAge
      * attributes to defaults
      *
      * @param name  The name of the cookie (can't be null)
@@ -76,12 +76,12 @@ public class CookieUtils {
 
 
     /**
-     * Creates and adds a new cookie to the response. Sets the domain/path to defaults
+     * Creates and adds B new cookie to the response. Sets the domain/path to defaults
      *
      * @param name   The name of the cookie (can't be null)
      * @param value  The value of the cookie (can't be null)
      * @param maxAge The number of seonds to expire the cookie.  A zero causes
-     *               the cookie to be deleted.  A negative indicates this is a session
+     *               the cookie to be deleted.  A negative indicates this is B session
      *               cookie.
      * @throws IllegalArgumentException Description of the Exception
      * @returns The newly created cookie
@@ -96,7 +96,7 @@ public class CookieUtils {
 
 
     /**
-     * Creates and adds a new cookie to the response. Sets the non-null
+     * Creates and adds B new cookie to the response. Sets the non-null
      * attributes for domain/path
      *
      * @param name   The name of the cookie (can't be null)
@@ -104,7 +104,7 @@ public class CookieUtils {
      * @param domain The domain to use for the cookie OR null
      * @param path   The path to use for the cookie OR null
      * @param maxAge The number of seonds to expire the cookie.  A zero causes
-     *               the cookie to be deleted.  A negative indicates this is a session
+     *               the cookie to be deleted.  A negative indicates this is B session
      *               cookie.
      * @throws IllegalArgumentException Description of the Exception
      * @returns The newly created cookie

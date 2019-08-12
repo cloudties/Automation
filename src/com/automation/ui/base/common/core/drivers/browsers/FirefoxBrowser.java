@@ -36,20 +36,11 @@ public class FirefoxBrowser extends BrowserAbstract {
             .getLogger(FirefoxBrowser.class);
     private FirefoxProfile firefoxProfile;
     private GeckoDriverService fxService;
-    private FirefoxOptions opt;
+    private FirefoxOptions options;
 
-  /*
-   public abstract void setOptions();
-
-    protected abstract void startService();
-
-    protected abstract void stopService();
-
-
-
-   */
 
     @Override
+    ////https://github.com/SeleniumHQ/selenium/wiki/FirefoxDriver
     public void setOptions() {
         // Windows 8 requires to set webdriver.firefox.bin system variable
         // to path where executive file of FF is placed
@@ -144,11 +135,25 @@ public class FirefoxBrowser extends BrowserAbstract {
             tmpFile.delete();
         }
 
-        firefoxProfile = new FirefoxProfile(
-                new File(ClassLoader.getSystemResource("test/FirefoxProfiles/Default").getPath()));
 
-        opt = new FirefoxOptions();
-        opt.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+
+
+        //String plugin = SeleniumUtil.class.getResource("/plugin/killspinners-1.2.1-fx.xpi").getPath();
+
+       // firefoxProfile = new FirefoxProfile(
+         //      new File(ClassLoader.getSystemResource(System.getProperty("user.dir")+File.separator+"logs"+"/FirefoxProfiles/Default").getPath()));
+        firefoxProfile = new FirefoxProfile();
+
+        options = new FirefoxOptions();
+
+        caps.setCapability(FirefoxDriver.PROFILE, firefoxProfile);
+        //     caps.setCapability("marionette", false);
+        caps.setCapability("gecko", true);
+        caps.setCapability("disable-popup-blocking", false);
+        caps.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
+
+        options.setCapability("marionette", true);
+        options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 
         if ("true".equals(Configuration.getPageLoadStrategy())) {
 
@@ -168,8 +173,6 @@ public class FirefoxBrowser extends BrowserAbstract {
 
         firefoxProfile.setPreference("http.response.timeout", 15);
         firefoxProfile.setPreference("dom.max_script_run_time", 35);
-
-
         firefoxProfile.setPreference("browser.download.folderList", 2);
         firefoxProfile.setPreference("browser.download.manager.showWhenStarting", false);
         //profile.setPreference("browser.download.dir", System.getProperty("user.dir")+ File.separator +"Download");
@@ -179,23 +182,29 @@ public class FirefoxBrowser extends BrowserAbstract {
         firefoxProfile.setPreference("pdfjs.disabled", true);
         firefoxProfile.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/zip,text/csv,application/msword,application/excel,application/pdf," +
                 "application/vnd.ms-excel,application/msword,application/unknown,application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-
+        //firefoxProfile.addExtension(new File(plugin));
         firefoxProfile.setAcceptUntrustedCertificates(true);
         firefoxProfile.setAssumeUntrustedCertificateIssuer(true);
+        firefoxProfile.setPreference("intl.accept_languages","en");
 
-        // firefoxProfile.setCapability("marionette", true);
+        options.setCapability(FirefoxDriver.PROFILE, firefoxProfile);
+
+        /*firefoxProfile.setPreference("dom.ipc.plugins.enabled.libflashplayer.so", false);
+
+        profile.setPreference("browser.download.folderList", 1);
+		profile.setPreference("browser.download.manager.showWhenStarting",
+				false);
+
+		profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
+				"application/vnd.openxmlformats-officedocument.wordprocessingml.document");
+
+        firefoxProfile.setCapability("marionette", true);
+        */
 
     }
 
     @Override
     public UIWebDriver create() {
-        caps.setCapability(FirefoxDriver.PROFILE, firefoxProfile);
-        //     caps.setCapability("marionette", false);
-        caps.setCapability("gecko", true);
-
-        caps.setCapability("disable-popup-blocking", false);
-        caps.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.ACCEPT);
-
         //return new UIWebDriver(new RemoteWebDriver(new URL(hubUrl), caps));
         //caps.setBrowserName(wdConfig.getBrowserName());
         //return new UIWebDriver(new FirefoxDriver(caps ), server, false);  //non deprecated

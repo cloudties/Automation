@@ -6,7 +6,7 @@ package com.automation.ui.base.common.api.clientimpl.apacheimpl.factory;
 import com.automation.ui.base.common.api.clientimpl.apacheimpl.secure.HttpsTrustManager;
 import org.apache.http.client.HttpClient;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.ssl.SSLContexts;
+import org.apache.http.ssl.SSLContexts;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
@@ -26,7 +26,7 @@ public class HttpClientFactory {
         }
 
 
-        SSLContext sslcontext = SSLContexts.custom().useSSL().build();
+        SSLContext sslcontext = SSLContexts.custom().build();
         sslcontext.init(null, new X509TrustManager[]{new HttpsTrustManager()}, new SecureRandom());
         SSLConnectionSocketFactory factory = new SSLConnectionSocketFactory(sslcontext,
                 SSLConnectionSocketFactory.BROWSER_COMPATIBLE_HOSTNAME_VERIFIER);

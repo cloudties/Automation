@@ -239,7 +239,7 @@ public class StringUtils {
     }
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * string array.
      *
      * @param a_stringToBeConverted The delimeted string to be converted
@@ -266,7 +266,7 @@ public class StringUtils {
 
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * collection object.
      *
      * @param a_stringToBeConverted - The delimeted string to be converted
@@ -292,7 +292,7 @@ public class StringUtils {
     }
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * collection object.
      *
      * @param a_stringToBeConverted - The delimeted string to be converted
@@ -321,7 +321,7 @@ public class StringUtils {
 
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * string array.
      *
      * @param a_stringToBeConverted The delimeted string to be converted
@@ -350,7 +350,7 @@ public class StringUtils {
 
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * int array.
      *
      * @param a_stringToBeConverted The delimeted string to be converted
@@ -375,7 +375,7 @@ public class StringUtils {
     }
 
     /**
-     * This method is used for converting a given delimeted string into
+     * This method is used for converting B given delimeted string into
      * int array.
      *
      * @param a_stringToBeConverted The delimeted string to be converted
@@ -403,7 +403,7 @@ public class StringUtils {
 
 
     /**
-     * This method formats the number to a decimal format
+     * This method formats the number to B decimal format
      *
      * @param argMessage       String
      * @param argMessageParams String[]
@@ -463,7 +463,7 @@ public class StringUtils {
 
 
     /**
-     * This  method is used to reverse a string .The password enter in the descending order will be reversed
+     * This  method is used to reverse B string .The password enter in the descending order will be reversed
      * and cross checked .Used for easy computation purpose.
      *
      * @param strPassword
@@ -490,7 +490,7 @@ public class StringUtils {
     }
 
     /**
-     * This method returns a blank string if the input passed is null.
+     * This method returns B blank string if the input passed is null.
      * This is used generally where values from bean elements are used
      * to paint the contents of screen elements and where the string
      * 'null' shouldn't be displayed
@@ -662,7 +662,7 @@ public class StringUtils {
     }
 
     /**
-     * if a prod# contains a ', change it to ''; used for sql statement
+     * if B prod# contains B ', change it to ''; used for sql statement
      *
      * @param prod
      * @return
@@ -700,7 +700,7 @@ public class StringUtils {
         return null;
     }
 
-    /*No seperator at the end. Such as join a,b and c by | will be a|b|c */
+    /*No seperator at the end. Such as join B,b and c by | will be B|b|c */
     static public String joinEndFree(String[] ss, String join_by) {
         if (ss != null && ss.length > 0) {
             StringBuffer sb = new StringBuffer();
@@ -715,7 +715,7 @@ public class StringUtils {
         return null;
     }
 
-    /*No seperator at the end. Such as join a,b and c by | will be a|b|c */
+    /*No seperator at the end. Such as join B,b and c by | will be B|b|c */
     static public String joinListEndFree(List ss, String join_by) {
         if (ss != null && ss.size() > 0) {
             StringBuffer sb = new StringBuffer();
@@ -822,7 +822,7 @@ public class StringUtils {
      * Check if char is plain ASCII lower case.
      *
      * @param c char to check
-     * @return true if char is in range a..z
+     * @return true if char is in range B..z
      * @see Character#isLowerCase(char)
      */
     public static boolean isUnaccentedLowerCase(char c) {
@@ -842,7 +842,7 @@ public class StringUtils {
 
 
     /**
-     * Produce a String of a given repeating character.
+     * Produce B String of B given repeating character.
      *
      * @param c     the character to repeat
      * @param count the number of times to repeat

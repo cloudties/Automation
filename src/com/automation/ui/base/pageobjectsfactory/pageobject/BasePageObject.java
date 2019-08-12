@@ -6,7 +6,8 @@ import com.automation.ui.base.common.contentpatterns.URLsContent;
 import com.automation.ui.base.common.contentpatterns.XSSContent;
 import com.automation.ui.base.common.core.assertion.Assertion;
 import com.automation.ui.base.common.core.CommonExpectedConditions;
-import com.automation.ui.base.common.core.EmailUtils;
+import com.automation.ui.base.common.prpreaders.AssertDataReader;
+import com.automation.ui.base.common.utils.EmailUtils;
 import com.automation.ui.base.common.core.UIWebDriver;
 import com.automation.ui.base.common.core.element.JavascriptActions;
 import com.automation.ui.base.common.core.element.Wait;
@@ -16,12 +17,10 @@ import com.automation.ui.base.common.core.element.checkbox.CheckBoxOrRadioButton
 import com.automation.ui.base.common.core.element.link.LinkHelper;
 import com.automation.ui.base.common.core.element.textbox.TextBoxHelper;
 import com.automation.ui.base.common.core.purge.PurgeMethod;
-import com.automation.ui.base.common.core.url.Page;
 import com.automation.ui.base.common.core.url.UrlBuilder;
 import com.automation.ui.base.common.driverprovider.DriverProvider;
 import com.automation.ui.base.common.logging.Log;
 import com.automation.ui.base.common.utils.TimeZoneUtil;
-import com.google.common.base.Function;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpUriRequest;
@@ -30,24 +29,30 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.*;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.util.*;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 public abstract class BasePageObject {
-
-
-
     private static Logger logger = Logger.getLogger(BasePageObject.class);
     public final Wait wait;
     public WebDriverWait waitFor;
@@ -575,22 +580,30 @@ public abstract class BasePageObject {
         return UrlBuilder.createUrlBuilder().getUrlForPath(URLsContent.SITE_CONTEXT);
     }
 
-    public void fillInputAfterClear(WebElement input, String value) {
-
-        input.clear();
+    public void fillInputAfterClearNoMoveElement(WebElement input, String value) {
+         input.clear();
 
         wait.forElementVisible(input).sendKeys(value);
 
+
+    }
+    public void fillInputAfterClear(WebElement input, String value) {
+
+        new Actions(driver).moveToElement(input).perform();
+        input.clear();
+        wait.forElementVisible(input).sendKeys(value);
     }
 
     public void clearFieldInput(WebElement input) {
 
+        new Actions(driver).moveToElement(input).perform();
         input.clear();
 
 
     }
 
     public void fillInput(WebElement input, String value) {
+        new Actions(driver).moveToElement(input).perform();
         wait.forElementVisible(input).sendKeys(value);
     }
 
@@ -939,8 +952,180 @@ public abstract class BasePageObject {
         Log.log("openSitePage", "Site page is opened", true);
     }
 
+    protected void zoomOut(int numberOfZoomOut) {
+        try {
+            for(int i=0; i<numberOfZoomOut; i++){
+                Robot robot = new Robot();
+                robot.keyPress(KeyEvent.VK_CONTROL);
+                robot.keyPress(KeyEvent.VK_ADD);
+            }
+        } catch (Exception e) {
+            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Reporter.log("zoomOut ");
+            e.printStackTrace();
+        }
+    }
 
+    protected void zoomIn(int numberOfZoomIn) {
+        try {
+            for(int i=0; i<numberOfZoomIn; i++){
+                Robot robot = new Robot();
+                robot.keyPress(KeyEvent.VK_CONTROL);
+                robot.keyPress(KeyEvent.VK_MINUS);
+            }
+        } catch (Exception e) {
+            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Reporter.log("zoomIn ");
+            e.printStackTrace();
+        }
+    }
     public enum PositionsVideo {
         LEFT, CENTER, RIGHT
     }
+
+    protected void fileupload(String filepath, WebElement fileLocationBrowse) {
+        try {
+            logger.debug("Browse to file location and upload");
+            fileLocationBrowse.click();
+            StringSelection filePathSelection = new StringSelection(filepath);
+            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(filePathSelection, null);
+            //native key strokes for CTRL, V and ENTER keys
+            Robot robot = new Robot();
+            Thread.sleep(2000);
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            robot.keyPress(KeyEvent.VK_V);
+            robot.keyRelease(KeyEvent.VK_V);
+            robot.keyPress(KeyEvent.VK_TAB);
+            robot.keyPress(KeyEvent.VK_ENTER);
+            logger.debug("Uploaded file from filepath");
+        } catch (Exception e) {
+            Assertion.fail(AssertDataReader.assertreader.getValue("IPEASSERTMSG_ASSERT_ERROR"));
+            Reporter.log("fileLocationBrowse() is done");
+            e.printStackTrace();
+        }
+    }
+
+
+
+    /**
+     * Return direction.
+     *
+     * @param screenWidth
+     *            the screen width
+     * @param entityWidth
+     *            the entity width
+     * @return the string
+     * @throws Exception
+     *             the exception
+     */
+    protected  String returnDirection(float screenWidth, float entityWidth)
+            throws Exception {
+        String direction = null;
+
+        float dividingFactor = (screenWidth / 4);
+        float entityPos = (entityWidth / dividingFactor);
+
+        if ((entityPos > 0.0) && (entityPos < 1.0)) {
+            direction = "left";
+        } else if ((entityPos > 1.0) && (entityPos < 2.0)) {
+            direction = "left";
+        } else if ((entityPos > 2.0) && (entityPos < 3.0)) {
+            direction = "right";
+        } else if ((entityPos > 3.0) && (entityPos < 4.0)) {
+            direction = "right";
+        } else if (entityPos == 0.0) {
+            direction = "left";
+        } else if (entityPos == 1.0) {
+            direction = "left";
+        } else if (entityPos == 3.0) {
+            direction = "right";
+        } else if (entityPos == 4.0) {
+            direction = "right";
+        } else {
+            throw new Exception("Unknown entityPos value:" + entityPos);
+        }
+        return direction;
+    }
+
+    /**
+     * Return position.
+     *
+     * @param screenHeight
+     *            the screen height
+     * @param entityHeight
+     *            the entity height
+     * @return the string
+     * @throws Exception
+     *             the exception
+     */
+    protected  String returnPosition(float screenHeight, float entityHeight)
+            throws Exception {
+        String pos = null;
+
+        float dividingFactor = (screenHeight / 4);
+        float entityPos = (entityHeight / dividingFactor);
+
+        if ((entityPos > 0.0) && (entityPos < 1.0)) {
+            pos = "top";
+        } else if ((entityPos > 1.0) && (entityPos < 2.0)) {
+            pos = "top";
+        } else if ((entityPos > 2.0) && (entityPos < 3.0)) {
+            pos = "bottom";
+        } else if ((entityPos > 3.0) && (entityPos < 4.0)) {
+            pos = "bottom";
+        } else if (entityPos == 0.0) {
+            pos = "top";
+        } else if (entityPos == 1.0) {
+            pos = "top";
+        } else if (entityPos == 3.0) {
+            pos = "bottom";
+        } else if (entityPos == 4.0) {
+            pos = "bottom";
+        } else {
+            throw new Exception("Unknown entityPos value:" + entityPos);
+        }
+
+        return pos;
+    }
+
+
+    /**
+     * Returns true if alert is present else false.
+     *
+     * @return true, if is alert presents
+     */
+    protected   boolean isAlertPresent() {
+        boolean isPresent = false;
+        if (ExpectedConditions.alertIsPresent().apply(driver) != null) {
+            isPresent = true;
+            logger.info("Alert Message is:"
+                    + driver.getWrappedDriver().switchTo().alert().getText().trim());
+        }
+
+        return isPresent;
+    }
+
+
+    /**
+     * Retrieves text from web elements and returns them.
+     *
+     * @param elements
+     *            - List of non null text from given web elements
+     * @return the string from web elements
+     */
+    protected   List<String> getStringFromWebElements(
+            List<WebElement> elements) {
+        List<String> elementStrings = new ArrayList<>();
+        for (WebElement webElement : elements) {
+            if (webElement != null) {
+                String textValue = webElement.getText();
+                if (textValue != null) {
+                    //logger.info("getStringFromWebElements textValue"+textValue);
+                    elementStrings.add(textValue);
+                }
+            }
+        }
+        return elementStrings;
+    }
+
 }
