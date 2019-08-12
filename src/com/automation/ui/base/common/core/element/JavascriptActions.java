@@ -4,7 +4,7 @@ import com.automation.ui.base.common.constants.BASEConstants;
 import com.automation.ui.base.common.contentpatterns.XSSContent;
 import com.automation.ui.base.common.driverprovider.DriverProvider;
 import com.automation.ui.base.common.logging.Log;
-import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.IPEBasePageObject;
+import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.CusperaBasePageObject;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -94,7 +94,7 @@ public class JavascriptActions {
      * @return offset
      */
     private int getOffset() {
-        IPEBasePageObject sitePage = new IPEBasePageObject();
+        CusperaBasePageObject sitePage = new CusperaBasePageObject();
      //   int offset = sitePage.getNavigationBarOffsetFromTop();
 
         int offset =250;

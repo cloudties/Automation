@@ -34,15 +34,11 @@
         -->
 
 
-        <!-- START GITHUB   -->
-        <!-- sample testing part-->
+         <!-- sample testing part-->
 
-                <packages>
-                    <package name="com.automation.ui.githubtesting.testcases.home"/>
-                </packages>
 
                 <classes>
-                <class name="com.automation.ui.githubtesting.testcases.home.HomePageTest">
+                <class name="com.automation.ui.cuspera.testcases.home.HomePageTest">
                 <methods>
                     <include name="launchLogin"/>
                   <include name="launchHomePage"/>
@@ -55,92 +51,8 @@
 
                 </classes>
 
-        <!-- END  GITHUB  -->
-
-        <!-- START CONNECTED-->
 
 
-       <!-- <packages>
-
-             <package name="com.automation.ui.connected.testcases.login"/>
-             <package name="com.automation.ui.connected.testcases.home"/>
-             <package name="com.automation.ui.connected.testcases.serverdetails"/>
-             <package name="com.automation.ui.connected.testcases.dashboardviewtest"/>
-             <package name="com.automation.ui.connected.testcases.serverdetails.filter"/>
-
-         </packages>
-         -->
-
-<!--
-        <classes>
-            <class name="com.automation.ui.connected.testcases.login.LoginTest">
-                <methods>
-                    <exclude name="verifyInValidUserNullPassword"/> #priority 4
-                    <exclude name="verifyValidUserNullPassword"/> #priority 3
-                    <exclude name="verifyInValidUserInvalidPassword"/> #priority 2
-                    <exclude name="verifyNullUserNullPassword"/> # priority 1
-                    <include name="verifyValidLogin"/> # priority 0
-                </methods>
-            </class>
-
-
-            <class name="com.automation.ui.connected.testcases.home.HomePageTest">
-              <methods>
-                    <include name="launchHomePage"/> # priority 0
-                    <include name="addConnection"/> # priority 1
-                </methods>
-            </class>
-
-
-
-            <class name="com.automation.ui.connected.testcases.serverdetails.manage.AddServerDetailsPageTest">
-                <methods>
-                    <include name="provideAllServerDetails"/> #priority 0
-                    <include name="clearCustomerNameTest"/>  #priority 2
-                    <include name="addCustomerNameTest"/>   #priority 3
-                    <exclude name="provideServerDetailsNextTest"/> #priority
-                    <exclude name="clearSiteNameTest"/> #priority 4
-                    <exclude name="provideServerDetailsCancelTest"/> #priority 6
-                    <exclude name="provideConnectionType"/> #priority 5
-               </methods>
-            </class>
-
-            <class name="com.automation.ui.connected.testcases.dashboardviewtest.UAConnectionDetailsPageTest">
-                <methods >
-                    <include name="dcConnectionDropdownTest"/> # priority 0
-                    <include name="dcConnectionPauseTest"/>  # priority 1
-                    <exclude name="dcConnectionEditTest"/>  # priority 2
-                    <exclude name="dcConnectionRemoveTest"/>  # priority 3
-                    <exclude name="dcConnectionDetailsTest"/>    # priority 4
-                    <exclude name="dcConnectionDetailsEditTest"/> # priority 5
-                    <exclude name="dcConnectionDetailsEdit_Tabs"/> # priority 6
-              </methods>
-            </class>
-
-
-
-            <class name="com.automation.ui.connected.testcases.serverdetails.filter.FilterDetailsPageTest">
-                <methods>
-                    <exclude name="filterChangeFilters"/> # priority 1
-                    <include name="filterListFilter"/> # priority 2
-                    <include name="filterAllTag"/># priority 3
-                    <include name="filterAseetTreeTag"/> # priority 0
-                </methods>
-            </class>
-
-            <class name="com.automation.ui.connected.testcases.globalnav.GlobalNavigationPageTest">
-                <methods>
-                    <include name="cloudDataButton"/> # priority 0
-                    <include name="logout"/> # priority 1
-                </methods>
-            </class>
-
-        </classes>
-        -->
-
-
-
-        <!-- END CONNECTED -->
 
     </test>
 
