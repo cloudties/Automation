@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ipeautomation" verbose="5" >
+    <!--
+    How to run using testng from command prompt
+    java -cp "C:\Software\selenium\selenium-java-2.53.1.jar;C:\Software\selenium\realReport_1.0.jar;C:\Projects\Automation\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar;C:\Software\selenium\testng-6.9.10.jar;C:\Software\selenium\selenium-server-standalone-2.53.1.jar" org.testng.TestNG testng.xml -d test-output\
+    <parameter name="appURL" value="http://localhost:8090/"/>
+    <parameter name="browserType" value="chrome"/>
+    mvn -X -DskipTests -Djenkinworkspace='c:\software\workspace\IPEUI' -f Honeywell.IPE.UIAutomation/pom.xml package
+    -->
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+        <listener class-name="com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter"/>
+        <listener class-name="com.automation.ui.base.common.report.listener.RealTimeTestResultListener"/>
+    </listeners>
+    <test name="Home">
+        <classes >
+            <class name="com.automation.ui.ipe.testcases.home.HomePageTest" >
+                <methods >
+                    <include name="launchHomePage_Test"/>
+                    <include name="clickDEQlink_Test"/>
+                    <include name="clickTPClink_Test"/>
+                    <include name="clickFDSlink_Test"/>
+                    <include name="clickHWDrawinglink_Test"/>
+                    <include name="clickPerfCalclink_Test"/>
+                    <include name="clickOverviewlink_Test"/>
+                    <include name="clickDashboard_Test"/>
+                    <include name="clickHomePage_Test"/>
+                    <include name="clickHomeZoomCheck_75percentage_Test"/>
+                    <include name="clickHomeZoomCheck_100percentage_Test"/>
+                    <include name="clickHomeZoomCheck_125percentage_Test"/>
+                    <include name="clickHomeZoomCheck_150percentage_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.project.ProjectDefinitionPageTest"   >
+                <methods>
+                    <include name="clickonCreatenewprojectdropdownarrow_Test"/>
+                    <include name="scrollAndClickCreateNewProject_Test"/>
+                    <include name="scrollAndClickCreateNewProject_EmptyValues_Test"/>
+                    <include name="scrollAndClickCreateNewProject_WithValues_Test"/>
+                    <include name="scrollAndClickCreateNewProject_LongProjectName_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQCustomerDetailsPageTest"  >
+                <methods>
+                  <include name="clickDEQCustomerInfo_Test"/>
+                    <include name="scrollAndAddInputs_DEQCustomerInfo_WithValues_Test"/>
+                    <include name="scrollAndAddInputs_DEQCustomerInfo_WithPartialValues_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQDocumentDetailsPageTest"  >
+                <methods>
+                    <include name="clickDEQDocInfo_Test"/>
+                    <include name="scrollAndAddInputs_DEQDocumentInfo_WithValues_Test"/>
+                    <include name="scrollAndAddInputs_DEQDocumentInfo_WithPartialValues_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQCabinetDeliveryDetailsPageTest"  >
+                <methods>
+                    <include name="clickDEQCabinetDeliveryInfo_Test"/>
+                    <include name="scrollAndAddInputs_DEQCabDeliveryInfo_WithValues_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQGeneralInfoPageTest"  >
+                <methods>
+                    <include name="clickDEQGeneralInfo_Test"/>
+                    <include name="scrollAndAddInputs_DEQGeneralInfo_WithValues_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQCommunicationPageTest"  >
+                <methods>
+                    <include name="clickDEQCommunicationInfo_Test"/>
+                    <include name="scrollAndAddInputs_DeQCommunicationPageTest_WithValues_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQPowerTest">
+                <methods>
+                    <include name="clickDeQPower_Starter_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.deq.DeQProjectSpecificInfoTest">
+                <methods>
+                    <include name="validateDeqProjSpecInfo_Starter_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.tpc.TPCPageTest"  >
+                <methods>
+                    <include name="clickTPCInfo_Test"/>
+                    <include name="searchTPCFile_Test"/>
+                    <include name="tpcUpload_Test"/>
+                    <include name="tpcGenerateDrawings_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.fds.FDSPageTest"  >
+                <methods>
+                    <include name="clickFDSInfo_Test"/>
+                    <include name="searchFDSFile_Test"/>
+                    <include name="fdsGenerate_Test"/>
+                </methods>
+            </class>
+            <class name="com.automation.ui.ipe.testcases.hwd.HWDPageTest"  >
+                <methods>
+                    <include name="clickHWDInfo_Test"/>
+                    <include name="searchHWDFile_Test"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
