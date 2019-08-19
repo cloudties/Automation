@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ipeautomation" verbose="5" >
+<suite name="portalautomation" verbose="5" >
     <!--
     How to run using testng from command prompt
-    java -cp "C:\Software\selenium\selenium-java-2.53.1.jar;C:\Software\selenium\realReport_1.0.jar;C:\Projects\Automation\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar;C:\Software\selenium\testng-6.9.10.jar;C:\Software\selenium\selenium-server-standalone-2.53.1.jar" org.testng.TestNG testng.xml -d test-output\
+    java -cp "C:\Software\selenium\selenium-java-2.53.1.jar;C:\Software\selenium\realReport_1.0.jar;C:\Projects\Automation\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar;C:\Software\selenium\testng-6.9.10.jar;C:\Software\selenium\selenium-server-standalone-2.53.1.jar" org.testng.TestNG portal_starter.xml -d test-output\
     <parameter name="appURL" value="http://localhost:8090/"/>
     <parameter name="browserType" value="chrome"/>
-    mvn -X -DskipTests -Djenkinworkspace='c:\software\workspace\IPEUI' -f Honeywell.IPE.UIAutomation/pom.xml package
+    mvn -X -DskipTests -Djenkinworkspace='c:\software\workspace\portal' -f Automation/pom.xml package
     -->
     <listeners>
         <listener class-name="org.testng.reporters.EmailableReporter2"/>
@@ -17,11 +17,12 @@
     </listeners>
     <test name="Home">
         <classes >
-            <class name="com.automation.ui.ipe.testcases.home.HomePageTest" >
+            <class name="com.automation.ui.cuspera.testcases.home.HomePageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
+                    <include name="clickDEQlink_Test"/>
                 </methods>
             </class>
-          </classes>
+        </classes>
     </test>
 </suite>
