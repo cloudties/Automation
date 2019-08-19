@@ -20,10 +20,12 @@
             <class name="com.automation.ui.cuspera.testcases.home.HomePageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
-                    <include name="clickDEQlink_Test"/>
+                    <include name="launchHomePage_SearchIndustry_Test"/>
+                    <include name="launchHomePage_SearchMarketing_Test"/>
+                    <include name="launchHomePage_SearchGoal_Test"/>
+                    <include name="launchHomePage_Search_Test"/>
                 </methods>
             </class>
         </classes>
     </test>
-
 </suite>
