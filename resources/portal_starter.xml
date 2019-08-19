@@ -20,12 +20,18 @@
             <class name="com.automation.ui.cuspera.testcases.home.HomePageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
-                    <include name="launchHomePage_SearchIndustry_Test"/>
-                    <include name="launchHomePage_SearchMarketing_Test"/>
-                    <include name="launchHomePage_SearchGoal_Test"/>
-                    <include name="launchHomePage_Search_Test"/>
+                    <include name="continue_Test"/>
+                    <include name="search_Test"/>
                 </methods>
             </class>
+
+            <class name="com.automation.ui.cuspera.testcases.context.ContextPageTest" >
+                <methods >
+                    <include name="clickEmail_Test"/>
+                </methods>
+            </class>
+
+
         </classes>
     </test>
 </suite>

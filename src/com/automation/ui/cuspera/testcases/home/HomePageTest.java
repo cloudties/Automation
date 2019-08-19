@@ -55,6 +55,18 @@ public class HomePageTest extends CusperaBaseTest {
 
     @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
+    public void continue_Test(InitialSearchVO search) throws Throwable {
+
+        homePage.continueButton();
+
+        Thread.sleep(1000);
+
+    }
+
+
+
+    @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+
     public void launchHomePage_Test(InitialSearchVO search) throws Throwable {
 
         homePage.open();
@@ -66,7 +78,7 @@ public class HomePageTest extends CusperaBaseTest {
 
     @Test(priority = 2 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchHomePage_SearchIndustry_Test(InitialSearchVO search) throws Throwable {
+    public void searchIndustry_Test(InitialSearchVO search) throws Throwable {
 
         homePage.searchIndustry(search);
 
@@ -77,7 +89,7 @@ public class HomePageTest extends CusperaBaseTest {
 
     @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchHomePage_SearchMarketing_Test(InitialSearchVO search) throws Throwable {
+    public void searchMarketing_Test(InitialSearchVO search) throws Throwable {
 
         homePage.searchMarketing(search);
 
@@ -87,7 +99,7 @@ public class HomePageTest extends CusperaBaseTest {
 
     @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchHomePage_SearchGoal_Test(InitialSearchVO search) throws Throwable {
+    public void searchGoal_Test(InitialSearchVO search) throws Throwable {
 
         homePage.searchGoal(search);
 
@@ -97,7 +109,7 @@ public class HomePageTest extends CusperaBaseTest {
 
     @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchHomePage_Search_Test(InitialSearchVO search) throws Throwable {
+    public void search_Test(InitialSearchVO search) throws Throwable {
 
         homePage.search(search);
 

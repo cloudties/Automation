@@ -7,6 +7,8 @@ package com.automation.ui.cuspera.common.constants;
 public interface ExcelCONSTANTS {
     String LOGINXLSDATAPATH = ".\\resources\\data\\dataselenium.xls";
     String LOGINXLSDATASHEETNAMELOGIN = "Login";
+    String LOGINXLSDATASHEETNAMELAUNCH = "Launch";
+    String LOGINXLSDATASHEETNAMECONTEXT = "Context";
 
 
 }
