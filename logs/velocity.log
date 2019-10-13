@@ -1,0 +1,47 @@
+2019-10-13 18:34:13,778 - Log4JLogChute initialized using file 'logs/velocity.log'
+2019-10-13 18:34:13,778 - Initializing Velocity, Calling init()...
+2019-10-13 18:34:13,779 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2019-10-13 18:34:13,779 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-10-13 18:34:13,779 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-10-13 18:34:13,779 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2019-10-13 18:34:13,779 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-13 18:34:13,779 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-10-13 18:34:13,787 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:13,789 - Do unicode file recognition:  false
+2019-10-13 18:34:13,789 - FileResourceLoader : adding path '/D:/cloudties/github/CloudTiesCodeBase/Automation/target/classes/velocitytemplates'
+2019-10-13 18:34:13,792 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2019-10-13 18:34:13,795 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2019-10-13 18:34:13,798 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2019-10-13 18:34:13,799 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2019-10-13 18:34:13,801 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2019-10-13 18:34:13,802 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-10-13 18:34:13,804 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-10-13 18:34:13,807 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-10-13 18:34:13,810 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-10-13 18:34:13,812 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-10-13 18:34:13,865 - Created '20' parsers.
+2019-10-13 18:34:13,874 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-10-13 18:34:13,874 - Velocimacro : Default library not found.
+2019-10-13 18:34:13,874 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-10-13 18:34:13,874 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-10-13 18:34:13,874 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-10-13 18:34:13,874 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-10-13 18:34:13,898 - ResourceManager : found header.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:13,901 - Null reference [template 'header.vm', line 35, column 25] : $target cannot be resolved.
+2019-10-13 18:34:13,901 - Null reference [template 'header.vm', line 36, column 25] : $target.closest("tr").attr("class") cannot be resolved.
+2019-10-13 18:34:13,901 - Null reference [template 'header.vm', line 37, column 25] : $target.closest("tr").slideUp() cannot be resolved.
+2019-10-13 18:34:13,901 - Null reference [template 'header.vm', line 38, column 32] : $target.closest("tr").next("tr").attr("class") cannot be resolved.
+2019-10-13 18:34:13,901 - Null reference [template 'header.vm', line 39, column 25] : $target.closest("tr").next("tr").slideToggle() cannot be resolved.
+2019-10-13 18:34:13,922 - ResourceManager : found button.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:13,923 - ResourceManager : found button.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:14,021 - ResourceManager : found firstLogRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:16,220 - ResourceManager : found link.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:16,237 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:24,311 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:24,384 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:25,470 - ResourceManager : found link.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:25,471 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:37,593 - ResourceManager : found errorLogRowWoScreenshotAndSource.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:37,595 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:49,688 - ResourceManager : found errorLogRowWoScreenshotAndSource.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-10-13 18:34:49,690 - ResourceManager : found logRow.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
