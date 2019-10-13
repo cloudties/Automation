@@ -6,11 +6,9 @@ cd D:\cloudties\github\Automation
 
 @rem kill all browser processes to lauch fresh browser
 echo  ------------- KILL ALL EXISTING BROWSER INSTANCES----------------------
-taskkill /IM chrome.exe /F
-taskkill /IM chromedriver.exe /F
-taskkill /IM IEDriverServer.exe /F
-taskkill /IM firefox.exe /F
-taskkill /IM geckodriver.exe /F
+killall chrome
+killall firefox
+
 
 @rem  ( First time setup task )
 @rem  git clone <url>
