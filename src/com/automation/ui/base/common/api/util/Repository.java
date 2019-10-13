@@ -1,5 +1,5 @@
 package com.automation.ui.base.common.api.util;
-
+import java.io.*;
 public enum Repository {
 
     USER_NAME("username"),
@@ -10,7 +10,7 @@ public enum Repository {
     APPID("APPID");
 
 
-    public static final String PROPERTIES = "resources/properties/restapi.properties";
+    public static final String PROPERTIES = "resources"+ File.separator + "properties"+ File.separator + "restapi.properties";
     private String value;
 
     private Repository(String value) {

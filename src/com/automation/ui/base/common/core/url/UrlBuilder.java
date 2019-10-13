@@ -111,7 +111,7 @@ public class UrlBuilder extends CoreUrlBuilder {
 
         //add the port number to the url
         if (!envType.getWebContext().equals(""))
-                   urlBuilder.addPathSegment(envType.getWebContext().trim());
+                   urlBuilder.addEncodedPathSegments(envType.getWebContext().trim());
 
 
         String host = getFormattedSiteHost(www, siteaName, envType, language);

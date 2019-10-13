@@ -9,7 +9,7 @@ public enum Browser {
     CHROME(ChromeBrowser.class, "CHROME"),
     FIREFOX(FirefoxBrowser.class, "FF"),
     CHROME_MOBILE(ChromeBrowser.class, "CHROMEMOBILEMERCURY"),
-    HTMLUNIT(HtmlUnitBrowser.class, "HTMLUNIT"),
+    HTMLUNIT(HtmlUnitBrowser.class, "htmlunit"),
     GHOST(GhostBrowser.class, "GHOST"),
     CHROME_ANDROID(AndroidBrowser.class, "ANDROID"),
     IE(IEBrowser.class, "internet explorer"),

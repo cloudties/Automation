@@ -20,7 +20,7 @@ import com.automation.ui.base.common.report.filehandler.FileNameConstants;
 import com.automation.ui.base.common.utils.CommonUtils;
 import com.automation.ui.base.common.utils.CookieUtils;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
-import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.CusperaBasePageObject;
+import com.automation.ui.ipe.pageobjectsfactory.pageobject.base.IPEBasePageObject;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.*;
@@ -33,7 +33,7 @@ import org.testng.SkipException;
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Date;
-
+import  com.automation.ui.base.common.jiraissue.*;
 public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
         implements ITestListener {
 
@@ -176,7 +176,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 if (user != null && user != User.ANONYMOUS) {
                     // log in, make sure user is logged in and flow is on the requested url
                     //NEED TO CHECK
-                    BasePageObject basePObject = new CusperaBasePageObject();
+                    BasePageObject basePObject = new IPEBasePageObject();
                     basePObject.loginAs(user);
                 }
 

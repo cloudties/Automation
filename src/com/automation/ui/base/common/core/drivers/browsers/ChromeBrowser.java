@@ -28,6 +28,10 @@ import java.util.logging.Level;
 import org.json.JSONException;
 import org.openqa.selenium.remote.CapabilityType;
 import org.json.JSONObject;
+import org.apache.commons.lang.StringEscapeUtils;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+import java.io.UnsupportedEncodingException;
 public class ChromeBrowser extends BrowserAbstract {
 
     private static final String CHROMEDRIVER_PATH_FORMAT = "ChromeDriver/chromedriver_%s";
@@ -73,9 +77,16 @@ public class ChromeBrowser extends BrowserAbstract {
         // set application user permissions to 455
         chromedriver.setExecutable(true);
 
+        try {
         System.setProperty("webdriver.chrome.driver", chromedriver.getPath());
+
+        } catch (Exception e) {
+            logger.info(e.getMessage());
+            throw new TestEnvInitFailedException("Encoding exceptions ");
+        }
         logger.info("Using chromedriver logs at " + System.getProperty("user.dir") + File.separator +
                 "logs" + File.separator + "chromelogs");
+
         System.setProperty("webdriver.chrome.logfile", System.getProperty("user.dir") + File.separator +
                 "logs" + File.separator + "chromelogs" + File.separator + "chromelog" +
                 DateUtil.getCurrentDate()
@@ -91,6 +102,18 @@ public class ChromeBrowser extends BrowserAbstract {
         options.addArguments("allow-running-insecure-content");
         options.addArguments("--no-sandbox");
         options.addArguments("--lang=en");
+        if (Configuration.getisHeadlessRun()) {
+
+			options.addArguments("--headless");
+			options.addArguments("--disable-gpu");
+
+        }
+
+        if (Configuration.isstrictTransportSecurity()) {
+
+            options.addArguments("--ignore-certificate-errors");
+
+        }
         // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
 
 
@@ -126,9 +149,18 @@ public class ChromeBrowser extends BrowserAbstract {
         logPrefs.enable(LogType.PERFORMANCE, Level.ALL);
         logPrefs.enable(LogType.BROWSER, Level.ALL);
         caps.setCapability(CapabilityType.LOGGING_PREFS, logPrefs);
+
         if (Configuration.isUnsafePageLoad()) {
             caps.setCapability("pageLoadStrategy", "normal");
         }
+        if (Configuration.isstrictTransportSecurity()) {
+
+             caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+            caps.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,
+                    true);
+        }
+
+
        // caps.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 
         //return new UIWebDriver(new RemoteWebDriver(new URL(hubUrl), caps));

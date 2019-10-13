@@ -30,7 +30,7 @@ public class ReadExcelSuite {
 		try {
 			Workbook workbook = WorkbookFactory
 					.create(new File(
-							"resources\\TestSuitePrototype.xlsx"));
+							"resources"+ File.separator + "TestSuitePrototype.xlsx"));
 			for (int i = 0; i < workbook.getNumberOfSheets(); i++) {
 
 			}
@@ -48,7 +48,7 @@ public class ReadExcelSuite {
 		String cellValue = null;
 		try {
 			workbook = WorkbookFactory.create(new File(
-					"resources\\TestCaseSheet.xlsx"));
+					"resources"+ File.separator + "TestCaseSheet.xlsx"));
 			Sheet sheet = workbook.getSheetAt(0);
 			Row row = sheet.getRow(rowNum);
 			Cell cell = row.getCell(ColNum);
