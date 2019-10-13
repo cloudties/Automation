@@ -18,6 +18,7 @@ forceHttps: false
 forceLanguageInPath: false
 useMITM: false
 useZapProxy: false
+webContext: ui/pages
 language: en # run tests on site with specific language unless there is an annotation
 credentialsPath: resources/selenium-config
 restResourcesPath: resources/properties
@@ -29,7 +30,7 @@ browserSize: maximised
 useProxy: null
 countryCode: null
 unsafePageLoad: null
-
+isHeadlessRun: false
 # Add browser extensions.
 # Acceptable values:
 # for CHROME: adblock, adblock+, ublock, soundmonitor
