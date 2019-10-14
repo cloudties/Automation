@@ -1,7 +1,7 @@
 @rem : THIS COMMAND WILL COMMENT TO CODE
 @rem if you have your code is a seperate folder change the below path
 
-cd D:\cloudties\github\CloudTiesCodeBase\Automation
+cd D:\cloudties\github\Automation
 
 
 @rem kill all browser processes to lauch fresh browser
@@ -20,7 +20,7 @@ echo "pulling code from git"
 @rem all the code base will be pulled included the test autoamtion ,LOB Portal and Vendor Portal
 @rem  COMMENT git pull if you dont want latest code base to run
 echo  ------------- TAKE LATEST CODE ----------------------
-cd D:\cloudties\github\CloudTiesCodeBase\Automation
+cd D:\cloudties\github\Automation
 git pull
 
 echo  ------------- RUN THE TESTS ----------------------
