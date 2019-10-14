@@ -18,7 +18,7 @@ forceHttps: false
 forceLanguageInPath: false
 useMITM: false
 useZapProxy: false
-webContext: ui/pages
+webContext: /
 language: en # run tests on site with specific language unless there is an annotation
 credentialsPath: resources/selenium-config
 restResourcesPath: resources/properties
