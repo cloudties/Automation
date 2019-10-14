@@ -129,8 +129,8 @@ public class CreateFiles {
     synchronized private static File[] getFilesUnder(String parentDirectoryPath) {
         File[] files = null;
         try {
-            if (new File("./" + parentDirectoryPath).exists()) {
-                files = new File("./" + parentDirectoryPath).listFiles();
+            if (new File("."+ File.separator + parentDirectoryPath).exists()) {
+                files = new File("."+ File.separator + parentDirectoryPath).listFiles();
             }
         } catch (Throwable e) {
             logger.info(e.getMessage());

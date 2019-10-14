@@ -25,7 +25,7 @@ public class DriverProvider {
 
     private static UIWebDriver getBrowserDriver(int index) {
 
-       // logger.debug("drivers count" +drivers.size());
+        logger.debug("drivers count" +drivers.size());
         for (; drivers.size() <= index; ) {
             newInstance();
         }
@@ -34,7 +34,7 @@ public class DriverProvider {
     }
 
     public static UIWebDriver getActiveDriver() {
-        //logger.info("getActiveDriver"+ACTIVE_BROWSER_INDEX );
+        logger.debug("getActiveDriver"+ACTIVE_BROWSER_INDEX );
         return getBrowserDriver(ACTIVE_BROWSER_INDEX);
     }
 

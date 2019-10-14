@@ -63,8 +63,8 @@ public class CreateIssue {
                                 Json.createObjectBuilder().add("key","TEST"))
                                 .add("summary", "sum")
                                 .add("description", "descr")
-                                .add("reporter","saju@cuspera.com")
-                                .add("assignee","saju@cuspera.com")
+                                .add("reporter","manjusha.saju@honeywell.com")
+                                .add("assignee","manjusha.saju@honeywell.com")
                                 .add("issuetype",
                                         Json.createObjectBuilder().add("id", "10105"))
                 ).build();
@@ -81,15 +81,15 @@ public class CreateIssue {
                 "HPS Project Engineering Digitization"
                 ,"test"
                 ,"testing"
-                ,"saju@cuspera.com"
-                ,"saju@cuspera.com");
+                ,"manjusha.saju@honeywell.com"
+                ,"manjusha.saju@honeywell.com");
     }
 
     public CreateIssue(){
         try {
 
             creds = new BasicCredentials("h265456", "welcome@8");
-            jira = new JiraClient("https://acsjira.cuspera.com", creds);
+            jira = new JiraClient("https://acsjira.honeywell.com", creds);
         }
         catch (Exception e)
         {

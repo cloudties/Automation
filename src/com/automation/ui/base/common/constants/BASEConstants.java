@@ -14,11 +14,11 @@ public interface BASEConstants {
 
 
 
-    public static String EXCEPTIONPATH = "resources/properties/exception.properties";
+    public static String EXCEPTIONPATH = "resources"+ File.separator + "properties"+ File.separator + "exception.properties";
     public static String ASSERTPATH = "i18n.assertdata";
     public static String XPATHPATH = "i18n.xpathdata";
 
-    public static String LOGINJSONDATAPATH = "resources/logindataselenium.json";
+    public static String LOGINJSONDATAPATH = "resources"+ File.separator + "logindataselenium.json";
 
     public static String X_UI_Internal_Request = "X-UI-Internal-Request";
     public static String X_CLIENT_IP = "X-Client-Ip";

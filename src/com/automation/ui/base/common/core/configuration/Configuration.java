@@ -40,8 +40,8 @@ import java.util.Map;
 public class Configuration {
 
     public static final String DEFAULT_LANGUAGE = "en";
-    private static final String DEFAULT_CONFIG_FILE_NAME = "resources/config/config_default.yml";
-    private static final String LOCAL_CONFIG_FILE_NAME = "resources/config/config.yml";
+    private static final String DEFAULT_CONFIG_FILE_NAME = "resources"+ File.separator + "config"+ File.separator + "config_default.yml";
+    private static final String LOCAL_CONFIG_FILE_NAME = "resources"+ File.separator + "config"+ File.separator + "config.yml";
     private static final String SELENIUM_CONFIG_REPO_CONFIG_FILE_NAME = "config.xml";
     private static final String CREDENTIAL_CONFIG_FILE_NAME = "credentials.xml";
     private static final String REST_CONFIG_FILE_NAME = "restconfig.xml";
@@ -108,6 +108,12 @@ public class Configuration {
 
     }
 
+
+
+
+    public static boolean getisHeadlessRun() {
+        return Boolean.valueOf(getProp("isHeadlessRun"));
+    }
     public static String getBrowser() {
         return getProp("browser");
     }
@@ -132,6 +138,12 @@ public class Configuration {
         return getProp("env");
     }
 
+     public static String getSitePort() {
+        return getProp("sitePort");
+    }
+    public static String getSiteContext() {
+        return getProp("webContext");
+    }
     public static String getSiteName() {
         return getProp("siteName");
     }
@@ -200,6 +212,9 @@ public class Configuration {
 
     public static Boolean isUnsafePageLoad() {
         return "true".equals(getProp("unsafePageLoad"));
+    }
+    public static Boolean isstrictTransportSecurity() {
+        return "true".equals(getProp("strictTransportSecurity"));
     }
 
     public static Boolean getForceLanguageInPath() {

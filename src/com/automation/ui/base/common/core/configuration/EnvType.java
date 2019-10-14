@@ -2,15 +2,18 @@ package com.automation.ui.base.common.core.configuration;
 
 import lombok.Getter;
 
+import com.automation.ui.base.common.core.configuration.*;
+
+
 //NEEDTOCHECK CHANGE URL DOMAIN
 public enum EnvType {
     //main domain,envtype,port
-    PROD("com", "prod", "",""),
-    STAGING("co.in", "staging", "","ui"),
-    // DEV("co.in", "dev", "9000"),
-    DEV("", "dev", "4200",""),
-    TEST("",  "test", "8090","ui"),
-    SANDBOX("cuspera.com", "sandbox", "9000","ui");
+    PROD("com", "prod", "",Configuration.getSiteContext()),
+    STAGING("co.in", "staging", "",Configuration.getSiteContext()),
+    // DEV("co.in", "dev", Configuration.getSitePort()),
+    DEV("", "dev", Configuration.getSitePort(),""),
+    TEST("",  "test", Configuration.getSitePort(),Configuration.getSiteContext()),
+    SANDBOX("honeywell.com", "sandbox", Configuration.getSitePort(),Configuration.getSiteContext());
 
     @Getter
     private final String siteDomain;

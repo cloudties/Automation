@@ -380,7 +380,7 @@ public class Log {
 
         appendShowHideButtons();
         try {
-            FileInputStream input = new FileInputStream("resources/script.txt");
+            FileInputStream input = new FileInputStream("resources"+ File.separator + "script.txt");
             String content = IOUtils.toString(input,"UTF-8");
             CommonUtils.appendTextToFile(Log.LOG_PATH, content);
         } catch (IOException e) {

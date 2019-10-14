@@ -393,7 +393,7 @@ public class ExecuteAction {
 				logger.info("locators"+locators);
 			}
 	}
-		logger.debug("size"+locators.size());
-return locators;
+	logger.debug("size"+locators.size());
+	return locators;
 }
 }
