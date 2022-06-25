@@ -4,9 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * Created by s746032 on 15/11/2015.
- */
+
 public class PropertyHelper {
     private static final String PROPERTY_FILE_PATH = System.getProperty("user.dir")+"/serenity.properties";
     private static PropertyHelper propertyHelper;

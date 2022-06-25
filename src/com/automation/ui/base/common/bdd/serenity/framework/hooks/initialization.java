@@ -36,9 +36,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by rakeshnbr on 05/12/2016.
- */
+
 public class initialization extends PageObject{
     public static String downLoadDirectory;
     public static ScenarioHook scenarioHook;

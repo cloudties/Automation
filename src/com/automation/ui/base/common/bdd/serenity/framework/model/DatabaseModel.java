@@ -1,8 +1,5 @@
 package com.automation.ui.base.common.bdd.serenity.framework.model;
 
-/**
- * Created by rakeshnbr on 11/01/2017.
- */
 public class DatabaseModel {
 
     private String dbName;

@@ -1,8 +1,5 @@
 package com.automation.ui.base.common.bdd.serenity.framework.model;
 
-/**
- * Created by S746032 on 27/12/2015.
- */
 public class ReportModel {
 
     private String id;

@@ -2,9 +2,7 @@ package com.automation.ui.base.common.bdd.serenity.framework.helpers;
 
 import java.io.*;
 
-/**
- * Created by rakeshnbr on 25/05/2017.
- */
+
 public class FileHelper {
 
     public static File[] getFilesInDirectory(String folder, String ext) {

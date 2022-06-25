@@ -5,9 +5,7 @@ import com.automation.ui.base.common.bdd.serenity.framework.helpers.FileHelper;
 import java.io.*;
 import java.util.*;
 
-/**
- * Created by S427701 on 11/07/2016.
- */
+
 public class HtmlReportWriter {
     public static void main(String[] args) throws Exception {
         ArrayList<List<String>> failed = new ArrayList<List<String>> ();

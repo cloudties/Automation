@@ -16,10 +16,6 @@ import java.util.List;
 import static com.automation.ui.base.common.bdd.serenity.framework.report.MergeReports.FILE_PATH;
 
 
-/**
- * Created by S746032 on 27/12/2015.
- * This class is reads all the json files and consolidates the reports
- */
 public class ConsolidatedReport {
     private static final String JOBS = "JOBS";
     private static final String ELEMENTS = "elements";

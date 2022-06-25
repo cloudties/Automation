@@ -2,9 +2,7 @@ package com.automation.ui.base.common.bdd.serenity.framework.report;
 
 import org.junit.Test;
 
-/**
- * Created by rakeshnbr on 22/05/2017.
- */
+
 public class CodeCompiler {
 
     @Test

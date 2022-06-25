@@ -29,9 +29,7 @@ import java.util.Timer;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
 import static com.automation.ui.base.common.bdd.serenity.framework.hooks.initialization.extractBytes;
 
-/**
- * Created by rakeshnbr on 04/01/2017.
- */
+
 public class ScenarioHook {
 
     final static Logger logger = Logger.getLogger(ScenarioHook.class.getName());
