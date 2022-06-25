@@ -37,6 +37,9 @@ public class ChromeBrowser extends BrowserAbstract {
     private static final String CHROMEDRIVER_PATH_FORMAT = "ChromeDriver/chromedriver_%s";
     private static final String CHROMEDRIVER_PATH_MAC =
             String.format(CHROMEDRIVER_PATH_FORMAT, "mac64/chromedriver");
+    private static final String CHROMEDRIVER_PATH_MACM1 =
+            String.format(CHROMEDRIVER_PATH_FORMAT, "m1/chromedriver");
+
     private static final String CHROMEDRIVER_PATH_LINUX =
             String.format(CHROMEDRIVER_PATH_FORMAT, "linux64/chromedriver");
     private static final String CHROMEDRIVER_PATH_WINDOWS =
