@@ -36,8 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/drivers/browsers/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/drivers/browsers/ChromeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,6 +275,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/cloudties/Automation&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;resources/config/config.yml" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656158588783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1656158588783" />
     <state x="410" y="105" key="FileChooserDialogImpl" timestamp="1656141276305">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
