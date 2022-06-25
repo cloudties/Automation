@@ -43,16 +43,7 @@ public class ExcelHelper {
         return null;
     }
 
-    /**
-     * Author - Rakesh
-     * To fetch the multiple values from excel
-     * @SheetName  Name of the excel sheet
-     * @ParmName   parameter name in the excel sheet in single quote seperated by comma
-     * @return String array
-     * @throws ParseException
-     * @throws IOException
-     * @throws FileNotFoundException
-     */
+
     public static String[] ReadExcelValues(String SheetName, String ParmName) throws Exception {
         int arrLength = 1;
         String[] parmFields = ParmName.split(",");
@@ -87,11 +78,7 @@ public class ExcelHelper {
         return value;
     }
 
-    /**
-     * Author - Rakesh
-     * To Kill a specific task.exe
-     *
-     */
+
     public static void taskkill(String strProcessName) {
         String strCmdLine = null;
         strCmdLine = String.format("taskkill -f -im " + strProcessName + ".exe");

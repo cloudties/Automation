@@ -36,17 +36,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/context/DatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/context/DatabaseContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/FileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/PropertyHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/PropertyHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/ScenarioHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/ScenarioHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/initialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/initialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/DatabaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/DatabaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/ReportModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/ReportModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/CodeCompiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/CodeCompiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/ConsolidatedReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/ConsolidatedReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/HtmlReportWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/HtmlReportWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/ExcelHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/ExcelHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
