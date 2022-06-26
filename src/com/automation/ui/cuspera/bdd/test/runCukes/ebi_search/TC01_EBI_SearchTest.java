@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
         plugin = {"pretty:target/cucumber/cucumber.txt",
                 "html:target/cucumber-html-report/TC01_EBI_SearchTest",
                 "json:target/cucumber-report/TC01_EBI_SearchTest.json"},
-        features= {"src/test/resources/features/search/search_by_word.feature"},
-        glue = {"net.thucydides.ebi.cucumber"})
+        features= {"src/com/automation/ui/cuspera/bdd/resources/features"},
+        glue = {"com.automation.ui.cuspera.bdd.test.stepdefinition"})
 
 @Category({SanityTest.class})
 public class TC01_EBI_SearchTest {

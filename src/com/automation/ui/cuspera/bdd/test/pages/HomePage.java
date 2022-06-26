@@ -1,4 +1,4 @@
-package com.automation.ui.base.common.bdd.serenity.pages;
+package com.automation.ui.cuspera.bdd.test.pages;
 
 
 import java.util.ArrayList;

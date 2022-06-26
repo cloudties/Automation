@@ -1,4 +1,4 @@
-package com.automation.ui.base.common.bdd.serenity.steps;
+package com.automation.ui.cuspera.bdd.test.steps;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.automation.ui.base.common.bdd.serenity.pages.HomePage;
+import com.automation.ui.cuspera.bdd.test.pages.HomePage;
 
 import net.thucydides.core.annotations.Step;
 

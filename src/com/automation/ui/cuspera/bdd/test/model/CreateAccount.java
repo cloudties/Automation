@@ -1,4 +1,4 @@
-package com.automation.ui.base.common.bdd.serenity.model;
+package com.automation.ui.cuspera.bdd.test.model;
 
 public class CreateAccount {
 	public CreateNewAccount createNewAccount;

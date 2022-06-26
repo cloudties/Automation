@@ -296,7 +296,7 @@
                                 <mailssl>true</mailssl>
                                 <mailAltConfig>true</mailAltConfig>
                                 <mailuser>kksclt@gmail.com</mailuser>
-                                <mailpassword>hari123$</mailpassword>
+                                <mailpassword></mailpassword>
                                 <mailhost>smtp.gmail.com</mailhost>
                                 <mailport>465</mailport>
                                 <receivers>
@@ -342,6 +342,18 @@
             <version>4.13.1</version>
 
         </dependency>
+
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.9.3</version>
+         </dependency>
+        <dependency>
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>2.4</version>
+         </dependency>
+
 
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -789,31 +801,26 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-firefox-driver</artifactId>
-            <version>3.13.0</version>
+            <version>3.11.0</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-server</artifactId>
-            <version>3.13.0</version>
+            <version>3.11.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-htmlunit-driver</artifactId>
-            <version>2.52.0</version>
-        </dependency>
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.13.0</version>
+            <version>3.11.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
-            <version>3.13.0</version>
+            <version>3.11.0</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -832,9 +839,6 @@
             <artifactId>maven-postman-plugin</artifactId>
             <version>0.1.6</version>
         </dependency>
-
-
-
     </dependencies>
 
     <repositories>

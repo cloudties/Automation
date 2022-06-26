@@ -1,4 +1,4 @@
-package com.automation.ui.cuspera.bdd.test;
+package com.automation.ui.cuspera.bdd.test.runCukes.ebi_search;
 
 import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 				"html:target/cucumber/cucumber-html-report",
 				"json:target/cucumber/cucumber.json"
 				}
-		,features= {"src/test/resources/features"}
+		,features= {"src/com/automation/ui/cuspera/bdd/resources/features"}
 		,glue = {"com.automation.ui.cuspera.bdd.test.stepdefinition"}
 		//,dryRun = true
 		,monochrome = true

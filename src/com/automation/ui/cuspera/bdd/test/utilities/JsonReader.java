@@ -1,4 +1,4 @@
-package com.automation.ui.base.common.bdd.serenity.utilities;
+package com.automation.ui.cuspera.bdd.test.utilities;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.google.gson.Gson;
-import com.automation.ui.base.common.bdd.serenity.model.CreateAccount;
+import com.automation.ui.cuspera.bdd.test.model.CreateAccount;
 
 public class JsonReader {
     private final String createAccountPath = new File("src/test/resources/data").getAbsolutePath()+File.separatorChar+"createAccount.json";

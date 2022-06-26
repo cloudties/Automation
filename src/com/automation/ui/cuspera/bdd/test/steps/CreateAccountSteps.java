@@ -1,10 +1,10 @@
-package com.automation.ui.base.common.bdd.serenity.steps;
+package com.automation.ui.cuspera.bdd.test.steps;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.automation.ui.base.common.bdd.serenity.model.CreateAccount;
-import com.automation.ui.base.common.bdd.serenity.pages.CreateAccountPage;
+import com.automation.ui.cuspera.bdd.test.model.CreateAccount;
+import com.automation.ui.cuspera.bdd.test.pages.CreateAccountPage;
 
 import net.thucydides.core.annotations.Step;
 

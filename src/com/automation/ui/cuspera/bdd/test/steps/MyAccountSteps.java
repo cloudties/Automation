@@ -1,8 +1,8 @@
-package com.automation.ui.base.common.bdd.serenity.steps;
+package com.automation.ui.cuspera.bdd.test.steps;
 
 import org.junit.Assert;
 
-import com.automation.ui.base.common.bdd.serenity.pages.MyAccountPage;
+import com.automation.ui.cuspera.bdd.test.pages.MyAccountPage;
 
 public class MyAccountSteps {
 	private MyAccountPage user;

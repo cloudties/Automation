@@ -1,11 +1,11 @@
 package com.automation.ui.cuspera.bdd.test.stepdefinition;
 
-import com.automation.ui.base.common.bdd.serenity.model.CreateAccount;
-import com.automation.ui.base.common.bdd.serenity.steps.CreateAccountSteps;
-import com.automation.ui.base.common.bdd.serenity.steps.LoginSteps;
-import com.automation.ui.base.common.bdd.serenity.steps.MyAccountSteps;
-import com.automation.ui.base.common.bdd.serenity.steps.MyStoreHomeSteps;
-import com.automation.ui.base.common.bdd.serenity.utilities.JsonReader;
+import com.automation.ui.cuspera.bdd.test.model.CreateAccount;
+import com.automation.ui.cuspera.bdd.test.steps.CreateAccountSteps;
+import com.automation.ui.cuspera.bdd.test.steps.LoginSteps;
+import com.automation.ui.cuspera.bdd.test.steps.MyAccountSteps;
+import com.automation.ui.cuspera.bdd.test.steps.MyStoreHomeSteps;
+import com.automation.ui.cuspera.bdd.test.utilities.JsonReader;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

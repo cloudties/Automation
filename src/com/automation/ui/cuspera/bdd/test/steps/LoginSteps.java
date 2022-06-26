@@ -1,6 +1,6 @@
-package com.automation.ui.base.common.bdd.serenity.steps;
+package com.automation.ui.cuspera.bdd.test.steps;
 
-import com.automation.ui.base.common.bdd.serenity.pages.LoginPage;
+import com.automation.ui.cuspera.bdd.test.pages.LoginPage;
 
 import net.thucydides.core.annotations.Step;
 

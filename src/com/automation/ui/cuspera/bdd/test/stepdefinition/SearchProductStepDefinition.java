@@ -1,6 +1,6 @@
 package com.automation.ui.cuspera.bdd.test.stepdefinition;
 
-import com.automation.ui.base.common.bdd.serenity.steps.MyStoreHomeSteps;
+import com.automation.ui.cuspera.bdd.test.steps.MyStoreHomeSteps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
