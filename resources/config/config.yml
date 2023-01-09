@@ -6,15 +6,16 @@ browser: CHROME # acceptable values: FF, CHROME, GHOST, ANDROID, CHROMEMOBILEMER
 dpr: 1 # Your device's pixel ratio, do not commit your changes
 # default testing site address with out sub domain, port is taken as 9000 for dev ,chenage to prod for not port
 #in prod sitename dont provide .com just give github, for dev site provide with subdomsin name
-siteName: cuspera
-env: prod # acceptable values: test, prod, preview, sandbox-number dev-name (for connected.com)
+siteName: digital-deployer-app
+env: galuctussandbox # acceptable values: test, prod, preview, sandbox-number staging dev - name (for connected.com)
 seleniumConfigPath: resources/selenium-config
+sitePort: null
 qs: null
 disableFlash: true
 jsErrorsEnabled: false
 logEnabled: true
 takeScreenshots: true
-forceHttps: false
+forceHttps: true
 forceLanguageInPath: false
 useMITM: false
 useZapProxy: false

@@ -7,6 +7,7 @@ import okhttp3.HttpUrl;
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriverException;
+import org.openqa.selenium.remote.server.handler.DeleteSession;
 
 import static com.automation.ui.base.common.core.configuration.Configuration.*;
 
@@ -103,6 +104,7 @@ public class UrlBuilder extends CoreUrlBuilder {
         HttpUrl.Builder urlBuilder = new HttpUrl.Builder();
 
         //add the port number to the url
+        if(envType.getPort() !=null)
         if (!envType.getPort().equals(""))
             urlBuilder.port(Integer.parseInt(envType.getPort()));
 
@@ -130,9 +132,18 @@ public class UrlBuilder extends CoreUrlBuilder {
         //  logger.info("getFormattedSiteHost  www: " + www + "siteName " + siteName + " envType " + envType.getSiteDomain() + " language  " + language);
 
         if (!forceLanguageInPath && !(DEFAULT_LANGUAGE).equals(language)) {
-            return getFormattedSiteHost(www, String.join(".", language, siteName), envType);
+            if(siteName!=null)
+                return getFormattedSiteHost(www, String.join(".", language, siteName), envType);
+            else
+                return getFormattedSiteHost(www, String.join(".", language, ""), envType);
+
         }
-        return getFormattedSiteHost(www, siteName, envType);
+        if(siteName!=null)
+             return getFormattedSiteHost(www, siteName, envType);
+        else
+            return getFormattedSiteHost(www, "", envType);
+
+
     }
 
 
@@ -180,6 +191,8 @@ public class UrlBuilder extends CoreUrlBuilder {
     }
    */
 
+
+
         switch (envType) {
             case DEV: {
                 String devBoxOwner = this.env.split("-")[1];
@@ -197,7 +210,14 @@ public class UrlBuilder extends CoreUrlBuilder {
                 return String.join(".", www + siteName, envType.getSiteDomain());
             }
             case SANDBOX: {
-                return String.join(".", www + siteName, this.env, envType.getSiteDomain());
+                logger.info("SANDBOX getFormattedSiteHost  www: " + www + " siteName " + siteName + "envType " + domain );
+                if(siteName!=null)
+                return String.join(".", www + siteName,
+                        this.env, envType.getSiteDomain());
+                else
+                return String.join(".", www + "",
+                        this.env, envType.getSiteDomain());
+
             }
             default:
                 throw new WebDriverException("Unknown environment type");
@@ -299,6 +319,7 @@ public class UrlBuilder extends CoreUrlBuilder {
 
         EnvType env = getEnvType(this.env);
         //add the port number to the url
+        if(envType.getPort() !=null)
         if (!envType.getPort().equals(""))
             urlBuilder.port(Integer.parseInt(envType.getPort()));
 

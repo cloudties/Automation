@@ -20,7 +20,7 @@ import com.automation.ui.base.common.report.filehandler.FileNameConstants;
 import com.automation.ui.base.common.utils.CommonUtils;
 import com.automation.ui.base.common.utils.CookieUtils;
 import com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject;
-import com.automation.ui.cuspera.pageobjectsfactory.pageobject.base.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.*;
 import org.apache.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.*;
@@ -176,10 +176,9 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 if (user != null && user != User.ANONYMOUS) {
                     // log in, make sure user is logged in and flow is on the requested url
                     //NEED TO CHECK
-                    BasePageObject basePObject = new CusperaBasePageObject();
+                    BasePageObject basePObject = new DigitalDeployerBasePageObject();
                     basePObject.loginAs(user);
                 }
-
 
                 NetworkTrafficInterceptor
                         networkTrafficInterceptor =

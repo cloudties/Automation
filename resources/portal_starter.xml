@@ -17,7 +17,7 @@
     </listeners>
     <test name="Home">
         <classes >
-            <class name="com.automation.ui.cuspera.testcases.home.HomePageTest" >
+            <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
                     <include name="continue_Test"/>
@@ -25,7 +25,7 @@
                 </methods>
             </class>
 
-            <class name="com.automation.ui.cuspera.testcases.context.ContextPageTest" >
+            <class name="com.automation.ui.digitaldeployer.testcases.context.ContextPageTest" >
                 <methods >
                     <include name="clickEmail_Test"/>
                 </methods>

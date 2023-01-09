@@ -36,69 +36,143 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/css/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/css/new-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/WeatherIcons-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/image/bg1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/js/Chart2.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/js/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-12-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-17-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-18-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-19-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-23-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-31-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-34-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-39-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-42-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-45-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-51-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-53-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/velocity.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/data/createAccount.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/features/create_account.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/features/search_by_keyword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/logback-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/model/CreateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/CreateAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/EbiHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/ebi_search/TC01_EBI_SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/ebi_search/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/reportbuilder/CodeCompilerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/reportbuilder/CucumberReportMergerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/stepdefinition/CreateAccoutStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/stepdefinition/SearchProductStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/CreateAccountSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/EbiSearchScenarioSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/MyAccountSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/MyStoreHomeSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/Regression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/SanityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/utilities/JsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/constants/DigitalDeployerCONSTANTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/constants/ExcelCONSTANTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/core/url/DigitalDeployerUrlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/dataprovider/DigitalDeployerDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/exception/UIException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/CountryCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/DigitalDeployerBasePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/GenInfoLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/Goals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/Industry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/dataprovider/ContextDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/pages/ContextPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/vo/ContextVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/xpathconstants/ContextConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/dataprovider/HomeDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/InitialSearchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/xpathconstants/LoginCONSTANTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/DigitalDeployerBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/templates/DigitalDeployerTestTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/login/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_cssparser_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_cssparser_1_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_server_3_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_28.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/acceptance/Test_Case_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/constants/dbQueries.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/context/DatabaseContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/CheckServiceAvailability.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/DBHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/DataReaderHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/DateHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/ExcelHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/FileHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/PropertyHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/RestServiceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/SoapServiceHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/helpers/StringHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/ScenarioHook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/hooks/initialization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/DatabaseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/model/ReportModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/CodeCompiler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/ConsolidatedReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/HtmlReportWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/framework/report/MergeReports.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/model/CreateAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/pages/CreateAccountPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/pages/MyAccountPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/steps/CreateAccountSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/steps/LoginSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/steps/MyAccountSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/steps/MyStoreHomeSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/bdd/serenity/utilities/JsonReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/resources/data/createAccount.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/resources/features/create_account.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/resources/features/search_by_keyword.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/resources/logback-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/pages/EbiHomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/runCukes/ebi_search/TC01_EBI_SearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/runCukes/reportbuilder/CodeCompilerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/runCukes/reportbuilder/CucumberReportMergerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/stepdefinition/CreateAccoutStepDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/stepdefinition/SearchProductStepDefinition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/steps/EbiSearchScenarioSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/tags/Regression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/tags/SanityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/cuspera/bdd/test/tags/SmokeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ChromeDriver/chromedriver_win32/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ChromeDriver/chromedriver_win32/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/data/dataselenium.xls" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/dataselenium.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portal_samplerun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_samplerun.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portal_starter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_starter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portal_uiautomation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_uiautomation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/url/UrlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/url/UrlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/jiraissue/CreateIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/jiraissue/CreateIssue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/testnglisteners/BrowserAndTestEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/testnglisteners/BrowserAndTestEventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,31 +192,38 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="mavenHome" value="C:\Software\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Software/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2B3TJv3oud6XNJdPeaPJ8p9Swok" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.4597701" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/Automation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.automation.ui.cuspera.testcases.context" />
@@ -153,7 +234,7 @@
       <recent name="D:\cloudties\github\Automation\src\com\automation\ui\cuspera\pageobjectsfactory\pageobject\context" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="TestNG.HomePageTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -239,19 +320,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.continue_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.ui.cuspera.testcases.home.*" />
+          <option name="PATTERN" value="com.automation.ui.digitaldeployer.testcases.home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.automation.ui.cuspera.testcases.home" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.ui.cuspera.testcases.home.HomePageTest" />
-      <option name="METHOD_NAME" value="continue_Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.automation.ui.digitaldeployer.testcases.home" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -268,19 +358,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestRunner" />
       <item itemvalue="JUnit.TC01_EBI_SearchTest" />
-      <item itemvalue="TestNG.D:/cloudties/github/Automation/resources/portal_starter.xml" />
+      <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="TestNG.HomePageTest" />
       <item itemvalue="TestNG.ContextPageTest.clickEmail_Test" />
-      <item itemvalue="TestNG.HomePageTest.continue_Test" />
+      <item itemvalue="TestNG.D:/cloudties/github/Automation/resources/portal_starter.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.TC01_EBI_SearchTest" />
         <item itemvalue="TestNG.ContextPageTest.clickEmail_Test" />
         <item itemvalue="TestNG.D:/cloudties/github/Automation/resources/portal_starter.xml" />
-        <item itemvalue="TestNG.HomePageTest.continue_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -311,44 +401,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge branch 'master' of https://github.com/cloudties/Automation&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;resources/config/config.yml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/cloudties/Automation&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;README.md&#10;#&#9;resources/config/config.yml" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1656158588783">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="447" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1656158588783" />
-    <state x="410" y="105" key="FileChooserDialogImpl" timestamp="1656141276305">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="410" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1656141276305" />
-    <state width="1286" height="207" key="GridCell.Tab.0.bottom" timestamp="1656234879690">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1286" height="207" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1656234879690" />
-    <state width="1286" height="207" key="GridCell.Tab.0.center" timestamp="1656234879690">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1286" height="207" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1656234879690" />
-    <state width="1286" height="207" key="GridCell.Tab.0.left" timestamp="1656234879689">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1286" height="207" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1656234879689" />
-    <state width="1286" height="207" key="GridCell.Tab.0.right" timestamp="1656234879690">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1286" height="207" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1656234879690" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1656141703469">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1656141703469" />
-    <state x="408" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1656141333952">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="408" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1656141333952" />
   </component>
 </project>

@@ -1,12 +1,12 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>Cuspera.UIAutomation</groupId>
-    <artifactId>Cuspera.UIAutomation</artifactId>
+    <groupId>DigitalDeployer.UIAutomation</groupId>
+    <artifactId>DigitalDeployer.UIAutomation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Cuspera.UIAutomation</name>
-    <description>Cuspera.UIAutomation Project</description>
+    <name>DigitalDeployer.UIAutomation</name>
+    <description>DigitalDeployer.UIAutomation Project</description>
     <scm>
         <url>scm:git:git@github.com:hpsped/projectdigitization.git</url>
         <connection>scm:git:git@github.com:hpsped/projectdigitization.git</connection>
@@ -20,7 +20,7 @@
         <selenium.version>2.48.2</selenium.version>
         <keywords.class>Selenium2Library</keywords.class>
         <skipTests>false</skipTests>
-        <mailpass>sajupass</mailpass>
+        <mailpass>password</mailpass>
 
         <maven.build.timestamp.format>yyyy-MM-dd-HH-mm</maven.build.timestamp.format>
          <timestamp>${maven.build.timestamp}</timestamp>
@@ -268,7 +268,7 @@
 
 
                 <plugin>
-                    <!-- mvn -Dmailpass=sajupass -DsuiteXmlFile=ipe_test.xml initialize clean compile surefire-report:report postman:send-mail -->
+                    <!-- mvn -Dmailpass=password -DsuiteXmlFile=ipe_test.xml initialize clean compile surefire-report:report postman:send-mail -->
                     <!-- mvn -Dmailpass=mailpassword antrun:run@ant-execute initialize clean compile test surefire-report:report postman:send-mail  -->
                     <groupId>ch.fortysix</groupId>
                     <artifactId>maven-postman-plugin</artifactId>
@@ -281,9 +281,9 @@
                             </goals>
                             <inherited>true</inherited>
                             <configuration>
-                                <from>kksclt@gmail.com</from>
+                                <from>manjusha.saju@wescodist.com</from>
                                 <!--
-                                 <subject>Cuspera.UIAutomation</subject>
+                                 <subject>DigitalDeployer.UIAutomation</subject>
                                  <failonerror>false</failonerror>
                                 -->
                                 <htmlMessage>
@@ -295,12 +295,12 @@
 
                                 <mailssl>true</mailssl>
                                 <mailAltConfig>true</mailAltConfig>
-                                <mailuser>kksclt@gmail.com</mailuser>
+                                <mailuser>manjusha.saju@wescodist.com</mailuser>
                                 <mailpassword></mailpassword>
                                 <mailhost>smtp.gmail.com</mailhost>
                                 <mailport>465</mailport>
                                 <receivers>
-                                    <receiver>sajukk@cuspera.com</receiver>
+                                    <receiver>manjusha.saju@wescodist.com</receiver>
                                 </receivers>
                                 <fileSets>
                                     <fileSet>
