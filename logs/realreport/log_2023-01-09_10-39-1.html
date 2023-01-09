@@ -154,7 +154,7 @@ $(document).ready(function () {
 <table style="background-color: #e7505a;"> 
      <tr class="step">
          <td ><em>Test Method Name</td>
-         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchHomePage_Test</td>
+         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.index.HomePageTest.launchHomePage_Test</td>
          
      </tr>
 
@@ -217,7 +217,7 @@ $(document).ready(function () {
 <table style="background-color: #e7505a;"> 
      <tr class="step">
          <td ><em>Test Method Name</td>
-         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.home.HomePageTest.continue_Test</td>
+         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.index.HomePageTest.continue_Test</td>
          
      </tr>
 
@@ -263,7 +263,44 @@ $(document).ready(function () {
 
 <tr class="error stacktrace">
     <td>STACKTRACE</td>
-    <td>java.lang.AssertionError: ERROR WHILE EXECUTION <br>	at org.testng.Assert.fail(Assert.java:94)<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.continueButton(HomePage.java:124)<br>	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.continue_Test(HomePageTest.java:60)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)<br>	at org.testng.TestRunner.run(TestRunner.java:632)<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br>	at org.testng.TestNG.run(TestNG.java:1064)<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br></td>
+    <td>java.lang.AssertionError: ERROR WHILE EXECUTION 
+<br>	at org.testng.Assert.fail(Assert.java:94)
+<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.continueButton(HomePage.java:124)
+<br>	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.continue_Test(HomePageTest.java:60)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+<br>	at org.testng.TestRunner.run(TestRunner.java:632)
+<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+<br>	at org.testng.TestNG.run(TestNG.java:1064)
+<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+<br></td>
     <td> <br/> &nbsp;</td>
 </tr>
 
@@ -281,7 +318,7 @@ $(document).ready(function () {
 <table style="background-color: #e7505a;"> 
      <tr class="step">
          <td ><em>Test Method Name</td>
-         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.home.HomePageTest.search_Test</td>
+         <td colspan="2"><em>com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test</td>
          
      </tr>
 
@@ -327,7 +364,44 @@ $(document).ready(function () {
 
 <tr class="error stacktrace">
     <td>STACKTRACE</td>
-    <td>java.lang.AssertionError: ERROR WHILE EXECUTION <br>	at org.testng.Assert.fail(Assert.java:94)<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.search(HomePage.java:197)<br>	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.search_Test(HomePageTest.java:114)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)<br>	at org.testng.TestRunner.run(TestRunner.java:632)<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br>	at org.testng.TestNG.run(TestNG.java:1064)<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br></td>
+    <td>java.lang.AssertionError: ERROR WHILE EXECUTION 
+<br>	at org.testng.Assert.fail(Assert.java:94)
+<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+<br>	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test(HomePageTest.java:114)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+<br>	at org.testng.TestRunner.run(TestRunner.java:632)
+<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+<br>	at org.testng.TestNG.run(TestNG.java:1064)
+<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+<br></td>
     <td> <br/> &nbsp;</td>
 </tr>
 
@@ -391,7 +465,44 @@ $(document).ready(function () {
 
 <tr class="error stacktrace">
     <td>STACKTRACE</td>
-    <td>java.lang.AssertionError: ERROR WHILE EXECUTION <br>	at org.testng.Assert.fail(Assert.java:94)<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.search(HomePage.java:197)<br>	at com.automation.ui.digitaldeployer.testcases.context.ContextPageTest.clickEmail_Test(ContextPageTest.java:74)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)<br>	at org.testng.TestRunner.run(TestRunner.java:632)<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br>	at org.testng.TestNG.run(TestNG.java:1064)<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>	at java.lang.reflect.Method.invoke(Method.java:497)<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br></td>
+    <td>java.lang.AssertionError: ERROR WHILE EXECUTION 
+<br>	at org.testng.Assert.fail(Assert.java:94)
+<br>	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+<br>	at com.automation.ui.digitaldeployer.testcases.context.ContextPageTest.clickEmail_Test(ContextPageTest.java:74)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+<br>	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+<br>	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+<br>	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+<br>	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+<br>	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+<br>	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+<br>	at org.testng.TestRunner.run(TestRunner.java:632)
+<br>	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+<br>	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+<br>	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+<br>	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+<br>	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br>	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br>	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+<br>	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+<br>	at org.testng.TestNG.run(TestNG.java:1064)
+<br>	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+<br>	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+<br>	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>	at java.lang.reflect.Method.invoke(Method.java:497)
+<br>	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+<br>	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+<br>	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+<br></td>
     <td> <br/> &nbsp;</td>
 </tr>
 
@@ -731,7 +842,7 @@ $(document).ready(function () {
                                         </input>
 </form>
 </p>
-<select name="action" class="form-control" id="selGrp"><option>StarterRun</option></select><select style="display:none;" name="action" class="form-control" id="selCls"><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</option><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</option><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</option><option value="_StarterRun@10800">com.automation.ui.digitaldeployer.testcases.context.ContextPageTest</option></select><select style="display:none;" name="action" class="form-control" id="selVerd"><option>-- Select Verdict --</option><option value="PASS">Pass</option><option value="FAIL">Fail</option><option value="SKIP">Skip</option></select>
+<select name="action" class="form-control" id="selGrp"><option>StarterRun</option></select><select style="display:none;" name="action" class="form-control" id="selCls"><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.index.HomePageTest</option><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.index.HomePageTest</option><option value="_StarterRun@19180">com.automation.ui.digitaldeployer.testcases.index.HomePageTest</option><option value="_StarterRun@10800">com.automation.ui.digitaldeployer.testcases.context.ContextPageTest</option></select><select style="display:none;" name="action" class="form-control" id="selVerd"><option>-- Select Verdict --</option><option value="PASS">Pass</option><option value="FAIL">Fail</option><option value="SKIP">Skip</option></select>
 </div>
 <div class="alert alert-info">
 <strong>Showing <i id="show"></i> results
@@ -749,10 +860,10 @@ $(document).ready(function () {
 <p>
 <strong>Name:</strong>launchHomePage_Test</p>
 <p>
-<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.home.HomePageTest</p>
+<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.index.HomePageTest</p>
 <p>
 <strong>Parameters:</strong>1.
-                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@693e4d19</p>
+                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@693e4d19</p>
 <p>
 <strong>Context Group Name:</strong>
 </p>
@@ -781,10 +892,10 @@ $(document).ready(function () {
 <p>
 <strong>Name:</strong>continue_Test</p>
 <p>
-<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.home.HomePageTest</p>
+<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.index.HomePageTest</p>
 <p>
 <strong>Parameters:</strong>1.
-                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@9255c05</p>
+                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@9255c05</p>
 <p>
 <strong>Context Group Name:</strong>
 </p>
@@ -802,8 +913,8 @@ $(document).ready(function () {
 <p class="breaker">
 <strong>Reason:</strong>ERROR WHILE EXECUTION 
 org.testng.Assert.fail(Assert.java:94)
-com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.continueButton(HomePage.java:124)
-com.automation.ui.digitaldeployer.testcases.home.HomePageTest.continue_Test(HomePageTest.java:60)
+com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.continueButton(HomePage.java:124)
+com.automation.ui.digitaldeployer.testcases.index.HomePageTest.continue_Test(HomePageTest.java:60)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -852,10 +963,10 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
 <p>
 <strong>Name:</strong>search_Test</p>
 <p>
-<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.home.HomePageTest</p>
+<strong>Instance:</strong>com.automation.ui.digitaldeployer.testcases.index.HomePageTest</p>
 <p>
 <strong>Parameters:</strong>1.
-                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@c6a6c1d</p>
+                                                        com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@c6a6c1d</p>
 <p>
 <strong>Context Group Name:</strong>
 </p>
@@ -873,8 +984,8 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
 <p class="breaker">
 <strong>Reason:</strong>ERROR WHILE EXECUTION 
 org.testng.Assert.fail(Assert.java:94)
-com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.search(HomePage.java:197)
-com.automation.ui.digitaldeployer.testcases.home.HomePageTest.search_Test(HomePageTest.java:114)
+com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test(HomePageTest.java:114)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -944,7 +1055,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
 <p class="breaker">
 <strong>Reason:</strong>ERROR WHILE EXECUTION 
 org.testng.Assert.fail(Assert.java:94)
-com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.search(HomePage.java:197)
+com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
 com.automation.ui.digitaldeployer.testcases.context.ContextPageTest.clickEmail_Test(ContextPageTest.java:74)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

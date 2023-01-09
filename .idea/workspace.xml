@@ -36,143 +36,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/realreport/css/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/css/new-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/Linearicons-Free.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/WeatherIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/digital-7_mono-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/fonts/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/image/bg1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/js/Chart2.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/js/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/js/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-12-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-17-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-18-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-19-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-23-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-31-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-34-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-39-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-42-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-45-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-51-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-53-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/velocity.log.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/data/createAccount.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/features/create_account.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/features/search_by_keyword.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/resources/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/model/CreateAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/CreateAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/EbiHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/pages/MyAccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/ebi_search/TC01_EBI_SearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/ebi_search/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/reportbuilder/CodeCompilerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/runCukes/reportbuilder/CucumberReportMergerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/stepdefinition/CreateAccoutStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/stepdefinition/SearchProductStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/CreateAccountSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/EbiSearchScenarioSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/MyAccountSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/steps/MyStoreHomeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/Regression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/SanityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/tags/SmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/bdd/test/utilities/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/constants/DigitalDeployerCONSTANTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/constants/ExcelCONSTANTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/core/url/DigitalDeployerUrlBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/dataprovider/DigitalDeployerDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/common/exception/UIException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/CountryCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/DigitalDeployerBasePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/GenInfoLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/Goals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/base/Industry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/dataprovider/ContextDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/pages/ContextPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/vo/ContextVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/context/xpathconstants/ContextConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/dataprovider/HomeDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/InitialSearchVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/xpathconstants/LoginCONSTANTS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/DigitalDeployerBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/templates/DigitalDeployerTestTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/login/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_28.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_01-45-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_01-47-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_01-49-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-05-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-08-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-12-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-24-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-27-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_12-40-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeCONSTANTS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/dataprovider/IndexDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/pages/IndexPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/vo/InitialSearchVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/index/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/index/IndexPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/ChromeDriver/chromedriver_win32/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ChromeDriver/chromedriver_win32/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/data/dataselenium.xls" beforeDir="false" afterPath="$PROJECT_DIR$/resources/data/dataselenium.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-12-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-12-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-17-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-17-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-18-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-18-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-19-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-19-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-23-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-23-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-31-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-31-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-34-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-34-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-39-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-39-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-42-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-42-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-45-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-45-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-51-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-51-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-53-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/log_2023-01-09_10-53-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/portal_samplerun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_samplerun.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/portal_starter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_starter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/portal_uiautomation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_uiautomation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/url/UrlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/url/UrlBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/jiraissue/CreateIssue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/jiraissue/CreateIssue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/testnglisteners/BrowserAndTestEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/testnglisteners/BrowserAndTestEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runautomation.bat" beforeDir="false" afterPath="$PROJECT_DIR$/runautomation.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/dataprovider/HomeDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/dataprovider/HomeDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/pages/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/vo/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/InitialSearchVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/vo/InitialSearchVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/xpathconstants/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/xpathconstants/IndexConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/DigitalDeployerBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/DigitalDeployerBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/login/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,16 +137,18 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.automation.ui.cuspera.testcases.context" />
-      <recent name="com.automation.ui.cuspera.pageobjectsfactory.pageobject.base" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\cloudties\github\Automation" />
       <recent name="D:\cloudties\github\Automation\src\com\automation\ui\cuspera\pageobjectsfactory\pageobject\context" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dataprovider" />
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo" />
+      <recent name="com.automation.ui.cuspera.testcases.context" />
+      <recent name="com.automation.ui.cuspera.pageobjectsfactory.pageobject.base" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomePageTest">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -309,30 +223,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/cloudties/github/Automation/resources/portal_starter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/portal_starter.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.automation.ui.digitaldeployer.testcases.home.*" />
+          <option name="PATTERN" value="com.automation.ui.digitaldeployer.testcases.index.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.automation.ui.digitaldeployer.testcases.home" />
-      <option name="MAIN_CLASS_NAME" value="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -342,6 +245,24 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.ui.digitaldeployer.testcases.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.ui.digitaldeployer.testcases.login" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.digitaldeployer.testcases.login.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
       <method v="2">
@@ -360,17 +281,17 @@
     <list>
       <item itemvalue="JUnit.TC01_EBI_SearchTest" />
       <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.IndexPageTest" />
+      <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.ContextPageTest.clickEmail_Test" />
-      <item itemvalue="TestNG.D:/cloudties/github/Automation/resources/portal_starter.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.IndexPageTest" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.TC01_EBI_SearchTest" />
         <item itemvalue="TestNG.ContextPageTest.clickEmail_Test" />
-        <item itemvalue="TestNG.D:/cloudties/github/Automation/resources/portal_starter.xml" />
       </list>
     </recent_temporary>
   </component>

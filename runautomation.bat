@@ -31,5 +31,5 @@ echo  ------------- RUN THE TESTS ----------------------
 @rem We have two test suite file in the automation one for starter check and other for running full automation
 @rem suite file name portal_starter.xml will run the basic starter UI automation
 @rem replace suite file name  with portal_uiautomation.xml in the below line it will run  all UI Automation
-mvn -T 2 -DdependencyLocationsEnabled=false -DsuiteXmlFile=portal_starter.xml antrun:run@ant-execute validate initialize  compile test clean  surefire-report:report
-@rem postman:send-mail
+@rem mvn -T 2 -DdependencyLocationsEnabled=false -DsuiteXmlFile=portal_starter.xml antrun:run@ant-execute validate initialize  compile test clean  surefire-report:report
+mvn -T 2 -DdependencyLocationsEnabled=false -DsuiteXmlFile=portal_starter.xml antrun:run@ant-execute validate initialize  compile test clean

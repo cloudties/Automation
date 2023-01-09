@@ -8,7 +8,7 @@ import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.DigitalDeployerBasePageObject;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.xpathconstants.LoginCONSTANTS;
 
 import org.apache.log4j.Logger;
@@ -21,7 +21,7 @@ import org.testng.Reporter;
 public class LoginPage extends DigitalDeployerBasePageObject {
 
 
-    private static Logger logger = Logger.getLogger(LoginPage.class);
+    private static Logger logger = Logger.getLogger(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.class);
 
     @FindBy(xpath = LoginCONSTANTS.USERID)
     @CacheLookup
@@ -35,6 +35,19 @@ public class LoginPage extends DigitalDeployerBasePageObject {
     @CacheLookup
     private WebElement login_button;
 
+    @FindBy(xpath = LoginCONSTANTS.AUTHORISE)
+    @CacheLookup
+    private WebElement login_authorise;
+
+    @FindBy(xpath = LoginCONSTANTS.CONTAUTHORISE)
+    @CacheLookup
+    private WebElement login_contauthorise;
+    @FindBy(xpath = LoginCONSTANTS.CONTINUE)
+    @CacheLookup
+    private WebElement login_continue;
+
+
+
 
     public LoginPage() {
         super();
@@ -42,7 +55,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
         Reporter.log("default constructor called");
     }
 
-    public LoginPage open() {
+    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage open() {
 
         logger.info("getCurrentUrl()" + getCurrentUrl());
         logger.info("getSiteUrl()" + getSiteUrl());
@@ -68,7 +81,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
     }
 
 
-    public LoginPage enterUser(String userName) {
+    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage enterUser(String userName) {
         try {
             logger.info("Entering enterUser  login: ");
             Reporter.log("Entering  enterUser login:");
@@ -88,7 +101,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
 
     }
 
-    public LoginPage enterPassword(String upassword) {
+    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage enterPassword(String upassword) {
         try {
             logger.info("Entering  enterPassword: ");
             Reporter.log("Entering  enterPassword:");
@@ -108,7 +121,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
     }
 
 
-    public HomePage login() {
+    public IndexPage login() {
         try {
             logger.info("Entering  login: ");
             Reporter.log("Entering  login:");
@@ -126,7 +139,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
             Reporter.log("Login failed");
 
         }
-        return new HomePage();
+        return new IndexPage();
 
     }
 
@@ -155,5 +168,73 @@ public class LoginPage extends DigitalDeployerBasePageObject {
 
     }
 
+
+    public IndexPage continueauth() {
+        try {
+            logger.info("Entering  continueauth: ");
+            Reporter.log("Entering  continueauth:");
+
+
+            waitAndClick(login_contauthorise);
+
+            logger.info("Exiting  continueauth");
+            Reporter.log("Exiting  continueauth");
+            // wait.forElementVisible(savepasswordbutton);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Reporter.log("continueauth failed");
+
+        }
+        return new IndexPage();
+
+    }
+
+
+    public IndexPage continuetogitlogin() {
+        try {
+            logger.info("Entering  continue: ");
+            Reporter.log("Entering  continue:");
+
+
+            waitAndClick(login_continue);
+
+            logger.info("Exiting  continue");
+            Reporter.log("Exiting  continue");
+            // wait.forElementVisible(savepasswordbutton);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Reporter.log("continue failed");
+
+        }
+        return new IndexPage();
+
+    }
+
+
+    public IndexPage authorise() {
+        try {
+            logger.info("Entering  authorise: ");
+            Reporter.log("Entering  authorise:");
+
+
+            waitAndClick(login_authorise);
+
+            logger.info("Exiting  authorise");
+            Reporter.log("Exiting  authorise");
+            // wait.forElementVisible(savepasswordbutton);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Reporter.log("authorise failed");
+
+        }
+        return new IndexPage();
+
+    }
 
 }

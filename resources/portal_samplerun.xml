@@ -17,7 +17,7 @@
     </listeners>
     <test name="Home">
         <classes >
-            <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
+            <class name="com.automation.ui.digitaldeployer.testcases.index.HomePageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
                     <include name="search_Test"/>

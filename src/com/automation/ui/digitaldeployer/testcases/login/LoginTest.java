@@ -4,11 +4,13 @@ package com.automation.ui.digitaldeployer.testcases.login;
  * @author Manjusha Saju
  */
 
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.*;
 import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
 
 //import com.uiautomation.ui.listener.LoginListener;
 
@@ -42,7 +44,6 @@ public class LoginTest extends DigitalDeployerBaseTest {
             .getLogger(LoginTest.class);
 
 
-    private LoginPage login_page = null;
 
 
     public LoginTest() {
@@ -52,14 +53,41 @@ public class LoginTest extends DigitalDeployerBaseTest {
 
     }
 
-
     @Test(priority = 1, groups = {"base", "validcase"})
+    public void verifyContinueBeforeLogin() throws Throwable {
+
+        logger.info("Entering verifyContinueBeforeLogin");
+        Reporter.log("Entering verifyContinueBeforeLogin");
+        homePage = new HomePage();
+        homePage.open();
+        String methodname = new Object() {
+        }.getClass().getEnclosingMethod().getName();
+        // Call the method
+        login_page=new LoginPage();
+        login_page.continuetogitlogin();
+
+        Thread.sleep(3000);
+
+        String userName = eu.getCellData(1, 1);
+        String password = eu.getCellData(1, 2);
+
+
+        logger.info("Exiting verifyValidLogin and going to login userName:" + userName + "password : *****");
+        login_page.enterUser(userName);
+        login_page.enterPassword(password);
+        login_page.login();
+        //  driver.navigate().back();
+
+    }
+
+
+    @Test(priority = 2, groups = {"base", "validcase"})
     public void verifyValidLogin() throws Throwable {
 
         logger.info("Entering verifyValidLogin");
         Reporter.log("Entering verifyValidLogin");
-        login_page = new LoginPage();
-        login_page.open();
+        homePage = new HomePage();
+        homePage.open();
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
         // Call the method
@@ -82,8 +110,8 @@ public class LoginTest extends DigitalDeployerBaseTest {
     public void verifyInValidUserNullPassword() throws Throwable {
         logger.info("Entering verifyInValidUserNullPassword");
         Reporter.log("Entering verifyInValidUserNullPassword");
-        LoginPage login_page = new LoginPage();
-        login_page.open();
+          homePage = new HomePage();
+        homePage.open();
         // Call the method
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
@@ -105,7 +133,7 @@ public class LoginTest extends DigitalDeployerBaseTest {
 
         logger.info("Entering verifyValidUserNullPassword");
         Reporter.log("Entering verifyValidUserNullPassword");
-        LoginPage login_page = new LoginPage();
+        login_page = new LoginPage();
         login_page.open();
         // Call the method
         String methodname = new Object() {
@@ -128,8 +156,8 @@ public class LoginTest extends DigitalDeployerBaseTest {
 
         logger.info("Entering verifyInValidLogin");
         Reporter.log("Entering verifyInValidLogin");
-        LoginPage login_page = new LoginPage();
-        login_page.open();
+        homePage  = new HomePage();
+        homePage.open();
 
 
         String methodname = new Object() {
@@ -147,27 +175,6 @@ public class LoginTest extends DigitalDeployerBaseTest {
     }
 
 
-    @Test(priority = 5, groups = {"base", "invalidcase"}, description = "invalid login")
-    public void verifyNullUserNullPassword() throws Throwable {
-
-        logger.info("Entering verifyNullUserNullPassword");
-        Reporter.log("Entering verifyNullUserNullPassword");
-        LoginPage login_page = new LoginPage();
-        login_page.open();
-        // Call the method
-
-        String methodname = new Object() {
-        }.getClass().getEnclosingMethod().getName();
-
-        String userName = eu.getCellData(5, 1);
-        String password = eu.getCellData(5, 2);
-
-        logger.info("Exiting verifyNullUserNullPassword and going to login userName:" + userName + "password : *****");
-        login_page.enterUser(userName);
-        login_page.enterPassword(password);
-        login_page.login();
-        //  driver.navigate().back();
-    }
 
 
 }

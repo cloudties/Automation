@@ -31,6 +31,7 @@ import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
+
 public class HomePageTest extends DigitalDeployerBaseTest {
 
     private static Logger logger = Logger.getLogger(HomePageTest.class);
@@ -53,11 +54,12 @@ public class HomePageTest extends DigitalDeployerBaseTest {
     }
 
 
+
     @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void continue_Test(InitialSearchVO search) throws Throwable {
+    public void launchAddNewWorkspace_Test(InitialSearchVO search) throws Throwable {
 
-        homePage.continueButton();
+        homePage.addws();
 
         Thread.sleep(1000);
 
@@ -65,57 +67,7 @@ public class HomePageTest extends DigitalDeployerBaseTest {
 
 
 
-    @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchHomePage_Test(InitialSearchVO search) throws Throwable {
-
-        homePage.open();
-
-        Thread.sleep(1000);
-
-    }
-
-
-    @Test(priority = 2 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-
-    public void searchIndustry_Test(InitialSearchVO search) throws Throwable {
-
-        homePage.searchIndustry(search);
-
-        Thread.sleep(10000);
-
-    }
-
-
-    @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-
-    public void searchMarketing_Test(InitialSearchVO search) throws Throwable {
-
-        homePage.searchMarketing(search);
-
-        Thread.sleep(10000);
-
-    }
-
-    @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-
-    public void searchGoal_Test(InitialSearchVO search) throws Throwable {
-
-        homePage.searchGoal(search);
-
-        Thread.sleep(10000);
-
-    }
-
-    @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-
-    public void search_Test(InitialSearchVO search) throws Throwable {
-
-        homePage.search(search);
-
-        Thread.sleep(10000);
-
-    }
 
 
 }

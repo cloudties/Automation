@@ -1,9 +1,9 @@
-package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.xpathconstants;
+package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.xpathconstants;
 
 /**
  * @author
  */
-public interface HomeConstants {
+public interface IndexConstants {
     public static String SEARCHINDUSTRY = "//select[@id='industry']";
     public static String SEARCHMARKETNEED = "//input[@id='businessProblem']";
     public static String SEARCHLEADMANAGEMENT = "(//div[contains(.,'lead management')])[1]";

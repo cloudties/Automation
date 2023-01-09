@@ -11,7 +11,9 @@ import com.automation.ui.base.common.contentpatterns.URLsContent;
 import com.automation.ui.base.common.core.assertion.Assertion;
 import com.automation.ui.base.common.utils.ExcelUtil;
 import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
- import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.pages.*;
 import com.automation.ui.digitaldeployer.testcases.base.templates.DigitalDeployerTestTemplate;
 import org.apache.log4j.Logger;
@@ -22,7 +24,9 @@ public class DigitalDeployerBaseTest extends DigitalDeployerTestTemplate {
 
     private static Logger logger = Logger.getLogger(DigitalDeployerBaseTest.class);
     protected ExcelUtil eu = null;
-      protected HomePage homePage = null;
+    protected IndexPage indexPage = null;
+    protected HomePage homePage = null;
+    protected LoginPage login_page = null;
 
      protected ContextPage contextPage =null;
 

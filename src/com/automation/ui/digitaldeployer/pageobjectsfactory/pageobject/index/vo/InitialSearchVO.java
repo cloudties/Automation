@@ -1,7 +1,6 @@
-package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo;
+package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo;
 
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Goals;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Industry;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.*;
 
 public class InitialSearchVO {
 

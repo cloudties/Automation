@@ -3,10 +3,10 @@
 <suite name="portalautomation" verbose="5" >
     <!--
     How to run using testng from command prompt
-    java -cp "C:\Software\selenium\selenium-java-2.53.1.jar;C:\Software\selenium\realReport_1.0.jar;C:\Projects\Automation\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar;C:\Software\selenium\testng-6.9.10.jar;C:\Software\selenium\selenium-server-standalone-2.53.1.jar" org.testng.TestNG portal_starter.xml -d test-output\
+    java -cp "C:\Project\Automation\selenium-java-2.53.1.jar;C:\Software\selenium\realReport_1.0.jar;C:\Projects\Automation\target\Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar;C:\Project\Automation\testng-6.9.10.jar;C:\Project\Automation\selenium-server-standalone-2.53.1.jar" org.testng.TestNG portal_starter.xml -d test-output\
     <parameter name="appURL" value="http://localhost:8090/"/>
     <parameter name="browserType" value="chrome"/>
-    mvn -X -DskipTests -Djenkinworkspace='c:\software\workspace\portal' -f Automation/pom.xml package
+    mvn -X -DskipTests -Djenkinworkspace='c:\Project\Automation\portal' -f Automation/pom.xml package
     -->
     <listeners>
         <listener class-name="org.testng.reporters.EmailableReporter2"/>
@@ -17,17 +17,21 @@
     </listeners>
     <test name="Home">
         <classes >
-            <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
+            <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
-                    <include name="continue_Test"/>
-                    <include name="search_Test"/>
+                 </methods>
+            </class>
+
+            <class name="com.automation.ui.digitaldeployer.testcases.login.LoginTest" >
+                <methods >
+                    <include name="verifyContinueBeforeLogin"/>
                 </methods>
             </class>
 
-            <class name="com.automation.ui.digitaldeployer.testcases.context.ContextPageTest" >
+            <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
                 <methods >
-                    <include name="clickEmail_Test"/>
+                    <include name="launchAddNewWorkspace_Test"/>
                 </methods>
             </class>
 

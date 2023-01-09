@@ -1,17 +1,18 @@
-package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dataprovider;
+package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.dataprovider;
 /**
  * @author
  */
 
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Goals;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Industry;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO;
 import org.testng.annotations.DataProvider;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.*;
 
 
-public class HomeDataProvider {
 
-    public HomeDataProvider() {
+public class IndexDataProvider {
+
+    public IndexDataProvider() {
 
     }
 
