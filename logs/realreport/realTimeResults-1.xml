@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <testResults>
     <testResult>
-        <id>_StarterRun@10814</id>
+        <id>_StarterRun@24330</id>
         <suiteName>portalautomation</suiteName>
         <className>com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</className>
-        <context>org.testng.TestRunner@6d467c87</context>
+        <context>org.testng.TestRunner@5cbb84b1</context>
         <instance>com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</instance>
         <contextGroups/>
         <methodName>launchHomePage_Test</methodName>
         <methodParameters>
-            <methodParameter>com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679</methodParameter>
+            <methodParameter>com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@2c779e5</methodParameter>
         </methodParameters>
         <methodGroups>
             <methodGroup>StarterRun</methodGroup>
@@ -18,137 +18,65 @@
         <methodThreadCount>0</methodThreadCount>
         <methodCurrentInvocationCount>1</methodCurrentInvocationCount>
         <methodStatus>PASS</methodStatus>
-        <methodExecutionStartTime>13:49:42</methodExecutionStartTime>
-        <methodExecutionEndTime>13:49:44</methodExecutionEndTime>
-        <methodExecutionTotalTime>2433</methodExecutionTotalTime>
-        <annotation>Test_Method</annotation>
-    </testResult>
-    <testResult>
-        <id>_validcase_base@22230</id>
-        <suiteName>portalautomation</suiteName>
-        <className>com.automation.ui.digitaldeployer.testcases.login.LoginTest</className>
-        <context>org.testng.TestRunner@6d467c87</context>
-        <instance>com.automation.ui.digitaldeployer.testcases.login.LoginTest</instance>
-        <contextGroups/>
-        <methodName>verifyContinueBeforeLogin</methodName>
-        <methodGroups>
-            <methodGroup>validcase</methodGroup>
-            <methodGroup>base</methodGroup>
-        </methodGroups>
-        <methodInvocationTotalCount>1</methodInvocationTotalCount>
-        <methodThreadCount>0</methodThreadCount>
-        <methodCurrentInvocationCount>1</methodCurrentInvocationCount>
-        <methodStatus>PASS</methodStatus>
-        <methodExecutionStartTime>13:49:46</methodExecutionStartTime>
-        <methodExecutionEndTime>13:50:20</methodExecutionEndTime>
-        <methodExecutionTotalTime>33766</methodExecutionTotalTime>
-        <annotation>Test_Method</annotation>
-    </testResult>
-    <testResult>
-        <id>_StarterRun@17373</id>
-        <suiteName>portalautomation</suiteName>
-        <className>com.automation.ui.digitaldeployer.testcases.home.HomePageTest</className>
-        <context>org.testng.TestRunner@6d467c87</context>
-        <instance>com.automation.ui.digitaldeployer.testcases.home.HomePageTest</instance>
-        <contextGroups/>
-        <methodName>launchAddNewWorkspace_Test</methodName>
-        <methodParameters>
-            <methodParameter>com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@47547132</methodParameter>
-        </methodParameters>
-        <methodGroups>
-            <methodGroup>StarterRun</methodGroup>
-        </methodGroups>
-        <methodInvocationTotalCount>1</methodInvocationTotalCount>
-        <methodThreadCount>0</methodThreadCount>
-        <methodCurrentInvocationCount>1</methodCurrentInvocationCount>
-        <methodStatus>FAIL</methodStatus>
-        <methodExecutionStartTime>13:50:21</methodExecutionStartTime>
-        <methodExecutionEndTime>13:50:21</methodExecutionEndTime>
-        <methodExecutionTotalTime>0</methodExecutionTotalTime>
-        <methodErrorCause>argument type mismatch
-sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-java.lang.reflect.Method.invoke(Method.java:497)
-org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-org.testng.TestRunner.privateRun(TestRunner.java:782)
-org.testng.TestRunner.run(TestRunner.java:632)
-org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-org.testng.SuiteRunner.run(SuiteRunner.java:268)
-org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-org.testng.TestNG.run(TestNG.java:1064)
-org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
-org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
-sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-java.lang.reflect.Method.invoke(Method.java:497)
-org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
-org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
-org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
-org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
-org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
-</methodErrorCause>
+        <methodExecutionStartTime>22:25:09</methodExecutionStartTime>
+        <methodExecutionEndTime>22:25:10</methodExecutionEndTime>
+        <methodExecutionTotalTime>1384</methodExecutionTotalTime>
         <annotation>Test_Method</annotation>
     </testResult>
     <suites>
         <suiteNames/>
         <currentSuiteName>portalautomation</currentSuiteName>
         <excludedMethods dataProvider="1">
-            <excludedMethod>verifyInValidUserInvalidPassword</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
-            <excludedMethod>verifyInValidUserNullPassword</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
             <excludedMethod>tearDownAfterTestSuite</excludedMethod>
         </excludedMethods>
         <excludedMethods dataProvider="1">
-            <excludedMethod>tearDownAfterTestSuite</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
-            <excludedMethod>verifyValidLogin</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
             <excludedMethod>beforeSuite</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
-            <excludedMethod>beforeSuite</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
-            <excludedMethod>verifyValidUserNullPassword</excludedMethod>
-        </excludedMethods>
-        <excludedMethods dataProvider="1">
-            <excludedMethod>stop</excludedMethod>
         </excludedMethods>
         <excludedMethods dataProvider="1">
             <excludedMethod>stop</excludedMethod>
         </excludedMethods>
         <groups>
-            <group>validcase</group>
             <group>StarterRun</group>
-            <group>base</group>
         </groups>
         <parallel>false</parallel>
         <testMethods dataProvider="1">
             <testMethod>launchAddNewWorkspace_Test</testMethod>
         </testMethods>
         <testMethods dataProvider="1">
-            <testMethod>launchHomePage_Test</testMethod>
+            <testMethod>launchAddNewWorkspacename_Test</testMethod>
         </testMethods>
         <testMethods dataProvider="1">
-            <testMethod>verifyContinueBeforeLogin</testMethod>
+            <testMethod>launchApi_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchClearall_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchOverview_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchSearchText_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchdocumentation_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchhealth_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchhelp_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchlangselect_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchnotification_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchwsdropdown_Test</testMethod>
+        </testMethods>
+        <testMethods dataProvider="1">
+            <testMethod>launchHomePage_Test</testMethod>
         </testMethods>
     </suites>
 </testResults>

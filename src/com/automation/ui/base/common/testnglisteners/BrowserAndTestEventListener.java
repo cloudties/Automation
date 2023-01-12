@@ -33,7 +33,7 @@ import org.testng.SkipException;
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Date;
-import  com.automation.ui.base.common.jiraissue.*;
+
 public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
         implements ITestListener {
 
@@ -176,7 +176,7 @@ public class BrowserAndTestEventListener extends AbstractWebDriverEventListener
                 if (user != null && user != User.ANONYMOUS) {
                     // log in, make sure user is logged in and flow is on the requested url
                     //NEED TO CHECK
-                    BasePageObject basePObject = new DigitalDeployerBasePageObject();
+                    BasePageObject basePObject = new ProjectBasePageObject();
                     basePObject.loginAs(user);
                 }
 

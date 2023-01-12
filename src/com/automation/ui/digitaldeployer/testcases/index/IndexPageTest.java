@@ -27,11 +27,11 @@ import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.dataprovider.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.*;
-import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
+import com.automation.ui.digitaldeployer.testcases.base.ProjectBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
-public class IndexPageTest extends DigitalDeployerBaseTest {
+public class IndexPageTest extends ProjectBaseTest {
 
     private static Logger logger = Logger.getLogger(com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.class);
 

@@ -27,12 +27,13 @@ import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dataprovider.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.*;
-import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage;
+import com.automation.ui.digitaldeployer.testcases.base.ProjectBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
 
-public class HomePageTest extends DigitalDeployerBaseTest {
+public class HomePageTest extends ProjectBaseTest {
 
     private static Logger logger = Logger.getLogger(HomePageTest.class);
 
@@ -57,17 +58,112 @@ public class HomePageTest extends DigitalDeployerBaseTest {
 
     @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchAddNewWorkspace_Test(InitialSearchVO search) throws Throwable {
+    public void launchAddNewWorkspace_Test(InitialVO search) throws Throwable {
 
-        homePage.addws();
+
+        homePage = new HomePage();
+        homePage.open();
+        Thread.sleep(2000);
+        login_page=new LoginPage();
+        login_page.continuetogitlogin();
 
         Thread.sleep(1000);
 
+        String userName = eu.getCellData(1, 1);
+        String password = eu.getCellData(1, 2);
+
+        logger.debug("userName"+userName);
+        logger.debug("userName"+password);
+
+        login_page.enterUser(userName);
+        Thread.sleep(1000);
+
+        login_page.enterPassword(password);
+        Thread.sleep(2000);
+        login_page.login();
+        Thread.sleep(5000);
+
+
+        login_page.continueauth();
+
+        Thread.sleep(2000);
+
+        homePage.addws();
+        Thread.sleep(2000);
+        homePage.cancelws();
+
+
+
+    }
+
+    @Test(priority = 2 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchAddNewWorkspacename_Test(InitialVO search) throws Throwable {
+        homePage.addws();
+        Thread.sleep(1000);
+        homePage.addwsname();
+        Thread.sleep(2000);
+        homePage.cancelws();
+    }
+
+    @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchSearchText_Test(InitialVO search) throws Throwable {
+          homePage.searchtext();
+        Thread.sleep(3000);
+    }
+
+    @Test(priority = 4 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchClearall_Test(InitialVO search) throws Throwable {
+        homePage.clearall();
+        Thread.sleep(3000);
+    }
+
+    @Test(priority = 5 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchwsdropdown_Test(InitialVO search) throws Throwable {
+        homePage.wsdropdown();
+        Thread.sleep(3000);
+    }
+    @Test(priority = 8 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchApi_Test(InitialVO search) throws Throwable {
+        homePage.api();
+        Thread.sleep(3000);
+    }
+
+
+    @Test(priority = 6 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchOverview_Test(InitialVO search) throws Throwable {
+        homePage.overview();
+        Thread.sleep(3000);
+    }
+
+    @Test(priority = 7 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchlangselect_Test(InitialVO search) throws Throwable {
+        homePage.langselect();
+        Thread.sleep(3000);
     }
 
 
 
+    @Test(priority = 9 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchdocumentation_Test(InitialVO search) throws Throwable {
+        homePage.documentation();
+        Thread.sleep(2000);
+    }
 
+    @Test(priority = 10 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchhealth_Test(InitialVO search) throws Throwable {
+        homePage.health();
+        Thread.sleep(2000);
+    }
 
+    @Test(priority = 11 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchhelp_Test(InitialVO search) throws Throwable {
+        homePage.help();
+        Thread.sleep(2000);
+    }
 
+    @Test(priority = 12 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchnotification_Test(InitialVO search) throws Throwable {
+        homePage.notification();
+        Thread.sleep(2000);
+    }
 }

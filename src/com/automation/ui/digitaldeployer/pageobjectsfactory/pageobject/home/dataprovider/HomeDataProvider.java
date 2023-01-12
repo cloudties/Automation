@@ -3,13 +3,14 @@ package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dat
  * @author
  */
 
+import com.automation.ui.digitaldeployer.common.dataprovider.BaseDataProvider;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Goals;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Industry;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO;
 import org.testng.annotations.DataProvider;
 
 
-public class HomeDataProvider {
+public class HomeDataProvider extends BaseDataProvider {
 
     public HomeDataProvider() {
 
@@ -18,7 +19,7 @@ public class HomeDataProvider {
     @DataProvider(name = "initSearchStarter")
     public static final Object[][] getSearchStarter() {
 
-        InitialSearchVO initSearchVo1= new InitialSearchVO();
+        InitialVO initSearchVo1= new InitialVO();
          initSearchVo1.setSelectIndustry(Industry.INDUSTRY_COMPUTER_SOFTWARE);
 
         initSearchVo1.setSelectMarketNeeded("lead");

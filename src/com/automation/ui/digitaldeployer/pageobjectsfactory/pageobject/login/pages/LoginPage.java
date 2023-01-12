@@ -7,7 +7,7 @@ package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pa
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.DigitalDeployerBasePageObject;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.ProjectBasePageObject;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.xpathconstants.LoginCONSTANTS;
 
@@ -17,11 +17,22 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.Reporter;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.*;
 
-public class LoginPage extends DigitalDeployerBasePageObject {
+public class LoginPage extends ProjectBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.class);
+
+     private LoginVO pvo;
+
+    public LoginVO getLoginvo() {
+        return pvo;
+    }
+
+    public void setLoginvo(LoginVO pvo) {
+        this.pvo = pvo;
+    }
 
     @FindBy(xpath = LoginCONSTANTS.USERID)
     @CacheLookup
@@ -55,7 +66,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
         Reporter.log("default constructor called");
     }
 
-    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage open() {
+    public LoginPage open() {
 
         logger.info("getCurrentUrl()" + getCurrentUrl());
         logger.info("getSiteUrl()" + getSiteUrl());
@@ -81,7 +92,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
     }
 
 
-    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage enterUser(String userName) {
+    public LoginPage enterUser(String userName) {
         try {
             logger.info("Entering enterUser  login: ");
             Reporter.log("Entering  enterUser login:");
@@ -101,7 +112,7 @@ public class LoginPage extends DigitalDeployerBasePageObject {
 
     }
 
-    public com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage enterPassword(String upassword) {
+    public  LoginPage enterPassword(String upassword) {
         try {
             logger.info("Entering  enterPassword: ");
             Reporter.log("Entering  enterPassword:");

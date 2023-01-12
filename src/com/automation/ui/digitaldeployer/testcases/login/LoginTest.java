@@ -5,11 +5,13 @@ package com.automation.ui.digitaldeployer.testcases.login;
  */
 
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.*;
-import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
+import com.automation.ui.digitaldeployer.testcases.base.ProjectBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.Reporter;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.*;
+import  com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.dataprovider.*;
+
 import org.testng.annotations.Test;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
 
 //import com.uiautomation.ui.listener.LoginListener;
@@ -37,7 +39,7 @@ import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.page
  */
 
 
-public class LoginTest extends DigitalDeployerBaseTest {
+public class LoginTest extends ProjectBaseTest {
 
 
     private static Logger logger = Logger
@@ -53,7 +55,10 @@ public class LoginTest extends DigitalDeployerBaseTest {
 
     }
 
-    @Test(priority = 1, groups = {"base", "validcase"})
+
+
+    @Test(priority = 1,  enabled = false, groups =
+            {"Home"}, invocationCount = 1, description = " list info")
     public void verifyContinueBeforeLogin() throws Throwable {
 
         logger.info("Entering verifyContinueBeforeLogin");
@@ -81,8 +86,10 @@ public class LoginTest extends DigitalDeployerBaseTest {
     }
 
 
-    @Test(priority = 2, groups = {"base", "validcase"})
-    public void verifyValidLogin() throws Throwable {
+    @Test(priority = 2, dataProvider = "loginAdmin",
+            dataProviderClass = LoginDataProvider.class, enabled = true, groups =
+            {"Home","base"}, invocationCount = 1, description = "home  list info")
+    public void verifyValidLogin(LoginVO loginVo) throws Throwable {
 
         logger.info("Entering verifyValidLogin");
         Reporter.log("Entering verifyValidLogin");
@@ -91,15 +98,15 @@ public class LoginTest extends DigitalDeployerBaseTest {
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
         // Call the method
-
+        login_page.setLoginvo(loginVo);
 
         String userName = eu.getCellData(1, 1);
         String password = eu.getCellData(1, 2);
 
 
         logger.info("Exiting verifyValidLogin and going to login userName:" + userName + "password : *****");
-        login_page.enterUser(userName);
-        login_page.enterPassword(password);
+        login_page.enterUser(loginVo.getUserName());
+        login_page.enterPassword(loginVo.getPassword());
         login_page.login();
         //  driver.navigate().back();
 

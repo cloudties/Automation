@@ -32,11 +32,11 @@ import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.p
 
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.vo.*;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO;
-import com.automation.ui.digitaldeployer.testcases.base.DigitalDeployerBaseTest;
+import com.automation.ui.digitaldeployer.testcases.base.ProjectBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
-public class ContextPageTest extends DigitalDeployerBaseTest {
+public class ContextPageTest extends ProjectBaseTest {
 
     private static Logger logger = Logger.getLogger(ContextPageTest.class);
 

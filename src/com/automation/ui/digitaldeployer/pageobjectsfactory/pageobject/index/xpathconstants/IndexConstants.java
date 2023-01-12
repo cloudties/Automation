@@ -21,8 +21,8 @@ public interface IndexConstants {
     public static String CONTACT = "//a[@href='https://blog.digitaldeployer.com/contact/']";
     public static String PRIVACY = "//a[@href='/privacy']";
     public static String TERMS = "//a[@href='/terms']";
-    public static String CUSPERALINKEDIN = "//a[@href='https://www.linkedin.com/company/digitaldeployer/']";
-    public static String CUSPERATWITTER = "//a[@href='https://twitter.com/digitaldeployer']";
+    public static String DDLINKEDIN = "//a[@href='https://www.linkedin.com/company/digitaldeployer/']";
+    public static String DDTWITTER = "//a[@href='https://twitter.com/digitaldeployer']";
     public static String MAILTO = "//a[@href='mailto:info@digitaldeployer.com']";
     public static String LINKEDINBUTTON = "//a[@class='linkedin-btn d-block my-3 m-auto']";
     public static String CONTASGUEST = "//a[@class='cp-continue-gest m-auto my-3']";

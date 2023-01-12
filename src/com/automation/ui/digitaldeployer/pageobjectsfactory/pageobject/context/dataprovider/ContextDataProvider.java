@@ -3,13 +3,14 @@ package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.
  * @author
  */
 
+import com.automation.ui.digitaldeployer.common.dataprovider.BaseDataProvider;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Goals;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Industry;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.vo.ContextVO;
 import org.testng.annotations.DataProvider;
 
 
-public class ContextDataProvider {
+public class ContextDataProvider extends BaseDataProvider {
 
     public ContextDataProvider() {
 

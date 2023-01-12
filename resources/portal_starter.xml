@@ -22,20 +22,30 @@
                     <include name="launchHomePage_Test"/>
                  </methods>
             </class>
-
+<!--
             <class name="com.automation.ui.digitaldeployer.testcases.login.LoginTest" >
                 <methods >
                     <include name="verifyContinueBeforeLogin"/>
                 </methods>
             </class>
+            -->
 
             <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
                 <methods >
                     <include name="launchAddNewWorkspace_Test"/>
-                </methods>
+                    <include name="launchAddNewWorkspacename_Test"/>
+                    <include name="launchwsdropdown_Test"/>
+                    <include name="launchSearchText_Test"/>
+                    <include name="launchClearall_Test"/>
+                    <include name="launchlangselect_Test"/>
+                    <include name="launchOverview_Test"/>
+                    <include name="launchApi_Test"/>
+                    <include name="launchdocumentation_Test"/>
+                    <include name="launchhealth_Test"/>
+                    <include name="launchhelp_Test"/>
+                    <include name="launchnotification_Test"/>
+                 </methods>
             </class>
-
-
         </classes>
     </test>
 </suite>
