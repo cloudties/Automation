@@ -10,6 +10,7 @@ public interface HomeConstants {
     public static String ADDAPPNAME ="//span[text()='Add New Application']";
     public static String WORKSPACEDROPDOWN ="//div[@justifycontent='space-between']//select[1]";
 
+    public static String CREATEWS="//span[text()='Create']";
     public static String SEARCHTEXT="//input[contains(@class,'text-grey m-0')]";
     public static String LANGSELECT="//div[@class='select normal']//select[1]";
 

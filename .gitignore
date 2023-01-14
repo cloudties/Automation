@@ -3,9 +3,9 @@
 .settings/
 debug.log
 #logs/
-test-output/
-build/
-target/
+test-output/*
+build/*
+target/*
 logs/realreport/*
 
 # Compiled source #

@@ -66,6 +66,10 @@ public class HomePage extends ProjectBasePageObject {
     @CacheLookup
     private WebElement cancelws;
 
+    @FindBy(xpath = HomeConstants.CREATEWS)
+    @CacheLookup
+    private WebElement createws;
+
     @FindBy(xpath = HomeConstants.HELP)
     @CacheLookup
     private WebElement help;
@@ -136,13 +140,12 @@ public class HomePage extends ProjectBasePageObject {
 
     }
 
-    public HomePage addwsname() {
+    public HomePage addwsname(String wsNAme) {
         try {
             logger.info("Entering  wsname: ");
             Reporter.log("Entering  wsname:");
 
-            Thread.sleep(3000);
-            fillInputAfterClear(wsname, "testwscreation");
+            fillInputAfterClear(wsname, wsNAme);
             logger.info("Exiting  addws");
             Reporter.log("Exiting  addws");
             // wait.forElementVisible(savepasswordbutton);
@@ -156,6 +159,18 @@ public class HomePage extends ProjectBasePageObject {
         return new HomePage();
 
     }
+    public HomePage createws() {
+        try {
+            waitAndClick(createws);
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
+            Reporter.log("continueauth failed");
+        }
+        return new HomePage();
+    }
+
 
     public HomePage wsdropdown() {
         try {

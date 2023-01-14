@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="136.328" tests="13" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="dependencyLocationsEnabled" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Software\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Project\Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Project\Automation"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Software\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kkscl\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="portal_starter.xml"/>
+    <property name="classworlds.conf" value="C:\Software\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Software\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\kkscl\AppData\Local\Microsoft\WindowsApps;C:\Software\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\Software\jdk1.8.0_60\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kkscl"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="kkscl"/>
+    <property name="java.class.path" value="C:\Software\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Software\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -T 2 -DdependencyLocationsEnabled=false -DsuiteXmlFile=portal_starter.xml antrun:run@ant-execute validate initialize compile test clean"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Software\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Software\jdk1.8.0_60\jre\lib\resources.jar;C:\Software\jdk1.8.0_60\jre\lib\rt.jar;C:\Software\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Software\jdk1.8.0_60\jre\lib\jsse.jar;C:\Software\jdk1.8.0_60\jre\lib\jce.jar;C:\Software\jdk1.8.0_60\jre\lib\charsets.jar;C:\Software\jdk1.8.0_60\jre\lib\jfr.jar;C:\Software\jdk1.8.0_60\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Software\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="launchHomePage_Test" classname="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" time="1.431"/>
+  <testcase name="launchAddNewWorkspace_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="30.402">
+    <failure message="Can&apos;t find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG" type="java.util.MissingResourceException">java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:450)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:407)
+	at com.automation.ui.base.common.prpreaders.AssertDataReader.getValue(AssertDataReader.java:25)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.continueauth(LoginPage.java:186)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:87)
+</failure>
+    <system-out>2023-01-12 21:18:45 DEBUG CoreTestTemplate:110 - beforeClass initTestClass 
+2023-01-12 21:18:45 INFO  Log:68 - ****************************************************************************************
+2023-01-12 21:18:45 INFO  Log:69 - $$$$$$$$$$$$$$$$$$$$$                 launchAddNewWorkspace_Test       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-01-12 21:18:45 INFO  Log:70 - ****************************************************************************************
+**********
+**********
+2023-01-12 21:18:45 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:18:45 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:18:45 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+**********
+2023-01-12 21:18:45 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:45 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:18:45 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:18:45 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:18:45 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:18:45 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+**********
+**********
+**********
+**********
+2023-01-12 21:18:46 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:18:46 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:46 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:18:46 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:46 DEBUG DriverProvider:28 - drivers count1
+com.automation.ui.digitaldeployer.testcases.home.HomePageTest launchAddNewWorkspace_Test
+2023-01-12 21:18:46 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:46 DEBUG DriverProvider:28 - drivers count1
+**********
+2023-01-12 21:18:46 DEBUG CheckBoxOrRadioButton:20 - CheckBoxOrRadioButtonHelper : 57624756
+2023-01-12 21:18:46 INFO  HomePage:84 - default constructor called
+2023-01-12 21:18:46 INFO  HomePage:90 - getCurrentUrl()https://digital-deployer-app.galuctussandbox.app/
+**********
+2023-01-12 21:18:46 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:18:46 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:18:46 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:18:46 INFO  HomePage:91 - getSiteUrl()https://digital-deployer-app.galuctussandbox.app/
+2023-01-12 21:18:46 INFO  HomePage:92 - getUrl()https://digital-deployer-app.galuctussandbox.app/
+**********
+2023-01-12 21:18:46 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:18:46 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:18:46 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:18:46 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+2023-01-12 21:18:46 INFO  HomePage:93 - getSiteUrlWithPath()https://digital-deployer-app.galuctussandbox.app//login
+**********
+**********
+2023-01-12 21:18:46 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:18:46 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:18:46 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:18:46 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+2023-01-12 21:18:46 INFO  HomePage:102 - https://digital-deployer-app.galuctussandbox.app//login
+2023-01-12 21:18:46 INFO  BasePageObject:424 - getUrlhttps://digital-deployer-app.galuctussandbox.app/login
+**********
+**********
+**********
+**********
+2023-01-12 21:18:47 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:18:49 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:49 DEBUG DriverProvider:28 - drivers count1
+**********
+2023-01-12 21:18:49 DEBUG CheckBoxOrRadioButton:20 - CheckBoxOrRadioButtonHelper : 57624756
+2023-01-12 21:18:49 INFO  LoginPage:54 - default constructor called
+2023-01-12 21:18:49 INFO  LoginPage:197 - Entering  continue: 
+2023-01-12 21:18:51 INFO  LoginPage:203 - Exiting  continue
+2023-01-12 21:18:51 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:51 DEBUG DriverProvider:28 - drivers count1
+**********
+2023-01-12 21:18:51 DEBUG CheckBoxOrRadioButton:20 - CheckBoxOrRadioButtonHelper : 57624756
+2023-01-12 21:18:52 DEBUG HomePageTest:75 - userNamemanjusha.saju@wescodist.com
+2023-01-12 21:18:52 DEBUG HomePageTest:76 - userNameWelcomeGouri@123$
+2023-01-12 21:18:52 INFO  LoginPage:86 - Entering enterUser  login: 
+2023-01-12 21:18:52 INFO  LoginPage:90 - Exiting enterUser login
+2023-01-12 21:18:53 INFO  LoginPage:106 - Entering  enterPassword: 
+2023-01-12 21:18:53 INFO  LoginPage:110 - Exiting  enterPassword
+2023-01-12 21:18:55 INFO  LoginPage:126 - Entering  login: 
+2023-01-12 21:18:56 INFO  LoginPage:132 - Exiting  login
+2023-01-12 21:18:56 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:18:56 DEBUG DriverProvider:28 - drivers count1
+**********
+2023-01-12 21:18:56 DEBUG CheckBoxOrRadioButton:20 - CheckBoxOrRadioButtonHelper : 57624756
+2023-01-12 21:19:01 INFO  LoginPage:174 - Entering  continueauth: 
+2023-01-12 21:19:16 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:16 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:16 INFO  BrowserAndTestEventListener:253 - onTestFailure create issue
+2023-01-12 21:19:16 INFO  BrowserAndTestEventListener:257 - onTestFailure added  issue
+2023-01-12 21:19:16 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:16 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:17 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:17 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:17 DEBUG Configuration:93 -  Configuration For Property Name mobileSiteVersion value dose not exist in the config.yml file 
+</system-out>
+    <system-err>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(),'Continue')] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:150)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:102)
+	at com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject.waitAndClick(BasePageObject.java:265)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.continueauth(LoginPage.java:178)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Continue')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kkscl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 092ccde57b8406c584b54a5b482644af
+*** Element info: {Using=xpath, value=//a[contains(text(),'Continue')]}
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 38 more
+</system-err>
+  </testcase>
+  <testcase name="launchAddNewWorkspacename_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="18.616">
+    <failure message="ERROR WHILE EXECUTION " type="java.lang.AssertionError">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:133)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(HomePageTest.java:101)
+</failure>
+    <system-out>2023-01-12 21:19:17 INFO  Log:68 - ****************************************************************************************
+2023-01-12 21:19:17 INFO  Log:69 - $$$$$$$$$$$$$$$$$$$$$                 launchAddNewWorkspacename_Test       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-01-12 21:19:17 INFO  Log:70 - ****************************************************************************************
+**********
+**********
+2023-01-12 21:19:17 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:17 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:17 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+**********
+2023-01-12 21:19:17 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:17 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:17 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:17 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:17 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:19:17 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+**********
+**********
+**********
+**********
+2023-01-12 21:19:18 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:19:18 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:18 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:18 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:18 DEBUG DriverProvider:28 - drivers count1
+com.automation.ui.digitaldeployer.testcases.home.HomePageTest launchAddNewWorkspacename_Test
+2023-01-12 21:19:18 INFO  HomePage:118 - Entering  addws: 
+2023-01-12 21:19:36 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:36 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:36 INFO  BrowserAndTestEventListener:253 - onTestFailure create issue
+2023-01-12 21:19:36 INFO  BrowserAndTestEventListener:257 - onTestFailure added  issue
+2023-01-12 21:19:36 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:36 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:36 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:36 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:36 DEBUG Configuration:93 -  Configuration For Property Name mobileSiteVersion value dose not exist in the config.yml file 
+</system-out>
+    <system-err>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[contains(text(),'Add New Workspace')] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:150)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:102)
+	at com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject.waitAndClick(BasePageObject.java:265)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:123)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(HomePageTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add New Workspace')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kkscl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 092ccde57b8406c584b54a5b482644af
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add New Workspace')]}
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 38 more
+</system-err>
+  </testcase>
+  <testcase name="launchSearchText_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="15.205">
+    <failure message="ERROR WHILE EXECUTION " type="java.lang.AssertionError">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.searchtext(HomePage.java:215)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(HomePageTest.java:110)
+</failure>
+    <system-out>2023-01-12 21:19:36 INFO  Log:68 - ****************************************************************************************
+2023-01-12 21:19:36 INFO  Log:69 - $$$$$$$$$$$$$$$$$$$$$                 launchSearchText_Test       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-01-12 21:19:36 INFO  Log:70 - ****************************************************************************************
+**********
+**********
+2023-01-12 21:19:36 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:36 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:36 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+**********
+2023-01-12 21:19:36 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:36 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:36 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:36 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:36 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:19:36 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+**********
+**********
+**********
+**********
+2023-01-12 21:19:38 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:19:38 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:38 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:38 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:38 DEBUG DriverProvider:28 - drivers count1
+com.automation.ui.digitaldeployer.testcases.home.HomePageTest launchSearchText_Test
+2023-01-12 21:19:53 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:53 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:53 INFO  BrowserAndTestEventListener:253 - onTestFailure create issue
+2023-01-12 21:19:53 INFO  BrowserAndTestEventListener:257 - onTestFailure added  issue
+2023-01-12 21:19:53 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:53 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:53 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:53 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:53 DEBUG Configuration:93 -  Configuration For Property Name mobileSiteVersion value dose not exist in the config.yml file 
+</system-out>
+    <system-err>org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@460510aa]}
+	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:77)
+	at org.openqa.selenium.json.Json.toJson(Json.java:60)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.perform(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject.fillInputAfterClear(BasePageObject.java:592)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.searchtext(HomePage.java:211)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(HomePageTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@460510aa]}
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:96)
+	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:74)
+	... 52 more
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:198)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:146)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:134)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:94)
+	... 53 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:181)
+	... 56 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@class,'text-grey m-0')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kkscl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 092ccde57b8406c584b54a5b482644af
+*** Element info: {Using=xpath, value=//input[contains(@class,'text-grey m-0')]}
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 61 more
+</system-err>
+  </testcase>
+  <testcase name="launchClearall_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="15.219">
+    <failure message="ERROR WHILE EXECUTION " type="java.lang.AssertionError">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:231)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:116)
+</failure>
+    <system-out>2023-01-12 21:19:53 INFO  Log:68 - ****************************************************************************************
+2023-01-12 21:19:53 INFO  Log:69 - $$$$$$$$$$$$$$$$$$$$$                 launchClearall_Test       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-01-12 21:19:53 INFO  Log:70 - ****************************************************************************************
+**********
+**********
+2023-01-12 21:19:53 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:53 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:53 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+**********
+2023-01-12 21:19:53 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:53 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:53 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:19:53 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:19:53 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:19:53 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+**********
+**********
+**********
+**********
+2023-01-12 21:19:54 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:19:54 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:54 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:19:54 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:19:54 DEBUG DriverProvider:28 - drivers count1
+com.automation.ui.digitaldeployer.testcases.home.HomePageTest launchClearall_Test
+2023-01-12 21:20:09 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:09 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:09 INFO  BrowserAndTestEventListener:253 - onTestFailure create issue
+2023-01-12 21:20:09 INFO  BrowserAndTestEventListener:257 - onTestFailure added  issue
+2023-01-12 21:20:09 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:09 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:09 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:09 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:09 DEBUG Configuration:93 -  Configuration For Property Name mobileSiteVersion value dose not exist in the config.yml file 
+</system-out>
+    <system-err>org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@627d8516]}
+	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:77)
+	at org.openqa.selenium.json.Json.toJson(Json.java:60)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.perform(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject.fillInputAfterClear(BasePageObject.java:592)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:225)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.openqa.selenium.WebDriverException: Unable to convert: {actions=[org.openqa.selenium.interactions.Sequence@627d8516]}
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:96)
+	at org.openqa.selenium.json.BeanToJsonConverter.convert(BeanToJsonConverter.java:74)
+	... 52 more
+Caused by: org.openqa.selenium.WebDriverException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: driver.version: EventFiringWebDriver
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:198)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:146)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:134)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:94)
+	... 53 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.json.BeanToJsonConverter.convertObject(BeanToJsonConverter.java:181)
+	... 56 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Clear All']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kkscl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 092ccde57b8406c584b54a5b482644af
+*** Element info: {Using=xpath, value=//span[text()='Clear All']}
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 61 more
+</system-err>
+  </testcase>
+  <testcase name="launchwsdropdown_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="15.761">
+    <failure message="ERROR WHILE EXECUTION " type="java.lang.AssertionError">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.wsdropdown(HomePage.java:168)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(HomePageTest.java:122)
+</failure>
+    <system-out>2023-01-12 21:20:09 INFO  Log:68 - ****************************************************************************************
+2023-01-12 21:20:09 INFO  Log:69 - $$$$$$$$$$$$$$$$$$$$$                 launchwsdropdown_Test       $$$$$$$$$$$$$$$$$$$$$$$$$
+2023-01-12 21:20:09 INFO  Log:70 - ****************************************************************************************
+**********
+**********
+2023-01-12 21:20:09 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:20:09 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:20:09 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+**********
+2023-01-12 21:20:09 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:09 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:09 INFO  UrlBuilder:349 - getSiteGlobalName SITE : digital-deployer-app this.env :galuctussandbox
+2023-01-12 21:20:09 INFO  UrlBuilder:213 - SANDBOX getFormattedSiteHost  www:  siteName digital-deployer-appenvType app
+2023-01-12 21:20:09 INFO  UrlBuilder:121 - getUrl host details:digital-deployer-app.galuctussandbox.app
+2023-01-12 21:20:09 DEBUG Configuration:93 -  Configuration For Property Name qs value dose not exist in the config.yml file 
+**********
+**********
+**********
+**********
+2023-01-12 21:20:10 INFO  BrowserAndTestEventListener:76 -  cookieDomain afterNavigateTo .app Configuration.getEnvType().getSiteDomain() :app:
+**********
+2023-01-12 21:20:10 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:10 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:10 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:10 DEBUG DriverProvider:28 - drivers count1
+com.automation.ui.digitaldeployer.testcases.home.HomePageTest launchwsdropdown_Test
+2023-01-12 21:20:26 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:26 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:26 INFO  BrowserAndTestEventListener:253 - onTestFailure create issue
+2023-01-12 21:20:26 INFO  BrowserAndTestEventListener:257 - onTestFailure added  issue
+2023-01-12 21:20:26 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:26 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:26 DEBUG DriverProvider:37 - getActiveDriver0
+2023-01-12 21:20:26 DEBUG DriverProvider:28 - drivers count1
+2023-01-12 21:20:26 DEBUG Configuration:93 -  Configuration For Property Name mobileSiteVersion value dose not exist in the config.yml file 
+</system-out>
+    <system-err>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@justifycontent='space-between']//select[1] (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:150)
+	at com.automation.ui.base.common.core.element.Wait.forElementClickable(Wait.java:102)
+	at com.automation.ui.base.pageobjectsfactory.pageobject.BasePageObject.waitAndClick(BasePageObject.java:265)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.wsdropdown(HomePage.java:164)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(HomePageTest.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@justifycontent='space-between']//select[1]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-4VG4ENC', ip: '192.168.184.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\kkscl\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 092ccde57b8406c584b54a5b482644af
+*** Element info: {Using=xpath, value=//div[@justifycontent='space-between']//select[1]}
+	at sun.reflect.GeneratedConstructorAccessor26.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 38 more
+</system-err>
+  </testcase>
+  <testcase name="launchOverview_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="6.184"/>
+  <testcase name="launchlangselect_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="6.265"/>
+  <testcase name="launchApi_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="6.172"/>
+  <testcase name="launchdocumentation_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="5.454"/>
+  <testcase name="launchhealth_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="5.213"/>
+  <testcase name="launchhelp_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="5.195"/>
+  <testcase name="launchnotification_Test" classname="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" time="5.211"/>
+</testsuite>

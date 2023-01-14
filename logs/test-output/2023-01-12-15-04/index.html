@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-portalautomation">
+              <span class="suite-name border-failed">portalautomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-portalautomation">
+                    <span>C:\Project\Automation\resources\portal_starter.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-portalautomation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-portalautomation">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-portalautomation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-portalautomation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-portalautomation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-portalautomation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 1 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-portalautomation" class="hide-methods failed suite-portalautomation"> (hide)</a> <!-- hide-methods failed suite-portalautomation -->
+                      <a href="#" panel-name="suite-portalautomation" class="show-methods failed suite-portalautomation"> (show)</a> <!-- show-methods failed suite-portalautomation -->
+                    </span>
+                    <div class="method-list-content failed suite-portalautomation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3910fe11)">launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3910fe11)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-portalautomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-portalautomation" class="hide-methods passed suite-portalautomation"> (hide)</a> <!-- hide-methods passed suite-portalautomation -->
+                      <a href="#" panel-name="suite-portalautomation" class="show-methods passed suite-portalautomation"> (show)</a> <!-- show-methods passed suite-portalautomation -->
+                    </span>
+                    <div class="method-list-content passed suite-portalautomation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)">launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)">launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" hash-for-method="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1)">launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)">launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)">launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)">launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)">launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)">launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)">launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)">launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)">launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-portalautomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-portalautomation" class="panel portalautomation">
+          <div class="suite-portalautomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3910fe11)">
+                  </a> <!-- launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@3910fe11) -->
+                  <span class="method-name">launchClearall_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3910fe11)</span>
+                  <div class="stack-trace">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:231)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:117)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-failed -->
+          <div class="suite-portalautomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1)">
+                  </a> <!-- launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1) -->
+                  <span class="method-name">launchHomePage_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-passed -->
+          <div class="suite-portalautomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)">
+                  </a> <!-- launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@21fdfefc) -->
+                  <span class="method-name">launchAddNewWorkspace_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)">
+                  </a> <!-- launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@655523dd) -->
+                  <span class="method-name">launchAddNewWorkspacename_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)">
+                  </a> <!-- launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@7c84195) -->
+                  <span class="method-name">launchApi_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)">
+                  </a> <!-- launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@56ac5c80) -->
+                  <span class="method-name">launchOverview_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)">
+                  </a> <!-- launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@47ec7422) -->
+                  <span class="method-name">launchSearchText_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)">
+                  </a> <!-- launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@71f96dfb) -->
+                  <span class="method-name">launchdocumentation_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)">
+                  </a> <!-- launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@7ee3d262) -->
+                  <span class="method-name">launchhealth_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)">
+                  </a> <!-- launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@11d4dbd6) -->
+                  <span class="method-name">launchhelp_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)">
+                  </a> <!-- launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@3bec2275) -->
+                  <span class="method-name">launchlangselect_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)">
+                  </a> <!-- launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@61e7bf2f) -->
+                  <span class="method-name">launchnotification_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)">
+                  </a> <!-- launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@3e7545e8) -->
+                  <span class="method-name">launchwsdropdown_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-passed -->
+        </div> <!-- panel portalautomation -->
+        <div panel-name="test-xml-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Project\Automation\resources\portal_starter.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;portalautomation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.EmailableReporter2&quot;/&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.SuiteHTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.TestHTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.ui.base.common.report.listener.RealTimeTestResultListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Home&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.ui.digitaldeployer.testcases.index.IndexPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchHomePage_Test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest --&gt;
+      &lt;class name=&quot;com.automation.ui.digitaldeployer.testcases.home.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchAddNewWorkspace_Test&quot;/&gt;
+          &lt;include name=&quot;launchAddNewWorkspacename_Test&quot;/&gt;
+          &lt;include name=&quot;launchwsdropdown_Test&quot;/&gt;
+          &lt;include name=&quot;launchSearchText_Test&quot;/&gt;
+          &lt;include name=&quot;launchClearall_Test&quot;/&gt;
+          &lt;include name=&quot;launchlangselect_Test&quot;/&gt;
+          &lt;include name=&quot;launchOverview_Test&quot;/&gt;
+          &lt;include name=&quot;launchApi_Test&quot;/&gt;
+          &lt;include name=&quot;launchdocumentation_Test&quot;/&gt;
+          &lt;include name=&quot;launchhealth_Test&quot;/&gt;
+          &lt;include name=&quot;launchhelp_Test&quot;/&gt;
+          &lt;include name=&quot;launchnotification_Test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home --&gt;
+&lt;/suite&gt; &lt;!-- portalautomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">StarterRun</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchAddNewWorkspace_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchAddNewWorkspacename_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchApi_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchClearall_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchHomePage_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchOverview_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchSearchText_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchdocumentation_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchhealth_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchhelp_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchlangselect_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchnotification_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchwsdropdown_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_portalautomation');
+function tableData_portalautomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchAddNewWorkspace_Test')
+data.setCell(0, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(0, 3, 33015);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'launchAddNewWorkspacename_Test')
+data.setCell(1, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(1, 3, 13041);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchSearchText_Test')
+data.setCell(2, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(2, 3, 8139);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchwsdropdown_Test')
+data.setCell(3, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(3, 3, 7205);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchhealth_Test')
+data.setCell(4, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(4, 3, 6372);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'launchlangselect_Test')
+data.setCell(5, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(5, 3, 6320);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'launchOverview_Test')
+data.setCell(6, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(6, 3, 6292);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'launchApi_Test')
+data.setCell(7, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(7, 3, 6288);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'launchdocumentation_Test')
+data.setCell(8, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(8, 3, 5627);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'launchhelp_Test')
+data.setCell(9, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(9, 3, 5335);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'launchnotification_Test')
+data.setCell(10, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(10, 3, 5276);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'launchClearall_Test')
+data.setCell(11, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(11, 3, 1695);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'launchHomePage_Test')
+data.setCell(12, 2, 'com.automation.ui.digitaldeployer.testcases.index.IndexPageTest')
+data.setCell(12, 3, 1441);
+window.suiteTableData['portalautomation']= { tableData: data, tableDiv: 'times-div-portalautomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-portalautomation">
+              </div> <!-- times-div-portalautomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">Entering  continue:</span>
+                <span class="reporter-method-output">Exiting  continue</span>
+                <span class="reporter-method-output">Entering  enterUser login:</span>
+                <span class="reporter-method-output">Exiting  enterUser login</span>
+                <span class="reporter-method-output">Entering  enterPassword:</span>
+                <span class="reporter-method-output">Exiting  enterPassword</span>
+                <span class="reporter-method-output">Entering  login:</span>
+                <span class="reporter-method-output">Exiting  login</span>
+                <span class="reporter-method-output">Entering  continueauth:</span>
+                <span class="reporter-method-output">Exiting  continueauth</span>
+                <span class="reporter-method-output">Entering  addws:</span>
+                <span class="reporter-method-output">Exiting  addws</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering  addws:</span>
+                <span class="reporter-method-output">Exiting  addws</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">Entering  wsname:</span>
+                <span class="reporter-method-output">Exiting  addws</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">stop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">287 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.launchHomePage_Test(com....)</span>
+                <span class="method-start">291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@5cbb84b1)</span>
+                <span class="method-start">11225 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">13126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test...)</span>
+                <span class="method-start">13127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@21fdfefc)</span>
+                <span class="method-start">14575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_...)</span>
+                <span class="method-start">47700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@655523dd)</span>
+                <span class="method-start">49255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(com....)</span>
+                <span class="method-start">62405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+                <span class="method-start">63842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(com.au...)</span>
+                <span class="method-start">72066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3910fe11)</span>
+                <span class="method-start">73617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(com....)</span>
+                <span class="method-start">75706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3e7545e8)</span>
+                <span class="method-start">77163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchOverview_Test(com.au...)</span>
+                <span class="method-start">84454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@56ac5c80)</span>
+                <span class="method-start">85992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchlangselect_Test(com....)</span>
+                <span class="method-start">92366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@3bec2275)</span>
+                <span class="method-start">93891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchApi_Test(com.automat...)</span>
+                <span class="method-start">100278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7c84195)</span>
+                <span class="method-start">101739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchdocumentation_Test(c...)</span>
+                <span class="method-start">108102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@71f96dfb)</span>
+                <span class="method-start">109547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchhealth_Test(com.auto...)</span>
+                <span class="method-start">115229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@7ee3d262)</span>
+                <span class="method-start">116399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchhelp_Test(com.automa...)</span>
+                <span class="method-start">122808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@11d4dbd6)</span>
+                <span class="method-start">124247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchnotification_Test(co...)</span>
+                <span class="method-start">129617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@61e7bf2f)</span>
+                <span class="method-start">131171 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stop</span>
+                <span class="method-start">136507 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownAfterTestSuite</span>
+                <span class="method-start">137185 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -8,12 +8,15 @@ import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
 import com.automation.ui.digitaldeployer.common.dataprovider.BaseDataProvider;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO;
 import com.automation.ui.base.common.utils.ExcelUtil;
+import com.automation.ui.digitaldeployer.testcases.login.LoginTest;
 import org.testng.annotations.DataProvider;
+import org.apache.log4j.Logger;
 
 
 public class LoginDataProvider extends BaseDataProvider {
 
-
+    private static Logger logger = Logger
+            .getLogger(LoginTest.class);
     public LoginDataProvider() {
 
     }
@@ -39,13 +42,16 @@ public class LoginDataProvider extends BaseDataProvider {
 
 
         LoginVO pvo = null;
-        Object[][] obJlist = new Object[10][1];
+        Object[][] obJlist=null;
 
         try {
-
-            for (int i = 1; i < eu.getColumns(
+              obJlist = new Object[eu.getRows(
                     ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN,
-                    ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN); i++) {
+                    ExcelCONSTANTS.LOGINXLSDATAPATH)][1];
+
+            for (int i = 1,j=0; i < eu.getRows(
+                    ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN,
+                    ExcelCONSTANTS.LOGINXLSDATAPATH);j++,i++) {
 
                 pvo = new LoginVO();
 
@@ -53,8 +59,9 @@ public class LoginDataProvider extends BaseDataProvider {
                 password = eu.getCellData(i, 2);
                  pvo.setUserName(userName);
                 pvo.setPassword(password);
+                //logger.info("-----userName in provider------" +  userName  );
 
-                obJlist[i][0] = pvo;
+                obJlist[j][0] = pvo;
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -76,16 +83,10 @@ public class LoginDataProvider extends BaseDataProvider {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        LoginVO pvo = null;
 
 
-        /**
-         * Reading from excel
-         */
+        LoginVO pvo = new LoginVO();
         try {
-
-            pvo = new LoginVO();
-
              pvo.setUserName(userName);
             pvo.setPassword(password);
 

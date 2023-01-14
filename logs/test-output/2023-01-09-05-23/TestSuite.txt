@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 194.489 sec <<< FAILURE!
+search_Test(com.automation.ui.digitaldeployer.testcases.index.HomePageTest)  Time elapsed: 30.659 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test(HomePageTest.java:114)
+
+clickEmail_Test(com.automation.ui.digitaldeployer.testcases.context.ContextPageTest)  Time elapsed: 31.035 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+	at com.automation.ui.digitaldeployer.testcases.context.ContextPageTest.clickEmail_Test(ContextPageTest.java:74)
+

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-portalautomation">
+              <span class="suite-name border-failed">portalautomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-portalautomation">
+                    <span>C:\Project\Automation\resources\portal_starter.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-portalautomation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-portalautomation">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-portalautomation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-portalautomation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-portalautomation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-portalautomation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-portalautomation" class="hide-methods failed suite-portalautomation"> (hide)</a> <!-- hide-methods failed suite-portalautomation -->
+                      <a href="#" panel-name="suite-portalautomation" class="show-methods failed suite-portalautomation"> (show)</a> <!-- show-methods failed suite-portalautomation -->
+                    </span>
+                    <div class="method-list-content failed suite-portalautomation">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" hash-for-method="launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-portalautomation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-portalautomation" class="hide-methods passed suite-portalautomation"> (hide)</a> <!-- hide-methods passed suite-portalautomation -->
+                      <a href="#" panel-name="suite-portalautomation" class="show-methods passed suite-portalautomation"> (show)</a> <!-- show-methods passed suite-portalautomation -->
+                    </span>
+                    <div class="method-list-content passed suite-portalautomation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" hash-for-method="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679)">launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-portalautomation" title="com.automation.ui.digitaldeployer.testcases.login.LoginTest" hash-for-method="verifyContinueBeforeLogin">verifyContinueBeforeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-portalautomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-portalautomation" class="panel portalautomation">
+          <div class="suite-portalautomation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)">
+                  </a> <!-- launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@47ec7422) -->
+                  <span class="method-name">launchAddNewWorkspace_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+                  <div class="stack-trace">java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:88)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:86)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-failed -->
+          <div class="suite-portalautomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679)">
+                  </a> <!-- launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679) -->
+                  <span class="method-name">launchHomePage_Test</span>
+                  <span class="parameters">(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679)</span>
+                  <em>
+(StarterRun)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-passed -->
+          <div class="suite-portalautomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.ui.digitaldeployer.testcases.login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContinueBeforeLogin">
+                  </a> <!-- verifyContinueBeforeLogin -->
+                  <span class="method-name">verifyContinueBeforeLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-portalautomation-class-passed -->
+        </div> <!-- panel portalautomation -->
+        <div panel-name="test-xml-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Project\Automation\resources\portal_starter.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;portalautomation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.EmailableReporter2&quot;/&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.SuiteHTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.testng.reporters.TestHTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter&quot;/&gt;
+    &lt;listener class-name=&quot;com.automation.ui.base.common.report.listener.RealTimeTestResultListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Home&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.ui.digitaldeployer.testcases.index.IndexPageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchHomePage_Test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest --&gt;
+      &lt;class name=&quot;com.automation.ui.digitaldeployer.testcases.login.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyContinueBeforeLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.ui.digitaldeployer.testcases.login.LoginTest --&gt;
+      &lt;class name=&quot;com.automation.ui.digitaldeployer.testcases.home.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchAddNewWorkspace_Test&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home --&gt;
+&lt;/suite&gt; &lt;!-- portalautomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Home (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">StarterRun</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchAddNewWorkspace_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">launchHomePage_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">base</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyContinueBeforeLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">validcase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyContinueBeforeLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_portalautomation');
+function tableData_portalautomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchAddNewWorkspace_Test')
+data.setCell(0, 2, 'com.automation.ui.digitaldeployer.testcases.home.HomePageTest')
+data.setCell(0, 3, 34729);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyContinueBeforeLogin')
+data.setCell(1, 2, 'com.automation.ui.digitaldeployer.testcases.login.LoginTest')
+data.setCell(1, 3, 10202);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchHomePage_Test')
+data.setCell(2, 2, 'com.automation.ui.digitaldeployer.testcases.index.IndexPageTest')
+data.setCell(2, 3, 1542);
+window.suiteTableData['portalautomation']= { tableData: data, tableDiv: 'times-div-portalautomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-portalautomation">
+              </div> <!-- times-div-portalautomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for portalautomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyContinueBeforeLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Entering verifyContinueBeforeLogin</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">Entering  continue:</span>
+                <span class="reporter-method-output">Exiting  continue</span>
+                <span class="reporter-method-output">Entering  enterUser login:</span>
+                <span class="reporter-method-output">Exiting  enterUser login</span>
+                <span class="reporter-method-output">Entering  enterPassword:</span>
+                <span class="reporter-method-output">Exiting  enterPassword</span>
+                <span class="reporter-method-output">Entering  login:</span>
+                <span class="reporter-method-output">Exiting  login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">default constructor called</span>
+                <span class="reporter-method-output">Entering  continue:</span>
+                <span class="reporter-method-output">Exiting  continue</span>
+                <span class="reporter-method-output">Entering  enterUser login:</span>
+                <span class="reporter-method-output">Exiting  enterUser login</span>
+                <span class="reporter-method-output">Entering  enterPassword:</span>
+                <span class="reporter-method-output">Exiting  enterPassword</span>
+                <span class="reporter-method-output">Entering  login:</span>
+                <span class="reporter-method-output">Exiting  login</span>
+                <span class="reporter-method-output">Entering  addws:</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownAfterTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">stop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.ui.digitaldeployer.testcases.login.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyInValidUserInvalidPassword</span>
+                <br/>
+                <span class="ignored-method-name">verifyInValidUserNullPassword</span>
+                <br/>
+                <span class="ignored-method-name">tearDownAfterTestSuite</span>
+                <br/>
+                <span class="ignored-method-name">verifyValidLogin</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">verifyValidUserNullPassword</span>
+                <br/>
+                <span class="ignored-method-name">stop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-portalautomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">720 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.launchHomePage_Test(com....)</span>
+                <span class="method-start">731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@29182679)</span>
+                <span class="method-start">8581 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.login.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">10617 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.login.LoginTest.verifyContinueBeforeLogin() ...)</span>
+                <span class="method-start">10617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContinueBeforeLogin</span>
+                <span class="method-start">12143 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.home.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTestClass</span>
+                <span class="method-start">22391 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initTestContext(public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test...)</span>
+                <span class="method-start">22391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialSearchVO@47ec7422)</span>
+                <span class="method-start">23582 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.ui.digitaldeployer.testcases.index.IndexPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stop</span>
+                <span class="method-start">58747 ms</span>
+              </div> <!-- configuration-suite after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownAfterTestSuite</span>
+                <span class="method-start">59368 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="13" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[beforeSuite::CoreTestTemplate]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  continue:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  continue]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterUser login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterUser login]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterPassword:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterPassword]]>
+    </line>
+    <line>
+      <![CDATA[Entering  login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  login]]>
+    </line>
+    <line>
+      <![CDATA[Entering  continueauth:]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+  </reporter-output>
+  <suite name="portalautomation" duration-ms="155784" started-at="2023-01-12T15:48:38Z" finished-at="2023-01-12T15:51:14Z">
+    <groups>
+      <group name="StarterRun">
+        <method signature="HomePageTest.launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchAddNewWorkspace_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchAddNewWorkspacename_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:8, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchApi_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:4, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchClearall_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:6, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchOverview_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:3, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchSearchText_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:9, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchdocumentation_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:10, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchhealth_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:11, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchhelp_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:7, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchlangselect_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:12, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchnotification_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="HomePageTest.launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:5, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchwsdropdown_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="launchHomePage_Test" class="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest"/>
+      </group> <!-- StarterRun -->
+    </groups>
+    <test name="Home" duration-ms="155784" started-at="2023-01-12T15:48:38Z" finished-at="2023-01-12T15:51:14Z">
+      <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest">
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestClass" is-config="true" duration-ms="0" started-at="2023-01-12T21:18:45Z" finished-at="2023-01-12T21:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1429" started-at="2023-01-12T21:18:45Z" finished-at="2023-01-12T21:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="FAIL" signature="launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchAddNewWorkspace_Test" duration-ms="30181" started-at="2023-01-12T21:18:46Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@66e8997c]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.util.MissingResourceException">
+            <message>
+              <![CDATA[Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:450)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:407)
+	at com.automation.ui.base.common.prpreaders.AssertDataReader.getValue(AssertDataReader.java:25)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.continueauth(LoginPage.java:186)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.MissingResourceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  continue:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  continue]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterUser login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterUser login]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterPassword:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterPassword]]>
+            </line>
+            <line>
+              <![CDATA[Entering  login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  login]]>
+            </line>
+            <line>
+              <![CDATA[Entering  continueauth:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspace_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1162" started-at="2023-01-12T21:19:17Z" finished-at="2023-01-12T21:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="FAIL" signature="launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchAddNewWorkspacename_Test" duration-ms="18452" started-at="2023-01-12T21:19:18Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:19:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@49cf9028]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR WHILE EXECUTION ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:133)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(HomePageTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1162" started-at="2023-01-12T21:19:36Z" finished-at="2023-01-12T21:19:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="FAIL" signature="launchSearchText_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:3, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchSearchText_Test" duration-ms="15038" started-at="2023-01-12T21:19:38Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:19:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@348d18a3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR WHILE EXECUTION ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.searchtext(HomePage.java:215)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(HomePageTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSearchText_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1156" started-at="2023-01-12T21:19:53Z" finished-at="2023-01-12T21:19:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="FAIL" signature="launchClearall_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:4, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchClearall_Test" duration-ms="15043" started-at="2023-01-12T21:19:54Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@3157e4c0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR WHILE EXECUTION ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:231)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchClearall_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1172" started-at="2023-01-12T21:20:09Z" finished-at="2023-01-12T21:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="FAIL" signature="launchwsdropdown_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:5, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchwsdropdown_Test" duration-ms="15588" started-at="2023-01-12T21:20:10Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@7f572c37]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ERROR WHILE EXECUTION ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.wsdropdown(HomePage.java:168)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(HomePageTest.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchwsdropdown_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1153" started-at="2023-01-12T21:20:26Z" finished-at="2023-01-12T21:20:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchOverview_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:6, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchOverview_Test" duration-ms="6181" started-at="2023-01-12T21:20:27Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@14dc3f89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchOverview_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1151" started-at="2023-01-12T21:20:34Z" finished-at="2023-01-12T21:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchlangselect_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:7, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchlangselect_Test" duration-ms="6260" started-at="2023-01-12T21:20:35Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@1cb7936c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchlangselect_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1155" started-at="2023-01-12T21:20:41Z" finished-at="2023-01-12T21:20:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchApi_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:8, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchApi_Test" duration-ms="6170" started-at="2023-01-12T21:20:42Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@34819867]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApi_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1138" started-at="2023-01-12T21:20:48Z" finished-at="2023-01-12T21:20:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchdocumentation_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:9, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchdocumentation_Test" duration-ms="5453" started-at="2023-01-12T21:20:49Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:20:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@6869a3b3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchdocumentation_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1143" started-at="2023-01-12T21:20:55Z" finished-at="2023-01-12T21:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchhealth_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:10, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchhealth_Test" duration-ms="5212" started-at="2023-01-12T21:20:56Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@1c758545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchhealth_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1146" started-at="2023-01-12T21:21:01Z" finished-at="2023-01-12T21:21:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchhelp_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:11, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchhelp_Test" duration-ms="5191" started-at="2023-01-12T21:21:02Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:21:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@10ef5fa0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchhelp_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="initTestContext" is-config="true" duration-ms="1160" started-at="2023-01-12T21:21:08Z" finished-at="2023-01-12T21:21:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchnotification_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO)[pri:12, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@1080b026]" name="launchnotification_Test" duration-ms="5208" started-at="2023-01-12T21:21:09Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO@12ffd1de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchnotification_Test -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="beforeSuite" is-config="true" duration-ms="144" started-at="2023-01-12T21:18:38Z" finished-at="2023-01-12T21:18:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeSuite::CoreTestTemplate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="initTestClass" is-config="true" duration-ms="1" started-at="2023-01-12T21:18:38Z" finished-at="2023-01-12T21:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="initTestContext" is-config="true" duration-ms="4532" started-at="2023-01-12T21:18:38Z" finished-at="2023-01-12T21:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="launchHomePage_Test" duration-ms="1391" started-at="2023-01-12T21:18:43Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-12T21:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@2c779e5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage_Test -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="stop" is-config="true" duration-ms="640" started-at="2023-01-12T21:21:14Z" finished-at="2023-01-12T21:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="tearDownAfterTestSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b43fbf6]" name="tearDownAfterTestSuite" is-config="true" duration-ms="1" started-at="2023-01-12T21:21:15Z" finished-at="2023-01-12T21:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestSuite -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest -->
+    </test> <!-- Home -->
+  </suite> <!-- portalautomation -->
+</testng-results>

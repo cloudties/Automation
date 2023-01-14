@@ -22,11 +22,6 @@ public class HomeDataProvider extends BaseDataProvider {
         InitialVO initSearchVo1= new InitialVO();
          initSearchVo1.setSelectIndustry(Industry.INDUSTRY_COMPUTER_SOFTWARE);
 
-        initSearchVo1.setSelectMarketNeeded("lead");
-
-        initSearchVo1.setSelectBusinessGoal(Goals.GOAL_INCREASE_REVENUE);
-
-
         return new Object[][]
                 {
                         {initSearchVo1}

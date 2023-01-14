@@ -10,7 +10,7 @@ import org.testng.annotations.DataProvider;
 import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
 import com.automation.ui.base.common.utils.ExcelUtil;
 
-public class BaseDataProvider {
+public class    BaseDataProvider {
 
     protected static ExcelUtil eu = null;
 
@@ -48,7 +48,9 @@ public class BaseDataProvider {
                 {"~~```:\";;"},{"!@#$%^&*():  :"},{"test_1"},{"test_#1"},{"test_#1-test"},
                 {"<^&$$% >>>"},{"~~```:\";;"},{"!@#$%^&*():  :"},
                 {"//"},{"/*"}, {"*/"},  {"\\"},  {"¼"},
-                {"<^&$$% >>>"},{"%253cscript%253e"},{"%253cscript%253e"}, {"%c0%bc"}, {"%e0%80%bc"},  {"%f0%80%80%bc"},
+                {"<^&$$% >>>"},{"%253cscript%253e"},{"%253cscript%253e"},
+                {"%c0%bc"}, {"%e0%80%bc"},
+                {"%f0%80%80%bc"},
                 {"%f8%80%80%80%bc"}, {"%fc%80%80%80%80%bc"}
         };
     }

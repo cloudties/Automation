@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 159.46 sec <<< FAILURE!
+launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 30.402 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:450)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:407)
+	at com.automation.ui.base.common.prpreaders.AssertDataReader.getValue(AssertDataReader.java:25)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.LoginPage.continueauth(LoginPage.java:186)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:87)
+
+launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 18.616 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:133)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(HomePageTest.java:101)
+
+launchSearchText_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 15.205 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.searchtext(HomePage.java:215)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchSearchText_Test(HomePageTest.java:110)
+
+launchClearall_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 15.219 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:231)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:116)
+
+launchwsdropdown_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 15.761 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.wsdropdown(HomePage.java:168)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchwsdropdown_Test(HomePageTest.java:122)
+

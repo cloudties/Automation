@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[beforeSuite::CoreTestTemplate]]>
+    </line>
+    <line>
+      <![CDATA[Entering verifyValidLogin]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  continue:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  continue]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterUser login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterUser login]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterPassword:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterPassword]]>
+    </line>
+    <line>
+      <![CDATA[Entering  login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  login]]>
+    </line>
+  </reporter-output>
+  <suite name="portalautomation" duration-ms="21849" started-at="2023-01-13T07:22:00Z" finished-at="2023-01-13T07:22:21Z">
+    <groups>
+      <group name="StarterRun">
+        <method signature="IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="launchHomePage_Test" class="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest"/>
+      </group> <!-- StarterRun -->
+      <group name="Home">
+        <method signature="LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@5b07730f]" name="verifyValidLogin" class="com.automation.ui.digitaldeployer.testcases.login.LoginTest"/>
+      </group> <!-- Home -->
+      <group name="base">
+        <method signature="LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@5b07730f]" name="verifyValidLogin" class="com.automation.ui.digitaldeployer.testcases.login.LoginTest"/>
+      </group> <!-- base -->
+    </groups>
+    <test name="Home" duration-ms="21849" started-at="2023-01-13T07:22:00Z" finished-at="2023-01-13T07:22:21Z">
+      <class name="com.automation.ui.digitaldeployer.testcases.login.LoginTest">
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@5b07730f]" name="initTestClass" is-config="true" duration-ms="1" started-at="2023-01-13T12:52:06Z" finished-at="2023-01-13T12:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@5b07730f]" name="initTestContext" is-config="true" duration-ms="1384" started-at="2023-01-13T12:52:06Z" finished-at="2023-01-13T12:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.login.LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@5b07730f]" name="verifyValidLogin" duration-ms="13763" started-at="2023-01-13T12:52:08Z" description="home  list info" data-provider="loginAdmin" finished-at="2023-01-13T12:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO@6d4c273c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering verifyValidLogin]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  continue:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  continue]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterUser login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterUser login]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterPassword:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterPassword]]>
+            </line>
+            <line>
+              <![CDATA[Entering  login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.login.LoginTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="beforeSuite" is-config="true" duration-ms="193" started-at="2023-01-13T12:51:59Z" finished-at="2023-01-13T12:52:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeSuite::CoreTestTemplate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="initTestClass" is-config="true" duration-ms="1" started-at="2023-01-13T12:52:00Z" finished-at="2023-01-13T12:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="initTestContext" is-config="true" duration-ms="4686" started-at="2023-01-13T12:52:00Z" finished-at="2023-01-13T12:52:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="launchHomePage_Test" duration-ms="1391" started-at="2023-01-13T12:52:04Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-13T12:52:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@11653e3b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage_Test -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="stop" is-config="true" duration-ms="636" started-at="2023-01-13T12:52:21Z" finished-at="2023-01-13T12:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="tearDownAfterTestSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@58ebfd03]" name="tearDownAfterTestSuite" is-config="true" duration-ms="0" started-at="2023-01-13T12:52:22Z" finished-at="2023-01-13T12:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestSuite -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest -->
+    </test> <!-- Home -->
+  </suite> <!-- portalautomation -->
+</testng-results>

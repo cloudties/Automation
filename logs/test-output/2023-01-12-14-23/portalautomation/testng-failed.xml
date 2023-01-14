@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [portalautomation]">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    <listener class-name="com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter"/>
+    <listener class-name="com.automation.ui.base.common.report.listener.RealTimeTestResultListener"/>
+  </listeners>
+  <test name="Home">
+    <classes>
+      <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest">
+        <methods>
+          <include name="launchHomePage_Test"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest">
+        <methods>
+          <include name="launchAddNewWorkspace_Test"/>
+          <include name="launchAddNewWorkspacename_Test"/>
+          <include name="launchwsdropdown_Test"/>
+          <include name="launchSearchText_Test"/>
+          <include name="launchClearall_Test"/>
+          <include name="launchlangselect_Test"/>
+          <include name="launchOverview_Test"/>
+          <include name="launchApi_Test"/>
+          <include name="launchdocumentation_Test"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest -->
+    </classes>
+  </test> <!-- Home -->
+  <test name="Home(failed)">
+    <classes>
+      <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest">
+        <methods>
+          <include name="tearDownAfterTestSuite"/>
+          <include name="beforeSuite"/>
+          <include name="initTestContext"/>
+          <include name="stop"/>
+          <include name="initTestClass"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest">
+        <methods>
+          <include name="initTestContext"/>
+          <include name="launchClearall_Test" invocation-numbers="0"/>
+          <include name="initTestClass"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest -->
+    </classes>
+  </test> <!-- Home(failed) -->
+</suite> <!-- Failed suite [portalautomation] -->

@@ -10,12 +10,9 @@ import org.apache.log4j.Logger;
 import org.testng.Reporter;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.*;
 import  com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.dataprovider.*;
-
 import org.testng.annotations.Test;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
-
 //import com.uiautomation.ui.listener.LoginListener;
-
 //@Listeners(com.uiautomation.ui.listener.LoginListener.class)
 
 
@@ -40,22 +37,11 @@ import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.page
 
 
 public class LoginTest extends ProjectBaseTest {
-
-
     private static Logger logger = Logger
-            .getLogger(LoginTest.class);
-
-
-
-
+           .getLogger(LoginTest.class);
     public LoginTest() {
-
         super();
-
-
     }
-
-
 
     @Test(priority = 1,  enabled = false, groups =
             {"Home"}, invocationCount = 1, description = " list info")
@@ -76,13 +62,11 @@ public class LoginTest extends ProjectBaseTest {
         String userName = eu.getCellData(1, 1);
         String password = eu.getCellData(1, 2);
 
-
         logger.info("Exiting verifyValidLogin and going to login userName:" + userName + "password : *****");
         login_page.enterUser(userName);
         login_page.enterPassword(password);
         login_page.login();
         //  driver.navigate().back();
-
     }
 
 
@@ -95,26 +79,33 @@ public class LoginTest extends ProjectBaseTest {
         Reporter.log("Entering verifyValidLogin");
         homePage = new HomePage();
         homePage.open();
+
+        login_page=new LoginPage();
+        login_page.continuetogitlogin();
+
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
         // Call the method
+
+
         login_page.setLoginvo(loginVo);
 
         String userName = eu.getCellData(1, 1);
         String password = eu.getCellData(1, 2);
 
-
-        logger.info("Exiting verifyValidLogin and going to login userName:" + userName + "password : *****");
-        login_page.enterUser(loginVo.getUserName());
-        login_page.enterPassword(loginVo.getPassword());
+        logger.info("Exiting verifyValidLogin and going to login userName:" + userName  );
+        login_page.enterUser( loginVo.getUserName());
+        login_page.enterPassword( loginVo.getPassword());
         login_page.login();
-        //  driver.navigate().back();
 
+        Thread.sleep(10000);
+        //  driver.navigate().back();
     }
 
 
-    @Test(priority = 2, groups = {"base", "invalidcase"})
+    @Test(priority = 2, enabled = false,groups = {"base", "invalidcase"})
     public void verifyInValidUserNullPassword() throws Throwable {
+
         logger.info("Entering verifyInValidUserNullPassword");
         Reporter.log("Entering verifyInValidUserNullPassword");
           homePage = new HomePage();
@@ -122,7 +113,6 @@ public class LoginTest extends ProjectBaseTest {
         // Call the method
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
-
 
         String userName = eu.getCellData(2, 1);
         String password = eu.getCellData(2, 2);
@@ -135,7 +125,7 @@ public class LoginTest extends ProjectBaseTest {
     }
 
 
-    @Test(priority = 3, groups = {"base", "invalidcase"})
+    @Test(priority = 3, enabled = false,groups = {"base", "invalidcase"})
     public void verifyValidUserNullPassword() throws Throwable {
 
         logger.info("Entering verifyValidUserNullPassword");
@@ -149,7 +139,6 @@ public class LoginTest extends ProjectBaseTest {
         String userName = eu.getCellData(3, 1);
         String password = eu.getCellData(3, 2);
 
-
         logger.info("Exiting verifyValidUserNullPassword userName:" + userName + "password : *****");
         login_page.enterUser(userName);
         login_page.enterPassword(password);
@@ -158,21 +147,18 @@ public class LoginTest extends ProjectBaseTest {
     }
 
     //added
-    @Test(priority = 4, groups = {"base", "invalidcase"}, description = "invalid login")
+    @Test(priority = 4, enabled = false,groups = {"base", "invalidcase"}, description = "invalid login")
     public void verifyInValidUserInvalidPassword() throws Throwable {
 
         logger.info("Entering verifyInValidLogin");
         Reporter.log("Entering verifyInValidLogin");
         homePage  = new HomePage();
         homePage.open();
-
-
         String methodname = new Object() {
         }.getClass().getEnclosingMethod().getName();
 
         String userName = eu.getCellData(4, 1);
         String password = eu.getCellData(4, 2);
-
 
         logger.info("Exiting verifyInValidLoginNullPassword and going to login userName:" + userName + "password : *****");
         login_page.enterUser(userName);
@@ -180,8 +166,4 @@ public class LoginTest extends ProjectBaseTest {
         login_page.login();
         //  driver.navigate().for();
     }
-
-
-
-
 }

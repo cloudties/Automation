@@ -56,37 +56,20 @@ public class HomePageTest extends ProjectBaseTest {
 
 
 
-    @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 1 ,enabled = true, dataProvider = "inputInValidData",
+            dataProviderClass = WorkSpaceDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
 
-    public void launchAddNewWorkspace_Test(InitialVO search) throws Throwable {
+    public void launchAddNewWorkspacename_cancel_Test(String wsNAme) throws Throwable {
 
 
-        homePage = new HomePage();
-        homePage.open();
-        Thread.sleep(2000);
         login_page=new LoginPage();
         login_page.continuetogitlogin();
-
-        Thread.sleep(1000);
-
-        String userName = eu.getCellData(1, 1);
-        String password = eu.getCellData(1, 2);
-
-        logger.debug("userName"+userName);
-        logger.debug("userName"+password);
-
-        login_page.enterUser(userName);
-        Thread.sleep(1000);
-
-        login_page.enterPassword(password);
-        Thread.sleep(2000);
-        login_page.login();
-        Thread.sleep(5000);
-
-
+        Thread.sleep(3000);
+        logger.info("GIT LOGIN IN WS  ");
         login_page.continueauth();
-
+        logger.info("CONTINUE LOGIN IN WS  ");
         Thread.sleep(2000);
+
 
         homePage.addws();
         Thread.sleep(2000);
@@ -96,15 +79,30 @@ public class HomePageTest extends ProjectBaseTest {
 
     }
 
-    @Test(priority = 2 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-    public void launchAddNewWorkspacename_Test(InitialVO search) throws Throwable {
+    @Test(priority = 1 ,enabled = true, dataProvider = "inputInValidData",
+            dataProviderClass = WorkSpaceDataProvider.class, groups = {"StarterRun"},
+            description = "StarterRun")
+
+    public void launchAddNewWorkspacename_create_Test(String wsNAme) throws Throwable {
+
+
+       // homePage = new HomePage();
+        //homePage.open();
+        login_page=new LoginPage();
+        login_page.continuetogitlogin();
+        Thread.sleep(3000);
+        logger.info("GIT LOGIN IN WS  ");
+        login_page.continueauth();
+        logger.info("CONTINUE LOGIN IN WS  ");
+        Thread.sleep(2000);
+        logger.info("ADD WS  LOGIN IN WS ");
         homePage.addws();
         Thread.sleep(1000);
-        homePage.addwsname();
+        homePage. addwsname(  wsNAme);
         Thread.sleep(2000);
-        homePage.cancelws();
+        homePage.createws();
+        Thread.sleep(2000);
     }
-
     @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchSearchText_Test(InitialVO search) throws Throwable {
           homePage.searchtext();

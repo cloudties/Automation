@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 93.771 sec <<< FAILURE!
+search_Test(com.automation.ui.digitaldeployer.testcases.index.HomePageTest)  Time elapsed: 30.675 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test(HomePageTest.java:114)
+
+verifyValidLogin(com.automation.ui.digitaldeployer.testcases.login.LoginTest)  Time elapsed: 16.593 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:450)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:407)
+	at com.automation.ui.base.common.prpreaders.AssertDataReader.getValue(AssertDataReader.java:25)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.pages.HomePage.enterUser(LoginPage.java:82)
+	at com.automation.ui.digitaldeployer.testcases.login.LoginTest.verifyValidLogin(LoginTest.java:73)
+

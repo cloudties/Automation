@@ -37,7 +37,7 @@ public class IndexPageTest extends ProjectBaseTest {
 
     public IndexPageTest() {
         super();
-        logger.debug("HomePageTest");
+        logger.debug("IndexPageTest");
         indexPage = new IndexPage();
     }
 

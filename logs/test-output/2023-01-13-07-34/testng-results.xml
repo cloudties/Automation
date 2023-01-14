@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[beforeSuite::CoreTestTemplate]]>
+    </line>
+    <line>
+      <![CDATA[Entering verifyValidLogin]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  continuetogitlogin:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  continuetogitlogin]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterUser login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterUser login]]>
+    </line>
+    <line>
+      <![CDATA[Entering  enterPassword:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  enterPassword]]>
+    </line>
+    <line>
+      <![CDATA[Entering  login:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  login]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  addws:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[Entering  wsname:]]>
+    </line>
+    <line>
+      <![CDATA[Exiting  addws]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+    <line>
+      <![CDATA[default constructor called]]>
+    </line>
+  </reporter-output>
+  <suite name="portalautomation" duration-ms="358782" started-at="2023-01-13T07:35:06Z" finished-at="2023-01-13T07:41:05Z">
+    <groups>
+      <group name="StarterRun">
+        <method signature="HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" class="com.automation.ui.digitaldeployer.testcases.home.HomePageTest"/>
+        <method signature="IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="launchHomePage_Test" class="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest"/>
+      </group> <!-- StarterRun -->
+      <group name="Home">
+        <method signature="LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@1fdfafd2]" name="verifyValidLogin" class="com.automation.ui.digitaldeployer.testcases.login.LoginTest"/>
+      </group> <!-- Home -->
+      <group name="base">
+        <method signature="LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@1fdfafd2]" name="verifyValidLogin" class="com.automation.ui.digitaldeployer.testcases.login.LoginTest"/>
+      </group> <!-- base -->
+    </groups>
+    <test name="Home" duration-ms="358782" started-at="2023-01-13T07:35:06Z" finished-at="2023-01-13T07:41:05Z">
+      <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest">
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1214" started-at="2023-01-13T13:05:28Z" finished-at="2023-01-13T13:05:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestClass" is-config="true" duration-ms="0" started-at="2023-01-13T13:05:28Z" finished-at="2023-01-13T13:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="21016" started-at="2023-01-13T13:05:29Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:05:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qqwert`llllllllll~llllll]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1410" started-at="2023-01-13T13:05:50Z" finished-at="2023-01-13T13:05:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12880" started-at="2023-01-13T13:05:52Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qqwerty'uiopasdf"ghjklzxcvbnm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1390" started-at="2023-01-13T13:06:05Z" finished-at="2023-01-13T13:06:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12832" started-at="2023-01-13T13:06:06Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[~~```:";;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1398" started-at="2023-01-13T13:06:19Z" finished-at="2023-01-13T13:06:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12856" started-at="2023-01-13T13:06:20Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:06:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*():  :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1394" started-at="2023-01-13T13:06:33Z" finished-at="2023-01-13T13:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12838" started-at="2023-01-13T13:06:35Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:06:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1380" started-at="2023-01-13T13:06:47Z" finished-at="2023-01-13T13:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12914" started-at="2023-01-13T13:06:49Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:07:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_#1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1372" started-at="2023-01-13T13:07:02Z" finished-at="2023-01-13T13:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12865" started-at="2023-01-13T13:07:03Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:07:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_#1-test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1377" started-at="2023-01-13T13:07:16Z" finished-at="2023-01-13T13:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12873" started-at="2023-01-13T13:07:17Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<^&$$% >>>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1421" started-at="2023-01-13T13:07:30Z" finished-at="2023-01-13T13:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12882" started-at="2023-01-13T13:07:32Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:07:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[~~```:";;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1415" started-at="2023-01-13T13:07:45Z" finished-at="2023-01-13T13:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12890" started-at="2023-01-13T13:07:46Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$%^&*():  :]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1409" started-at="2023-01-13T13:07:59Z" finished-at="2023-01-13T13:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="13095" started-at="2023-01-13T13:08:00Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:08:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[//]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1416" started-at="2023-01-13T13:08:14Z" finished-at="2023-01-13T13:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12956" started-at="2023-01-13T13:08:15Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1403" started-at="2023-01-13T13:08:28Z" finished-at="2023-01-13T13:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12979" started-at="2023-01-13T13:08:29Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:08:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[*/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1466" started-at="2023-01-13T13:08:42Z" finished-at="2023-01-13T13:08:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12890" started-at="2023-01-13T13:08:44Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[\]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1418" started-at="2023-01-13T13:08:57Z" finished-at="2023-01-13T13:08:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12898" started-at="2023-01-13T13:08:58Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:09:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[¼]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1411" started-at="2023-01-13T13:09:11Z" finished-at="2023-01-13T13:09:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12823" started-at="2023-01-13T13:09:12Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:09:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<^&$$% >>>]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1385" started-at="2023-01-13T13:09:25Z" finished-at="2023-01-13T13:09:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12818" started-at="2023-01-13T13:09:27Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:09:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%253cscript%253e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1390" started-at="2023-01-13T13:09:40Z" finished-at="2023-01-13T13:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12801" started-at="2023-01-13T13:09:41Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%253cscript%253e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1387" started-at="2023-01-13T13:09:54Z" finished-at="2023-01-13T13:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12783" started-at="2023-01-13T13:09:55Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:10:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%c0%bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1390" started-at="2023-01-13T13:10:08Z" finished-at="2023-01-13T13:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12785" started-at="2023-01-13T13:10:09Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:10:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%e0%80%bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1378" started-at="2023-01-13T13:10:22Z" finished-at="2023-01-13T13:10:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12806" started-at="2023-01-13T13:10:24Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%f0%80%80%bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1379" started-at="2023-01-13T13:10:36Z" finished-at="2023-01-13T13:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12797" started-at="2023-01-13T13:10:38Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:10:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%f8%80%80%80%bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="initTestContext" is-config="true" duration-ms="1375" started-at="2023-01-13T13:10:51Z" finished-at="2023-01-13T13:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_create_Test(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchAddNewWorkspacename_create_Test(java.lang.String)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.home.HomePageTest@a4b2d8f]" name="launchAddNewWorkspacename_create_Test" duration-ms="12799" started-at="2023-01-13T13:10:52Z" description="StarterRun" data-provider="inputInValidData" finished-at="2023-01-13T13:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[%fc%80%80%80%80%bc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  addws:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  wsname:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  addws]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchAddNewWorkspacename_create_Test -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.home.HomePageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.login.LoginTest">
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@1fdfafd2]" name="initTestClass" is-config="true" duration-ms="0" started-at="2023-01-13T13:05:13Z" finished-at="2023-01-13T13:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@1fdfafd2]" name="initTestContext" is-config="true" duration-ms="1460" started-at="2023-01-13T13:05:13Z" finished-at="2023-01-13T13:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.login.LoginTest.verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="verifyValidLogin(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO)[pri:2, instance:com.automation.ui.digitaldeployer.testcases.login.LoginTest@1fdfafd2]" name="verifyValidLogin" duration-ms="13759" started-at="2023-01-13T13:05:14Z" description="home  list info" data-provider="loginAdmin" finished-at="2023-01-13T13:05:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.vo.LoginVO@2bc9a775]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Entering verifyValidLogin]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[default constructor called]]>
+            </line>
+            <line>
+              <![CDATA[Entering  continuetogitlogin:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  continuetogitlogin]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterUser login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterUser login]]>
+            </line>
+            <line>
+              <![CDATA[Entering  enterPassword:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  enterPassword]]>
+            </line>
+            <line>
+              <![CDATA[Entering  login:]]>
+            </line>
+            <line>
+              <![CDATA[Exiting  login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.login.LoginTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="beforeSuite" is-config="true" duration-ms="217" started-at="2023-01-13T13:05:06Z" finished-at="2023-01-13T13:05:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeSuite::CoreTestTemplate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initTestClass()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="initTestClass" is-config="true" duration-ms="0" started-at="2023-01-13T13:05:06Z" finished-at="2023-01-13T13:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestClass -->
+        <test-method status="PASS" signature="initTestContext(java.lang.reflect.Method)[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="initTestContext" is-config="true" duration-ms="4869" started-at="2023-01-13T13:05:06Z" finished-at="2023-01-13T13:05:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.ui.digitaldeployer.testcases.index.IndexPageTest.launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestContext -->
+        <test-method status="PASS" signature="launchHomePage_Test(com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO)[pri:1, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="launchHomePage_Test" duration-ms="1407" started-at="2023-01-13T13:05:11Z" description="StarterRun" data-provider="initSearchStarter" finished-at="2023-01-13T13:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO@2e52fb3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHomePage_Test -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="stop" is-config="true" duration-ms="679" started-at="2023-01-13T13:11:05Z" finished-at="2023-01-13T13:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="tearDownAfterTestSuite()[pri:0, instance:com.automation.ui.digitaldeployer.testcases.index.IndexPageTest@5b07730f]" name="tearDownAfterTestSuite" is-config="true" duration-ms="0" started-at="2023-01-13T13:11:05Z" finished-at="2023-01-13T13:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterTestSuite -->
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.IndexPageTest -->
+    </test> <!-- Home -->
+  </suite> <!-- portalautomation -->
+</testng-results>

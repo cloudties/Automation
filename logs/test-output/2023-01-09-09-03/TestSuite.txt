@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.211 sec <<< FAILURE!
+launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 29.601 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:88)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:81)
+

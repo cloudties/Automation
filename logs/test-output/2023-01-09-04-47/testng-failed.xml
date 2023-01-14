@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [portalautomation]">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    <listener class-name="org.testng.reporters.TestHTMLReporter"/>
+    <listener class-name="com.automation.ui.base.common.testnglisteners.InvokeMethodAdapter"/>
+    <listener class-name="com.automation.ui.base.common.report.listener.RealTimeTestResultListener"/>
+  </listeners>
+  <test name="Home">
+    <classes>
+      <class name="com.automation.ui.digitaldeployer.testcases.index.HomePageTest">
+        <methods>
+          <include name="launchHomePage_Test"/>
+          <include name="continue_Test"/>
+          <include name="search_Test"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.HomePageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.context.ContextPageTest">
+        <methods>
+          <include name="clickEmail_Test"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.context.ContextPageTest -->
+    </classes>
+  </test> <!-- Home -->
+  <test name="Home(failed)">
+    <classes>
+      <class name="com.automation.ui.digitaldeployer.testcases.index.HomePageTest">
+        <methods>
+          <include name="search_Test"/>
+          <include name="beforeSuite"/>
+          <include name="initTestContext"/>
+          <include name="continue_Test"/>
+          <include name="launchHomePage_Test"/>
+          <include name="stop"/>
+          <include name="initTestClass"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.index.HomePageTest -->
+      <class name="com.automation.ui.digitaldeployer.testcases.context.ContextPageTest">
+        <methods>
+          <include name="initTestContext"/>
+          <include name="clickEmail_Test"/>
+          <include name="initTestClass"/>
+        </methods>
+      </class> <!-- com.automation.ui.digitaldeployer.testcases.context.ContextPageTest -->
+    </classes>
+  </test> <!-- Home(failed) -->
+</suite> <!-- Failed suite [portalautomation] -->

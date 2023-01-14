@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.754 sec <<< FAILURE!
+launchAddNewWorkspace_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 20.257 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find resource for bundle java.util.PropertyResourceBundle, key OPCUA_LOGIN_LOGINMSG
+	at java.util.ResourceBundle.getObject(ResourceBundle.java:450)
+	at java.util.ResourceBundle.getString(ResourceBundle.java:407)
+	at com.automation.ui.base.common.prpreaders.AssertDataReader.getValue(AssertDataReader.java:25)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:88)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspace_Test(HomePageTest.java:62)
+

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 134.956 sec <<< FAILURE!
+launchAddNewWorkspacename_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 19.03 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.addws(HomePage.java:133)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchAddNewWorkspacename_Test(HomePageTest.java:102)
+
+launchClearall_Test(com.automation.ui.digitaldeployer.testcases.home.HomePageTest)  Time elapsed: 1.843 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.HomePage.clearall(HomePage.java:231)
+	at com.automation.ui.digitaldeployer.testcases.home.HomePageTest.launchClearall_Test(HomePageTest.java:117)
+

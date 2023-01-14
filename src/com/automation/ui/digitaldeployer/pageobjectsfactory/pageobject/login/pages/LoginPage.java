@@ -8,7 +8,9 @@ import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.ProjectBasePageObject;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages.*;
+
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.login.xpathconstants.LoginCONSTANTS;
 
 import org.apache.log4j.Logger;
@@ -180,7 +182,7 @@ public class LoginPage extends ProjectBasePageObject {
     }
 
 
-    public IndexPage continueauth() {
+    public HomePage continueauth() {
         try {
             logger.info("Entering  continueauth: ");
             Reporter.log("Entering  continueauth:");
@@ -198,21 +200,21 @@ public class LoginPage extends ProjectBasePageObject {
             Reporter.log("continueauth failed");
 
         }
-        return new IndexPage();
+        return new HomePage();
 
     }
 
 
-    public IndexPage continuetogitlogin() {
+    public HomePage continuetogitlogin() {
         try {
-            logger.info("Entering  continue: ");
-            Reporter.log("Entering  continue:");
+            logger.info("Entering  continuetogitlogin: ");
+            Reporter.log("Entering  continuetogitlogin:");
 
 
             waitAndClick(login_continue);
 
-            logger.info("Exiting  continue");
-            Reporter.log("Exiting  continue");
+            logger.info("Exiting  continuetogitlogin");
+            Reporter.log("Exiting  continuetogitlogin");
             // wait.forElementVisible(savepasswordbutton);
 
         } catch (Exception e) {
@@ -221,7 +223,7 @@ public class LoginPage extends ProjectBasePageObject {
             Reporter.log("continue failed");
 
         }
-        return new IndexPage();
+        return new HomePage();
 
     }
 

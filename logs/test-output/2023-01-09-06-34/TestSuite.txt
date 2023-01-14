@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 107.945 sec <<< FAILURE!
+continue_Test(com.automation.ui.digitaldeployer.testcases.index.HomePageTest)  Time elapsed: 16.155 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.continueButton(HomePage.java:124)
+	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.continue_Test(HomePageTest.java:60)
+
+search_Test(com.automation.ui.digitaldeployer.testcases.index.HomePageTest)  Time elapsed: 31.173 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+	at com.automation.ui.digitaldeployer.testcases.index.HomePageTest.search_Test(HomePageTest.java:114)
+
+clickEmail_Test(com.automation.ui.digitaldeployer.testcases.context.ContextPageTest)  Time elapsed: 30.556 sec  <<< FAILURE!
+java.lang.AssertionError: ERROR WHILE EXECUTION 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage.search(HomePage.java:197)
+	at com.automation.ui.digitaldeployer.testcases.context.ContextPageTest.clickEmail_Test(ContextPageTest.java:74)
+
