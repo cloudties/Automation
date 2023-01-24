@@ -13,8 +13,8 @@ public enum EnvType {
     // DEV("co.in", "dev", Configuration.getSitePort()),
     DEV("", "dev", Configuration.getSitePort(),""),
     TEST("",  "test", Configuration.getSitePort(),Configuration.getSiteContext()),
-    //  SANDBOX("app", "sandbox", Configuration.getSitePort(),Configuration.getSiteContext());
-    SANDBOX("app", "galuctussandbox", Configuration.getSitePort(),Configuration.getSiteContext());
+    SANDBOX("com", "digideployersandbox", Configuration.getSitePort(),Configuration.getSiteContext());
+    //SANDBOX("app", "galuctussandbox", Configuration.getSitePort(),Configuration.getSiteContext());
 
     @Getter
     private final String siteDomain;

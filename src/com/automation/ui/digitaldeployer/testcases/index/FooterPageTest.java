@@ -1,4 +1,4 @@
-package com.automation.ui.digitaldeployer.testcases.context;
+package com.automation.ui.digitaldeployer.testcases.index;
 
 /**
  * @author
@@ -24,68 +24,43 @@ package com.automation.ui.digitaldeployer.testcases.context;
 
 import com.automation.ui.base.common.utils.ExcelUtil;
 import com.automation.ui.digitaldeployer.common.constants.ExcelCONSTANTS;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Goals;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.Industry;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.dataprovider.ContextDataProvider;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.*;
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.pages.*;
-
-import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.context.vo.*;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dataprovider.HomeDataProvider;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo.InitialVO;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.dataprovider.IndexDataProvider;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.FooterPage;
+import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages.IndexPage;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.vo.InitialSearchVO;
 import com.automation.ui.digitaldeployer.testcases.base.ProjectBaseTest;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
-public class ContextPageTest extends ProjectBaseTest {
+public class FooterPageTest extends ProjectBaseTest {
 
-    private static Logger logger = Logger.getLogger(ContextPageTest.class);
+    private static Logger logger = Logger.getLogger(FooterPageTest.class);
 
-    public ContextPageTest() {
+    public FooterPageTest() {
         super();
-        logger.debug("ContextPageTest");
-        contextPage = new ContextPage();
+        logger.debug("IndexPageTest");
+        footerPage = new FooterPage();
     }
 
     protected void getDataReaders() {
         try {
             eu = new ExcelUtil();
             eu.setExcelFile(".\\resources\\data\\dataselenium.xls",
-                    ExcelCONSTANTS.LOGINXLSDATASHEETNAMECONTEXT);
+                    ExcelCONSTANTS.LOGINXLSDATASHEETNAMELOGIN);
         } catch (Exception e) {
             e.printStackTrace();
             ;
         }
     }
 
-
-    @Test(priority = 1 ,enabled = true, dataProvider = "initContextStarter", dataProviderClass = ContextDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-
-
-    public void clickEmail_Test(ContextVO ctxVO) throws Throwable {
-
-        IndexPage hp=new IndexPage();
-        InitialSearchVO initSearchVo1= new InitialSearchVO();
-        initSearchVo1.setSelectIndustry(Industry.INDUSTRY_COMPUTER_SOFTWARE);
-
-        initSearchVo1.setSelectMarketNeeded("lead");
-
-        initSearchVo1.setSelectBusinessGoal(Goals.GOAL_INCREASE_REVENUE);
-        //hp.search(initSearchVo1);
-        logger.info("clickEmail");
-        contextPage.clickEmail(ctxVO);
-        Thread.sleep(1000);
-
-        contextPage.clickLeadEngagement(ctxVO);
-
-        Thread.sleep(2000);
-
-        contextPage.chooseSoftware(ctxVO);
-
-        contextPage.aubmitOptimizeAndCompare(ctxVO);
-
-        Thread.sleep(15000);
-
+    @Test(priority = 1 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchlangselect_Test(InitialVO search) throws Throwable {
+        footerPage.langselect();
+        Thread.sleep(3000);
     }
+
 
 
 

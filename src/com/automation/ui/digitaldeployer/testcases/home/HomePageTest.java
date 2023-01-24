@@ -41,6 +41,7 @@ public class HomePageTest extends ProjectBaseTest {
         super();
         logger.debug("HomePageTest");
         homePage = new HomePage();
+        headerPage = new HeaderPage();
     }
 
     protected void getDataReaders() {
@@ -133,12 +134,6 @@ public class HomePageTest extends ProjectBaseTest {
         Thread.sleep(3000);
     }
 
-    @Test(priority = 7 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-    public void launchlangselect_Test(InitialVO search) throws Throwable {
-        homePage.langselect();
-        Thread.sleep(3000);
-    }
-
 
 
     @Test(priority = 9 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
@@ -149,19 +144,19 @@ public class HomePageTest extends ProjectBaseTest {
 
     @Test(priority = 10 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchhealth_Test(InitialVO search) throws Throwable {
-        homePage.health();
+        headerPage.health();
         Thread.sleep(2000);
     }
 
     @Test(priority = 11 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchhelp_Test(InitialVO search) throws Throwable {
-        homePage.help();
+        headerPage.help();
         Thread.sleep(2000);
     }
 
     @Test(priority = 12 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchnotification_Test(InitialVO search) throws Throwable {
-        homePage.notification();
+        headerPage.notification();
         Thread.sleep(2000);
     }
 }

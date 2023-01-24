@@ -25,7 +25,14 @@ public class ProjectBaseTest extends DigitalDeployerTestTemplate {
     private static Logger logger = Logger.getLogger(ProjectBaseTest.class);
     protected ExcelUtil eu = null;
     protected IndexPage indexPage = null;
+    protected HeaderPage headerPage = null;
+
+
+
     protected HomePage homePage = null;
+    protected FooterPage footerPage = null;
+
+
     protected LoginPage login_page = null;
 
      protected ContextPage contextPage =null;

@@ -20,6 +20,7 @@
             <class name="com.automation.ui.digitaldeployer.testcases.index.IndexPageTest" >
                 <methods >
                     <include name="launchHomePage_Test"/>
+                    <include name="launchHomePage_ClickEmailLink_Test"/>
                  </methods>
             </class>
 
@@ -33,6 +34,15 @@
                 </methods>
             </class>
 
+            <!--
+            <class name="com.automation.ui.digitaldeployer.testcases.index.FooterPageTest" >
+                <methods >
+
+                    <include name="launchHomePage_ClickEmailLink_Test"/>
+
+                </methods>
+            </class>
+            -->
 
             <class name="com.automation.ui.digitaldeployer.testcases.home.HomePageTest" >
                 <methods >

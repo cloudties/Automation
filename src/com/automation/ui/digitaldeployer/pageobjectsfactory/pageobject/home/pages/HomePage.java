@@ -7,6 +7,10 @@ package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pag
 import com.automation.ui.base.common.core.configuration.Configuration;
 import com.automation.ui.base.common.core.configuration.EnvType;
 import com.automation.ui.base.common.prpreaders.AssertDataReader;
+import com.automation.ui.base.common.core.element.dropdown.DropDownHelper;
+import com.automation.ui.base.common.core.assertion.Assertion;
+
+
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.base.ProjectBasePageObject;
 import com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.xpathconstants.HomeConstants;
 
@@ -21,6 +25,10 @@ public class HomePage extends ProjectBasePageObject {
 
 
     private static Logger logger = Logger.getLogger(HomePage.class);
+
+    @FindBy(xpath = HomeConstants.CREATEWSAPP)
+    @CacheLookup
+    private WebElement creatwsapp;
 
     @FindBy(xpath = HomeConstants.ADDNEWWS)
     @CacheLookup
@@ -43,9 +51,6 @@ public class HomePage extends ProjectBasePageObject {
     @CacheLookup
     private WebElement wssearchtext;
 
-    @FindBy(xpath = HomeConstants.LANGSELECT)
-    @CacheLookup
-    private WebElement langselect;
 
     @FindBy(xpath = HomeConstants.OVERVIEW)
     @CacheLookup
@@ -69,16 +74,6 @@ public class HomePage extends ProjectBasePageObject {
     @FindBy(xpath = HomeConstants.CREATEWS)
     @CacheLookup
     private WebElement createws;
-
-    @FindBy(xpath = HomeConstants.HELP)
-    @CacheLookup
-    private WebElement help;
-    @FindBy(xpath = HomeConstants.HEALTH)
-    @CacheLookup
-    private WebElement health;
-    @FindBy(xpath = HomeConstants.NOTIFICATION)
-    @CacheLookup
-    private WebElement notification;
 
 
     public HomePage() {
@@ -120,9 +115,12 @@ public class HomePage extends ProjectBasePageObject {
             logger.info("Entering  addws: ");
             Reporter.log("Entering  addws:");
 
+            waitAndClick(creatwsapp);
+
+
             Thread.sleep(3000);
 
-            waitAndClick(addnewworkspace);
+         //   waitAndClick(addnewworkspace);
 
 
 
@@ -138,6 +136,21 @@ public class HomePage extends ProjectBasePageObject {
         }
         return new HomePage();
 
+    }
+
+    private void chooseWSorApp()
+    {
+        try {
+
+            DropDownHelper dh=new DropDownHelper(  driver, this);
+           // dh.selectDropDown(searchIndustry, "New Workspace");
+            Thread.sleep(3000);
+
+            waitAndClick(addnewworkspace);
+        } catch (Exception e) {
+            Assertion.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
+            e.printStackTrace();
+        }
     }
 
     public HomePage addwsname(String wsNAme) {
@@ -183,18 +196,7 @@ public class HomePage extends ProjectBasePageObject {
         }
         return new HomePage();
     }
-    public HomePage langselect() {
-        try {
-             waitAndClick(langselect);
-            Thread.sleep(3000);
 
-         } catch (Exception e) {
-            e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
-        }
-        return new HomePage();
-    }
     public HomePage overview() {
         try {
              waitAndClick(overview);
@@ -273,41 +275,6 @@ public class HomePage extends ProjectBasePageObject {
         return new HomePage();
     }
 
-    public HomePage health() {
-        try {
-            waitAndClick(health);
-            Thread.sleep(3000);
-        } catch (Exception e) {
-            e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
-        }
-        return new HomePage();
-    }
-
-    public HomePage notification() {
-        try {
-            waitAndClick(notification);
-            Thread.sleep(3000);
-        } catch (Exception e) {
-            e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
-        }
-        return new HomePage();
-    }
-
-    public HomePage help() {
-        try {
-            waitAndClick(help);
-            Thread.sleep(3000);
-        } catch (Exception e) {
-            e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
-        }
-        return new HomePage();
-    }
 
 
 

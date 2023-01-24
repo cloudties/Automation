@@ -36,12 +36,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HeaderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HeaderConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/pages/FooterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/xpathconstants/FooterConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/index/FooterPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Automation.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Automation.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Automation.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Automation.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Automation.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot4.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot6.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/velocity.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/velocity.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/portal_starter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/portal_starter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/configuration/EnvType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/pages/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/pages/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/xpathconstants/IndexConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/index/xpathconstants/IndexConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/ProjectBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/base/ProjectBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/context/ContextPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/index/IndexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/index/IndexPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,30 +107,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Project/Automation&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Project/AIRobots",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\cloudties\github\Automation" />
       <recent name="D:\cloudties\github\Automation\src\com\automation\ui\cuspera\pageobjectsfactory\pageobject\context" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.automation.ui.base.common.core.drivers.browsers" />
-      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.dataprovider" />
-      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.vo" />
-      <recent name="com.automation.ui.cuspera.testcases.context" />
-      <recent name="com.automation.ui.cuspera.pageobjectsfactory.pageobject.base" />
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.xpathconstants" />
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.pages" />
+      <recent name="com.automation.ui.digitaldeployer.testcases.index" />
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.pages" />
+      <recent name="com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.index.xpathconstants" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.LoginTest">

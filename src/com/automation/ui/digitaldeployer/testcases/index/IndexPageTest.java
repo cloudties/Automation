@@ -63,6 +63,14 @@ public class IndexPageTest extends ProjectBaseTest {
 
     }
 
+    @Test(priority = 2 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = IndexDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+
+    public void launchHomePage_ClickEmailLink_Test(InitialSearchVO search) throws Throwable {
+
+        indexPage.clickEmailLink();
+
+
+    }
 
 
 
