@@ -1,10 +1,7 @@
 package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.xpathconstants;
 
 public interface HomeConstants {
-
-
     public static String CREATEWSAPP = "//span[contains(text(),'Create')]";
-
     public static String ADDNEWWS = "//span[contains(text(),'Add New Workspace')]";
     public static String ADDNEWAPPS = "//span[contains(text(),'Add New Application')]";
 

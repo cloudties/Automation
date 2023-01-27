@@ -2,7 +2,7 @@
 # To localy override values, create config.yml file next to this one.
 # You can also override these values by specyfing a system property
 
-browser: EDGE # acceptable values: FF, EDGE, CHROME, GHOST, ANDROID, CHROMEMOBILEMERCURY, HTMLUNIT ,IE ,EDGE
+browser: CHROME # acceptable values: FF, EDGE, CHROME, GHOST, ANDROID, CHROMEMOBILEMERCURY, HTMLUNIT ,IE ,EDGE
 dpr: 1 # Your device's pixel ratio, do not commit your changes
 # default testing site address with out sub domain, port is taken as 9000 for dev ,chenage to prod for not port
 #in prod sitename dont provide .com just give github, for dev site provide with subdomsin name
