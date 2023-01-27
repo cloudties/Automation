@@ -62,6 +62,12 @@ public class FooterPageTest extends ProjectBaseTest {
     }
 
 
+    @Test(priority = 9 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    public void launchdocumentation_Test(InitialVO search) throws Throwable {
+        footerPage.documentation();
+        Thread.sleep(2000);
+    }
+
 
 
 

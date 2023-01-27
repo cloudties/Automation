@@ -136,11 +136,6 @@ public class HomePageTest extends ProjectBaseTest {
 
 
 
-    @Test(priority = 9 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
-    public void launchdocumentation_Test(InitialVO search) throws Throwable {
-        homePage.documentation();
-        Thread.sleep(2000);
-    }
 
     @Test(priority = 10 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchhealth_Test(InitialVO search) throws Throwable {

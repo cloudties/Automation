@@ -26,18 +26,18 @@ public class EdgeBrowser extends BrowserAbstract {
 
     private static final String EDGEDRIVER_PATH_FORMAT = "EdgeDriver/edgedriver_%s";
     private static final String EDGEDRIVER_PATH_MAC =
-            String.format(EDGEDRIVER_PATH_FORMAT, "mac64/chromedriver");
+            String.format(EDGEDRIVER_PATH_FORMAT, "mac64/msedgedriver");
     private static final String EDGEDRIVER_PATH_MACM1 =
-            String.format(EDGEDRIVER_PATH_FORMAT, "m1/chromedriver");
+            String.format(EDGEDRIVER_PATH_FORMAT, "m1/msedgedriver");
 
     private static final String EDGEDRIVER_PATH_LINUX =
-            String.format(EDGEDRIVER_PATH_FORMAT, "linux64/chromedriver");
+            String.format(EDGEDRIVER_PATH_FORMAT, "linux64/msedgedriver");
     private static final String EDGEDRIVER_PATH_WINDOWS =
-            String.format(EDGEDRIVER_PATH_FORMAT, "win32/chromedriver.exe");
+            String.format(EDGEDRIVER_PATH_FORMAT, "win32/msedgedriver.exe");
     private static Logger logger = Logger.getLogger(EdgeBrowser.class);
     private EdgeOptions options = new EdgeOptions();
 
-    private boolean useMobile = "CHROMEMOBILEMERCURY".equals(Configuration.getBrowser());
+    private boolean useMobile = "EDGEMOBILEMERCURY".equals(Configuration.getBrowser());
 
     @Override
 
@@ -56,8 +56,8 @@ public class EdgeBrowser extends BrowserAbstract {
             edgeBinaryPath = EDGEDRIVER_PATH_LINUX;
         }
 
-		logger.debug("Using chromedriver logs at " + edgeBinaryPath);
-        //  Log.info("Using chromedriver: ", chromeBinaryPath);
+		logger.debug("Using edge logs at " + edgeBinaryPath);
+        //  Log.info("Using EDGEdriver: ", EDGEBinaryPath);
         File edgedriver = null;
         try {
             edgedriver = new File(ClassLoader.getSystemResource( edgeBinaryPath).getPath());
@@ -77,11 +77,11 @@ public class EdgeBrowser extends BrowserAbstract {
             logger.info(e.getMessage());
             throw new TestEnvInitFailedException("Encoding exceptions ");
         }
-        logger.info("Using chromedriver logs at " + System.getProperty("user.dir") + File.separator +
+        logger.info("Using msedgedriver logs at " + System.getProperty("user.dir") + File.separator +
                 "logs" + File.separator + "edgelogs");
 
-        System.setProperty("webdriver.chrome.logfile", System.getProperty("user.dir") + File.separator +
-                "logs" + File.separator + " edgelogs" + File.separator + " edgelog" +
+        System.setProperty("webdriver.edge.logfile", System.getProperty("user.dir") + File.separator +
+                "logs" + File.separator + "edgelogs" + File.separator + "edgelog" +
                 DateUtil.getCurrentDate()
                 + ".log");
 
@@ -109,7 +109,7 @@ public class EdgeBrowser extends BrowserAbstract {
             //options.addArguments("--ignore-certificate-errors");
 
         }
-        // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
+        // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"edgeprofile");
 
 
         if ("true".equals(Configuration.getDisableFlash())) {

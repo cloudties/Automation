@@ -7,6 +7,8 @@ public interface FooterConstants {
 
     public static String LANGSELECT="//div[@class='select normal']//select[1]";
 
+    public static String DOCUMNETATION="(//li[@class='m-3']/following-sibling::li)[3]";
+
     public static String MARKETPLACE = "//a[@href='#signupmodalonClick']";
     public static String DERESOURSES = "//a[@href='#prd']";
     public static String DOCUMENTATION = "//a[@href='#abt-us']";

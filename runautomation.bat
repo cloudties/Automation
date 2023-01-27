@@ -11,6 +11,8 @@ taskkill /IM chromedriver.exe /F
 taskkill /IM IEDriverServer.exe /F
 taskkill /IM firefox.exe /F
 taskkill /IM geckodriver.exe /F
+taskkill /IM msedge.exe /F
+
 
 @rem  ( First time setup task )
 @rem  git clone <url>

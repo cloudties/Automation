@@ -52,7 +52,7 @@ public abstract class CoreTestTemplate {
     @BeforeSuite(alwaysRun = true, groups = {"base"})
     public void beforeSuite() {
         // initialize B browser driver, connect to servers
-        // logger.debug("beforeSuite ::CoreTestTemplate");
+        logger.info("beforeSuite ::CoreTestTemplate");
         Reporter.log("beforeSuite::CoreTestTemplate");
         initLogs();
         initProperty();
@@ -186,6 +186,7 @@ public abstract class CoreTestTemplate {
     private void prepareDirectories() {
 
         CommonUtils.deleteDirectory(File.separator + "logs");
+        CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "edgelogs");
 
         CommonUtils.createDirectory("." + File.separator + "logs");
         CommonUtils.createDirectory("." + File.separator + "logs" + File.separator + "ielog");

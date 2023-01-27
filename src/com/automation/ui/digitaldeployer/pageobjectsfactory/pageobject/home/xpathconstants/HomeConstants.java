@@ -2,6 +2,7 @@ package com.automation.ui.digitaldeployer.pageobjectsfactory.pageobject.home.xpa
 
 public interface HomeConstants {
 
+
     public static String CREATEWSAPP = "//span[contains(text(),'Create')]";
 
     public static String ADDNEWWS = "//span[contains(text(),'Add New Workspace')]";
@@ -21,8 +22,6 @@ public interface HomeConstants {
     public static String API="(//li[@class='m-3']//a)[3]";
 
     public static String CLEARALL="//span[text()='Clear All']";
-
-    public static String DOCUMNETATION="(//li[@class='m-3']/following-sibling::li)[3]";
 
     public static String CANCELWS="//span[text()='Cancel']";
 

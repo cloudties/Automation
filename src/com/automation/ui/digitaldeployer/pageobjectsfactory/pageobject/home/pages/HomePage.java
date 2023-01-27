@@ -63,10 +63,6 @@ public class HomePage extends ProjectBasePageObject {
     @CacheLookup
     private WebElement clearall;
 
-    @FindBy(xpath = HomeConstants.DOCUMNETATION)
-    @CacheLookup
-    private WebElement documentation;
-
     @FindBy(xpath = HomeConstants.CANCELWS)
     @CacheLookup
     private WebElement cancelws;
@@ -117,6 +113,8 @@ public class HomePage extends ProjectBasePageObject {
 
             waitAndClick(creatwsapp);
 
+            chooseWSorApp();
+
 
             Thread.sleep(3000);
 
@@ -143,7 +141,7 @@ public class HomePage extends ProjectBasePageObject {
         try {
 
             DropDownHelper dh=new DropDownHelper(  driver, this);
-           // dh.selectDropDown(searchIndustry, "New Workspace");
+            dh.selectDropDown(creatwsapp, "New Workspace");
             Thread.sleep(3000);
 
             waitAndClick(addnewworkspace);
@@ -157,7 +155,6 @@ public class HomePage extends ProjectBasePageObject {
         try {
             logger.info("Entering  wsname: ");
             Reporter.log("Entering  wsname:");
-
             fillInputAfterClear(wsname, wsNAme);
             logger.info("Exiting  addws");
             Reporter.log("Exiting  addws");
@@ -167,7 +164,6 @@ public class HomePage extends ProjectBasePageObject {
             e.printStackTrace();
             Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("continueauth failed");
-
         }
         return new HomePage();
 
@@ -251,17 +247,6 @@ public class HomePage extends ProjectBasePageObject {
 
     }
 
-    public HomePage documentation() {
-        try {
-            waitAndClick(documentation);
-            Thread.sleep(3000);
-        } catch (Exception e) {
-            e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
-        }
-        return new HomePage();
-    }
 
     public HomePage cancelws() {
         try {

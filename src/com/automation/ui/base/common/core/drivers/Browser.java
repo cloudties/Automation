@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 public enum Browser {
     CHROME(ChromeBrowser.class, "CHROME"),
+    EDGE(EdgeBrowser.class, "EDGE"),
     FIREFOX(FirefoxBrowser.class, "FF"),
     CHROME_MOBILE(ChromeBrowser.class, "CHROMEMOBILEMERCURY"),
     HTMLUNIT(HtmlUnitBrowser.class, "htmlunit"),
