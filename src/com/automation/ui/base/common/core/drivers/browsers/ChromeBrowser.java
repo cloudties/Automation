@@ -99,12 +99,22 @@ public class ChromeBrowser extends BrowserAbstract {
 
         //options.addArguments("windows-size=800,900");
         options.addArguments("start-maximized");
+        //options.addArguments("--start-maximized");
+
         options.addArguments("disable-notifications");
         options.addArguments("process-per-site");
         options.addArguments("dns-prefetch-disable");
         options.addArguments("allow-running-insecure-content");
         options.addArguments("--no-sandbox");
         options.addArguments("--lang=en");
+
+        //options.addArguments("--user-data-dir=/home/{username}/.config/google-chrome");
+        //load default profile
+        //options.addArguments("--profile-directory=Default");
+        logger.info("USER PROFILE"+System.getProperty("user.dir"));
+        // options.addArguments("user-data-dir=C:/Users/kkscl/AppData/Local/Google/Chrome/User Data");
+        // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
+
         if (Configuration.getisHeadlessRun()) {
 
 			options.addArguments("--headless");
@@ -117,7 +127,6 @@ public class ChromeBrowser extends BrowserAbstract {
             options.addArguments("--ignore-certificate-errors");
 
         }
-        // options.addArguments("user-data-dir=" + System.getProperty("user.dir")+File.separator+"logs"+File.separator+"chromeprofile");
 
 
         if ("true".equals(Configuration.getDisableFlash())) {

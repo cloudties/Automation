@@ -8,6 +8,7 @@ build/*
 target/*
 logs/realreport/*
 logs/test-output/*
+logs/*
 
 # Compiled source #
 ###################

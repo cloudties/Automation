@@ -80,7 +80,7 @@ public class HomePageTest extends ProjectBaseTest {
 
     }
 
-    @Test(priority = 1 ,enabled = true, dataProvider = "inputInValidData",
+    @Test(priority = 2 ,enabled = true, dataProvider = "inputInValidData",
             dataProviderClass = WorkSpaceDataProvider.class, groups = {"StarterRun"},
             description = "StarterRun")
 
@@ -91,10 +91,12 @@ public class HomePageTest extends ProjectBaseTest {
         //homePage.open();
         login_page=new LoginPage();
         login_page.continuetogitlogin();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         logger.info("GIT LOGIN IN WS  ");
         login_page.continueauth();
         logger.info("CONTINUE LOGIN IN WS  ");
+        Thread.sleep(2000);
+        homePage.wsdropdown();
         Thread.sleep(2000);
         logger.info("ADD WS  LOGIN IN WS ");
         homePage.addws();
@@ -107,49 +109,49 @@ public class HomePageTest extends ProjectBaseTest {
     @Test(priority = 3 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchSearchText_Test(InitialVO search) throws Throwable {
           homePage.searchtext();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
     @Test(priority = 4 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchClearall_Test(InitialVO search) throws Throwable {
         homePage.clearall();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
     @Test(priority = 5 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchwsdropdown_Test(InitialVO search) throws Throwable {
         homePage.wsdropdown();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
-    @Test(priority = 8 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 6 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchApi_Test(InitialVO search) throws Throwable {
         homePage.api();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
 
-    @Test(priority = 6 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 7 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchOverview_Test(InitialVO search) throws Throwable {
         homePage.overview();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
     }
 
 
 
 
-    @Test(priority = 10 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 8 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchhealth_Test(InitialVO search) throws Throwable {
         headerPage.health();
         Thread.sleep(2000);
     }
 
-    @Test(priority = 11 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 9 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchhelp_Test(InitialVO search) throws Throwable {
         headerPage.help();
         Thread.sleep(2000);
     }
 
-    @Test(priority = 12 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
+    @Test(priority = 10 ,enabled = true, dataProvider = "initSearchStarter", dataProviderClass = HomeDataProvider.class, groups = {"StarterRun"}, description = "StarterRun")
     public void launchnotification_Test(InitialVO search) throws Throwable {
         headerPage.notification();
         Thread.sleep(2000);

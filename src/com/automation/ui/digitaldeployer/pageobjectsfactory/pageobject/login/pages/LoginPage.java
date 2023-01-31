@@ -105,8 +105,8 @@ public class LoginPage extends ProjectBasePageObject {
 
         } catch (Exception e) {
             e.printStackTrace();
-            logger.info("Exiting enterUser login" + AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
-            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            logger.info("Exiting enterUser login" + AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("Login failed");
 
         }
@@ -148,7 +148,7 @@ public class LoginPage extends ProjectBasePageObject {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("Login failed");
 
         }
@@ -196,7 +196,7 @@ public class LoginPage extends ProjectBasePageObject {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("continueauth failed");
 
         }
@@ -219,7 +219,7 @@ public class LoginPage extends ProjectBasePageObject {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("continue failed");
 
         }
@@ -242,7 +242,7 @@ public class LoginPage extends ProjectBasePageObject {
 
         } catch (Exception e) {
             e.printStackTrace();
-            Assert.fail(AssertDataReader.assertreader.getValue("OPCUA_LOGIN_LOGINMSG"));
+            Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
             Reporter.log("authorise failed");
 
         }

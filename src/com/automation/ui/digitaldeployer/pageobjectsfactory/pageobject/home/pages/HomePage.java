@@ -163,7 +163,7 @@ public class HomePage extends ProjectBasePageObject {
         } catch (Exception e) {
             e.printStackTrace();
             Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
+            Reporter.log("addwsname failed");
         }
         return new HomePage();
 
@@ -175,7 +175,7 @@ public class HomePage extends ProjectBasePageObject {
         } catch (Exception e) {
             e.printStackTrace();
             Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
+            Reporter.log("createws failed");
         }
         return new HomePage();
     }
@@ -188,7 +188,7 @@ public class HomePage extends ProjectBasePageObject {
          } catch (Exception e) {
             e.printStackTrace();
             Assert.fail(AssertDataReader.assertreader.getValue("DDASSERTMSG_ASSERT_ERROR"));
-            Reporter.log("continueauth failed");
+            Reporter.log("wsdropdown failed");
         }
         return new HomePage();
     }

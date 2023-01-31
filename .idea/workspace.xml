@@ -36,10 +36,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2046f17-81ac-4da3-8ab1-581f70925e88" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/Automation.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Automation.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Automation.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/realTimeResults-1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" beforeDir="false" afterPath="$PROJECT_DIR$/logs/realreport/screenshots/screenshot8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/velocity.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/logs/velocity.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/xpathconstants/HomeConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/drivers/browsers/ChromeBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/base/common/core/drivers/browsers/ChromeBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/home/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/pageobjectsfactory/pageobject/login/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/automation/ui/digitaldeployer/testcases/home/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
